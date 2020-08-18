@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="30px" viewBox="0 0 32 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>highbeam-logomark</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sidebar-/-navbar-/-mobile-header-hamburger" transform="translate(-16.000000, -17.000000)" fill="#FFD766">
+            <g id="highbeam-logomark" transform="translate(16.000000, 17.000000)">
+                <path d="M6.80161943,24 C9.62788633,24 15.1578947,21.5493481 15.1578947,18.5263158 C15.1578947,15.5032835 9.62788633,13.0526316 6.80161943,13.0526316 C3.97535254,13.0526316 1.68421053,15.5032835 1.68421053,18.5263158 C1.68421053,21.5493481 3.97535254,24 6.80161943,24 Z" id="Oval"></path>
+                <path d="M32,0.421052632 C1.39986563,5.96613283 -7.25413851,8.73867293 6.03798761,8.73867293 C25.9761768,8.73867293 21.8301256,27.162713 6.70077564,27.162713 C-8.42857428,27.162713 20.1298127,31.8019766 24.9999725,26.5432617 C28.2467457,23.0374517 30.5800882,14.3300487 32,0.421052632 Z" id="Oval"></path>
+            </g>
+        </g>
+    </g>
+</svg>

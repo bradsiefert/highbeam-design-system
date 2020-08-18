@@ -1,12 +1,12 @@
 <template>
-  <div id="navbar-sidebar">
+  <div id="navigation-sidebar">
     Links
   </div>
 </template>
 
 <script>
 export default {
-  name: 'NavbarSidebar'
+  name: 'NavigationSidebar'
 }
 </script>
 

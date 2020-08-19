@@ -1,106 +1,118 @@
 <template>
-  <div id="navigation">
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <router-link class="navbar-brand" to="/">
+        <img src="@/assets/images/highbeam-logo.svg" alt="Logo for Highbeam">
+      </router-link>
 
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="navbar-brand">
-        <router-link to="/">
-          <img src="@/assets/images/highbeam-logomark.svg" alt="">
-        </router-link>
-      </div>
-    </nav> -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <!-- Toggler -->
-      <!-- <button 
-        class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidebarSmallCollapse" 
-        aria-controls="sidebarSmallCollapse" aria-expanded="false" aria-label="Toggle navigation"
-        @click="showNav = !showNav"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
-
-      <!-- Brand -->
-      <a class="navbar-brand" href="/">
-        <img src="@/assets/images/highbeam-logomark.svg" alt="">
-      </a>
-
-
-      <!-- Toggle -->
       <button 
         class="navbar-toggler" type="button" data-toggle="collapse" data-target="#offcanvas" 
         aria-controls="offcanvas" aria-expanded="false" aria-label="Toggle navigation"
         @click="showOffcanvas = !showOffcanvas"
       >
-        Sidebar
+        <span class="navbar-toggler-icon"></span>
       </button>
 
+      <div class="navbar-collapse offcanvas-collapse" id="offcanvas" :class="{ 'show': showOffcanvas }">
+        <ul class="navbar-nav w-100">
+          <form class="w-100 mx-lg-3">
+            <div class="input-group">
+              <input type="text" class="form-control rounded-pill" placeholder="Search...">
+            </div>
+          </form>
 
-      <!-- <div class="navbar-collapse offcanvas-collapse" id="offcanvas" :class="{ 'show': showOffcanvas }">
-        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">Dashboard</a>
+          <li class="nav-item">
+            <a class="nav-link d-none d-lg-block" target="_blank" href="https://fontawesome.com/icons?d=gallery">
+            <font-awesome-icon :icon="['fab', 'font-awesome']" /></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Notifications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Switch account</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-expanded="false">Settings</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown01">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a class="nav-link d-none d-lg-block" target="_blank" href="https://v5.getbootstrap.com/docs/">
+              <font-awesome-icon :icon="['fab', 'bootstrap']" />
+            </a>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div> -->
 
-      <!-- Collapse -->
-      <div class="navbar-collapse collapse " id="sidebarSmallCollapse" :class="{ 'show': showNav } ">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <g-link class="nav-link" rel="noopener" to="/portfolio">Design Portfolio</g-link>
-          </li>
-          <li class="nav-item">
-            <g-link class="nav-link" rel="noopener" to="https://bradleysiefert.com">Photography</g-link>
-          </li>
-          <li class="nav-item">
-            <g-link class="nav-link" rel="noopener" to="/siri-shortcuts">Siri Shortcuts</g-link>
-          </li>
-          <li class="nav-item">
-            <g-link class="nav-link" rel="noopener" to="/blog">Blog</g-link>
-          </li>
-          <li class="nav-item">
-            <g-link class="nav-link" rel="noopener" to="/about">About</g-link>
-          </li>
-          <li class="nav-item">
-            <g-link class="nav-link" rel="noopener" to="/contact">Contact</g-link>
-          </li>
+        <ul class="navbar-nav mr-auto d-block d-lg-none">
+          <SidebarLinks /> <!-- SidebarLinks is a component to easily update links in the nav and sidebar -->
         </ul>
-      </div>
-    </nav>
-
-  </div>
+      </div><!-- navbar-collapse -->
+    </div><!-- container-fluid -->
+  </nav><!-- navbar -->
 </template>
 
 <script>
+import SidebarLinks from '@/components/SidebarLinks.vue'
+
 export default {
-  name: 'Navigation',
+  name: 'Navbar',
+  components: {
+    SidebarLinks
+  },
   data: () => ({
-    showNav: false, // This is to make the navbar open/close on mobile.
-    showOffcanvas: false, // This is to make the offcanvas menu open/close on mobile.
+    showOffcanvas: false // This is to make the offcanvas menu open/close on mobile.
   }),
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+  @import "@/assets/scss/variables.scss";
+
+  // Navar & Offcanvas Menu
+  .navbar.navbar-dark {
+    min-height: 64px;
+    background-color: $black;
+  }
+
+  @media (min-width: 993px) {
+    .navbar-dark .navbar-nav .nav-link {
+      padding-top: 0rem;
+      padding-bottom: 0rem;
+      font-size: 1.67rem;
+    }
+
+    .navbar .form-control,
+    .navbar .form-control:focus {
+      background-color: $gray-900;
+      border: 1px solid $gray-800;
+      color: $gray-600;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .offcanvas-collapse {
+      position: fixed;
+      top: 64px; /* Height of navbar */
+      bottom: 0;
+      left: 100%;
+      width: 100%;
+      padding: 1rem 1rem 2rem;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color: $white;
+      color: $black;
+      transition: transform .32s ease-in-out, visibility .32s ease-in-out;
+    }
+
+    .offcanvas-collapse.show {
+      visibility: visible;
+      transform: translateX(-100%);
+    }
+
+    .offcanvas-collapse .ds-sidebar-header {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .offcanvas-collapse .navbar-nav .nav-link {
+      letter-spacing: -0.1px;
+      line-height: 1.25rem;
+      font-weight: 600;
+      color: $gray-800;
+      padding-left: 0;
+      margin-left: 0;
+      font-size: 1.125rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
 </style>

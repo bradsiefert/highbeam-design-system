@@ -8,65 +8,7 @@ body {
   margin-top: 64px;
 }
 
-// Navar & Offcanvas Menu
-.navbar.navbar-dark {
-  min-height: 64px;
-  background-color: $black;
-}
-
-@media (min-width: 993px) {
-  .navbar-dark .navbar-nav .nav-link {
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    font-size: 1.67rem;
-  }
-  
-  .navbar .form-control,
-  .navbar .form-control:focus {
-    background-color: $gray-900;
-    border: 1px solid $gray-800;
-    color: $gray-600;
-  }
-}
-
-@media (max-width: 992px) {
-  .offcanvas-collapse {
-    position: fixed;
-    top: 64px; /* Height of navbar */
-    bottom: 0;
-    left: 100%;
-    width: 100%;
-    padding: 1rem 1rem 2rem;
-    overflow-y: auto;
-    visibility: hidden;
-    background-color: $white;
-    color: $black;
-    transition: transform .32s ease-in-out, visibility .32s ease-in-out;
-  }
-
-  .offcanvas-collapse.show {
-    visibility: visible;
-    transform: translateX(-100%);
-  }
-  
-  .offcanvas-collapse .ds-sidebar-header {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .offcanvas-collapse .navbar-nav .nav-link {
-    letter-spacing: -0.1px;
-    line-height: 1.25rem;
-    font-weight: 600;
-    color: $gray-800;
-    padding-left: 0;
-    margin-left: 0;
-    font-size: 1.125rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-}
-
+// Sidebar & Content
 .ds-sidebar {
   position: fixed;
   top: 64px;

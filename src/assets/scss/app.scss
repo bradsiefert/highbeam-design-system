@@ -5,7 +5,7 @@
 
 // Main App Layout
 body {
-  background-color: $gray-100;
+  // background-color: $gray-100;
   margin-top: 64px;
 }
 
@@ -103,9 +103,22 @@ body {
 
 
 // Design System Layout
-.navbar {
+.navbar.navbar-dark {
   min-height: 64px;
   background-color: $black;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+.navbar .form-control,
+.navbar .form-control:focus {
+  background-color: $gray-900;
+  border: 1px solid $gray-800;
+  color: $gray-600;
 }
 
 .navbar-brand-center {
@@ -114,36 +127,19 @@ body {
   transform: translateX(-50%);
 }
 
-.ds-layout {
-  display: grid;
-  gap: 0;
-  grid-template-areas:
-    "sidebar content";
-  grid-template-columns: minmax(256px, auto) 4fr;
-
-  background-color: $white;
-  border: 1px solid $gray-300;
-  height: calc(100vh - 72px);
-  width: 1200px;
-  margin: 0 auto;
+.ds-content {
+  margin-left: 224px; // Should max the width of ds-sidebar
 }
 
 .ds-sidebar {
-  grid-area: sidebar;
-}
-
-.ds-sidebar-sticky {
-  position: sticky;
+  position: fixed;
   top: 64px;
   height: calc(100vh - 64px);
   overflow-y: auto;
-  padding-left: 0;
+  padding-bottom: 2rem;
   border-right: 1px solid $gray-300;
-}
-
-.ds-content {
-  grid-area: content;
-  padding: 1.5rem 2rem;
+  background-color: $white;
+  min-width: 224px;
 }
 
 .ds-sidebar-header {
@@ -157,7 +153,7 @@ body {
 
 .ds-sidebar a.list-group-item {
   border: none;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   letter-spacing: -0.1px;
   line-height: 1.25rem;
   font-weight: 600;

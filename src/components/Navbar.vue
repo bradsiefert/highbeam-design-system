@@ -9,15 +9,15 @@
       </div>
     </nav> -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <!-- Toggler -->
-      <button 
+      <!-- <button 
         class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidebarSmallCollapse" 
         aria-controls="sidebarSmallCollapse" aria-expanded="false" aria-label="Toggle navigation"
         @click="showNav = !showNav"
       >
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
 
       <!-- Brand -->
       <a class="navbar-brand" href="/">
@@ -35,7 +35,7 @@
       </button>
 
 
-      <div class="navbar-collapse offcanvas-collapse" id="offcanvas" :class="{ 'show': showOffcanvas }">
+      <!-- <div class="navbar-collapse offcanvas-collapse" id="offcanvas" :class="{ 'show': showOffcanvas }">
         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
           <li class="nav-item active">
             <a class="nav-link" aria-current="page" href="#">Dashboard</a>
@@ -62,7 +62,7 @@
           <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
-      </div>
+      </div> -->
 
       <!-- Collapse -->
       <div class="navbar-collapse collapse " id="sidebarSmallCollapse" :class="{ 'show': showNav } ">

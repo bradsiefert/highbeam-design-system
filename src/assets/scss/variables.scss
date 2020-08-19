@@ -1,7 +1,7 @@
 /* ---------- Bradstrap v4 Global Updates --------- */
 // 8pt Grid System
 $grid-gutter-width:     32px !default;
-$container-max-widths:  (sm: 544px, md: 736px, lg: 960px, xl: 1168px) !default;
+$container-max-widths:  (sm: 544px, md: 736px, lg: 960px, xl: 1168px, xxl: 1280px) !default;
 $grid-breakpoints:      (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px) !default;
 
 // 8pt Spacers Extended
@@ -58,3 +58,5 @@ $navbar-dark-toggler-border-color: transparent;
 
 // Typography
 $font-family-sans-serif:      'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$display-font-weight: 500;
+$headings-font-weight: 700;

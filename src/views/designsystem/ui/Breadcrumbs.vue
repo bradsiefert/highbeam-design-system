@@ -28,23 +28,18 @@
         </div>
 
         <div class="card card-body code-example">
-          <button class="btn btn-primary btn-sm btn-code">Copy</button>
-
-          <h3>Script</h3>
-          <div v-highlight>
-            <pre class="language-javascript"><code>
-import Breadcrumbs from '@/components/ui/Breadcrumbs'
-            </code></pre>
+          <h5>Script</h5>
+          <div class="mb-3" v-highlight>
+            <button class="btn btn-primary btn-sm float-right btn-code">Copy</button>
+<pre class="language-javascript"><code>import Breadcrumbs from '@/components/ui/Breadcrumbs'</code></pre>
           </div>
 
-          <h3>Template</h3>
-          <div v-highlight>
-            <pre class="language-html"><code>
-&lt;breadcrumbs
+          <h5>Template</h5>
+          <div class="mb-3" v-highlight>
+<pre class="language-html"><code>&lt;breadcrumbs
   :previous="{ '/': 'Home', '/designsystem': 'Design System' }"
   active="Breadcrumbs"
-/&gt;  
-            </code></pre>
+/&gt;</code></pre>
           </div>
         </div>
 

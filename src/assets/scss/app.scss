@@ -93,9 +93,9 @@ body {
 }
 
 .btn-code {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+  // position: absolute;
+  // top: 1rem;
+  // right: 1rem;
   z-index: 2;
   font-size: .75em;
   text-transform: uppercase;
@@ -111,4 +111,10 @@ body {
   letter-spacing: 0.33px;
   border-radius: 0;
   font-family: 'IBM Plex Mono';
+}
+
+
+// Prism Code Styling 
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background-color: transparent !important;
 }

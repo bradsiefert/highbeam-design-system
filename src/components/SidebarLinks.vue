@@ -16,7 +16,7 @@
     <div class="ds-sidebar-header">UI Components</div>
     <router-link class="nav-link" to="/designsystem/components/alerts/">Alerts</router-link>
     <router-link class="nav-link" to="/designsystem/components/badges/">Badges</router-link>
-    <router-link class="nav-link" to="/designsystem/components/breadcrumbs/">Breadcrumbs</router-link>
+    <router-link class="nav-link" to="/designsystem/ui/breadcrumbs/">Breadcrumbs</router-link>
     <router-link class="nav-link" to="/designsystem/components/buttons/">Buttons</router-link>
     <router-link class="nav-link" to="/designsystem/components/cards/">Cards</router-link>
     <router-link class="nav-link" to="/designsystem/components/collapse/">Collapse</router-link>

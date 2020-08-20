@@ -29,17 +29,23 @@
 
         <div class="card card-body code-example">
           <h5>Script</h5>
+          <button 
+            class="btn btn-primary btn-sm float-right btn-code"
+            v-clipboard:copy="script"
+          >Copy</button>
+
           <div class="mb-3" v-highlight>
-            <button class="btn btn-primary btn-sm float-right btn-code">Copy</button>
-<pre class="language-javascript"><code>import Breadcrumbs from '@/components/ui/Breadcrumbs'</code></pre>
+            <pre class="language-javascript"><code>{{ script }}</code></pre>
           </div>
 
           <h5>Template</h5>
+          <button 
+            class="btn btn-primary btn-sm float-right btn-code"
+            v-clipboard:copy="template"
+          >Copy</button>
+
           <div class="mb-3" v-highlight>
-<pre class="language-html"><code>&lt;breadcrumbs
-  :previous="{ '/': 'Home', '/designsystem': 'Design System' }"
-  active="Breadcrumbs"
-/&gt;</code></pre>
+            <pre class="language-html"><code>{{ template }}</code></pre>
           </div>
         </div>
 
@@ -54,6 +60,12 @@ import Breadcrumbs from '@/components/ui/Breadcrumbs'
 export default {
   components: {
     Breadcrumbs
-  }  
+  },
+  data () {
+    return {
+      script: 'import Breadcrumbs from \'@/components/ui/Breadcrumbs\'',
+      template: '<breadcrumbs\n  :previous="{ \'/\': \'Home\', \'/designsystem\': \'Design System\' }"\n  active="Breadcrumbs"\n/>'
+    }
+  } 
 }
 </script>

@@ -1,5 +1,6 @@
 import Vue from 'vue'
-import VueCodeHighlight from 'vue-code-highlight';
+import VueClipboard from 'vue-clipboard2'
+import VueCodeHighlight from 'vue-code-highlight'
  
 import App from './App.vue'
 import router from './router'
@@ -11,6 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(faUserSecret, faClipboard, faBootstrap, faFontAwesome, faAddressCard)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.use(VueClipboard)
 Vue.use(VueCodeHighlight)
 
 import './assets/scss/app.scss'

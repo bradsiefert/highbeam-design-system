@@ -1,13 +1,16 @@
 <template>
-  <div class="container-lg">
+  <div class="container skinny-contain">
     <div class="row">
       <div class="col-sm">
-        <nav aria-label="breadcrumb" class="mt-4">
+
+        <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Library</li>
+            <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+            <li class="breadcrumb-item"><router-link to="/">Design System</router-link></li>
+            <li class="breadcrumb-item active" aria-current="page">Overview</li>
           </ol>
         </nav>
+
         <h1 class="mt-4">Overview</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar hendrerit. 

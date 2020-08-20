@@ -17,13 +17,12 @@ $spacers: map-merge((
 
 // Updating Base Colors (I don't believe in false greys.)
 $white:    #fff !default;
-$gray-100: #f8f8f8 !default; $gray-200: #eeeeee !default; $gray-300: #dddddd !default;
-$gray-400: #cccccc !default; $gray-500: #555555 !default; $gray-600: #666666 !default;
-$gray-700: #555555 !default; $gray-800: #333333 !default; $gray-900: #212121 !default;
+$gray-100: #fafafa !default; $gray-200: #eeeeee !default; $gray-300: #dddddd !default;
+$gray-400: #cccccc !default; $gray-500: #999999 !default; $gray-600: #555555 !default;
+$gray-700: #444444 !default; $gray-800: #333333 !default; $gray-900: #121212 !default;
 $black:    #000 !default;
 
 /* ---------- Site Specific Variables Updates --------- */
-
 // Colors
 $blue:      #0d6efd !default;
 $indigo:    #6610f2 !default;
@@ -45,10 +44,79 @@ $danger:    $red !default;
 $light:     $gray-100 !default;
 $dark:      $gray-800 !default;
 
+// Options
+// Gradient
+// Spacing
+// Body
 // Links
-$link-color:  $primary !default;
+$link-color:        $primary !default;
 $link-hover-color:  darken($link-color, 15%) !default;
+$link-decoration:   none !default;
 
+// Paragraphs
+// Grid breakpoints
+// Grid containers
+// Grid columns
+// Container padding
+// Components
+$border-width:                1px !default;
+$border-color:                $gray-300 !default;
+
+$border-radius:               0.5rem !default;
+$border-radius-sm:            0.25rem !default;
+$border-radius-lg:            0.75rem !default;
+
+$component-active-color:      $white !default;
+$component-active-bg:         $primary !default;
+
+// Typography
+$font-family-sans-serif:      'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:       Menlo, SFMono-Regular, 'IBM Plex Mono', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+
+$display-font-weight:         500;
+$headings-font-weight:        700;
+
+$line-height-base:            1.5 !default;
+$line-height-sm:              1.25 !default;
+$line-height-lg:              2 !default;
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+// Tables
+// Buttons + Forms
+$input-btn-padding-y:         .375rem !default;
+$input-btn-padding-x:         .75rem !default;
+$input-btn-font-family:       'IBM Plex Mono' !default;
+$input-btn-font-size:         $font-size-base !default;
+$input-btn-line-height:       $line-height-base !default;
+
+$input-btn-focus-width:         .2rem !default;
+$input-btn-focus-color-opacity: .25 !default;
+$input-btn-focus-color:         rgba($component-active-bg, $input-btn-focus-color-opacity) !default;
+$input-btn-focus-box-shadow:    0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+
+$input-btn-padding-y-sm:      .25rem !default;
+$input-btn-padding-x-sm:      .5rem !default;
+$input-btn-font-size-sm:      $font-size-sm !default;
+
+$input-btn-padding-y-lg:      .5rem !default;
+$input-btn-padding-x-lg:      1rem !default;
+$input-btn-font-size-lg:      $font-size-lg !default;
+
+$input-btn-border-width:      $border-width !default;
+
+// Buttons
+// Forms
+// Navs
 // Navbar
 $navbar-dark-color:                $gray-800;
 $navbar-dark-hover-color:          $link-color;
@@ -56,7 +124,35 @@ $navbar-dark-active-color:         $link-color;
 $navbar-dark-disabled-color:       rgba($gray-800, .3);
 $navbar-dark-toggler-border-color: transparent;
 
-// Typography
-$font-family-sans-serif:      'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$display-font-weight: 500;
-$headings-font-weight: 700;
+// Dropdowns
+// Pagination
+// Cards
+$card-spacer-y:                     1.5rem !default;
+$card-spacer-x:                     1.5rem !default;
+
+// Tooltips
+// Popovers
+// Toasts
+// Badges
+// Modals
+// Alerts
+// Progress Bars
+// List Group
+// Image Thumbnails
+// Figures
+// Breadcrumbs
+$breadcrumb-font-size:              0.75rem !default;
+$breadcrumb-padding-y:              $spacer / 2 !default;
+$breadcrumb-padding-x:              $spacer !default;
+$breadcrumb-item-padding-x:         .5rem !default;
+$breadcrumb-margin-bottom:          1rem !default;
+$breadcrumb-bg:                     transparent !default;
+$breadcrumb-divider-color:          $gray-600 !default;
+$breadcrumb-active-color:           $gray-500 !default;
+$breadcrumb-divider:                quote("/") !default;
+
+// Carousel
+// Spinners
+// Close
+// Code
+

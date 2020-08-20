@@ -1,6 +1,7 @@
 // Importin'
 @import "variables.scss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 @import "~bootstrap";
 
 body {
@@ -48,20 +49,67 @@ body {
 }
 
 .ds-sidebar svg {
+  // This is to properly space font awesome icons in the sidebar
   margin-right: 0.5rem;
   font-size: 1rem;
 }
 
 .ds-content {
-  margin-left: 224px; // Should max the width of ds-sidebar
+  // Should max the width of ds-sidebar
+  margin-left: 224px;
+  padding-top: 32px;
+  padding-bottom: 64px;
 }
 
 @media (max-width: 991px) {
+  // Clears the layout for mobile
   .ds-sidebar {
     display: none;
   }
-  
+
   .ds-content {
     margin-left: 0;
   }
+}
+
+// Design System Layout
+@media (min-width: 1056px) {
+  .skinny-contain {
+    max-width: 1056px;
+  }
+}
+
+.card-example {
+  margin-top: 1.5rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.code-example {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+  background-color: $gray-200;
+  font-size: 0.875rem;
+}
+
+.btn-code {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2;
+  font-size: .75em;
+  text-transform: uppercase;
+}
+
+// Breadcrumbs
+.breadcrumb {
+  padding: 0.25rem 0 0.5rem;
+  border-bottom: 1px solid $gray-300;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.33px;
+  border-radius: 0;
+  font-family: 'IBM Plex Mono';
 }

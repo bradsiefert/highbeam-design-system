@@ -4,10 +4,10 @@ import router from './router'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faBootstrap, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
-import { faUserSecret, faClipboard } from '@fortawesome/free-solid-svg-icons'
+import { faUserSecret, faClipboard, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faUserSecret, faClipboard, faBootstrap, faFontAwesome)
+library.add(faUserSecret, faClipboard, faBootstrap, faFontAwesome, faAddressCard)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 import './assets/scss/app.scss'

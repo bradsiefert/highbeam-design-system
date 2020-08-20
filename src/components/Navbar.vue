@@ -20,14 +20,18 @@
               <input type="text" class="form-control rounded-pill" placeholder="Search...">
             </div>
           </form>
-
-          <li class="nav-item">
-            <a class="nav-link d-none d-lg-block" target="_blank" href="https://fontawesome.com/icons?d=gallery">
-            <font-awesome-icon :icon="['fab', 'font-awesome']" /></a>
-          </li>
           <li class="nav-item">
             <a class="nav-link d-none d-lg-block" target="_blank" href="https://v5.getbootstrap.com/docs/">
               <font-awesome-icon :icon="['fab', 'bootstrap']" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-none d-lg-block" target="_blank" href="https://fontawesome.com/icons">
+            <font-awesome-icon :icon="['fab', 'font-awesome']" /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-none d-lg-block" href="/about">
+              <font-awesome-icon :icon="['fas', 'address-card']" />
             </a>
           </li>
         </ul>

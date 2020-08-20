@@ -90,15 +90,21 @@ body {
   border-top: none;
   background-color: $gray-200;
   font-size: 0.875rem;
+  padding-bottom: 0.5rem;
+}
+
+.code-example h6 {
+  font-family: 'IBM Plex Mono';
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin-bottom: 0;
 }
 
 .btn-code {
-  // position: absolute;
-  // top: 1rem;
-  // right: 1rem;
   z-index: 2;
   font-size: .75em;
   text-transform: uppercase;
+  // TODO Remove this when buttons are styled
 }
 
 // Breadcrumbs
@@ -114,7 +120,28 @@ body {
 }
 
 
-// Prism Code Styling 
+// Prism Code Styling
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
   background-color: transparent !important;
+}
+
+pre[class*="language-"] {
+  padding: 0 !important;
+  margin: 0.5rem 0 1rem !important;
+}
+
+pre[class*="language-"] {
+
+}
+
+.token.atrule, .token.attr-value, .token.keyword {
+  color: darken($blue, 12%) !important;
+}
+
+.token.string, .token.attr-name {
+  color: darken($green, 12%) !important;
+}
+
+.token.tag {
+  color: darken($red, 12%) !important;
 }

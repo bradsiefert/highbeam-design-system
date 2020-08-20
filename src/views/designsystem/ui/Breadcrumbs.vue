@@ -28,23 +28,22 @@
         </div>
 
         <div class="card card-body code-example">
-          <h5>Script</h5>
-          <button 
-            class="btn btn-primary btn-sm float-right btn-code"
-            v-clipboard:copy="script"
-          >Copy</button>
 
-          <div class="mb-3" v-highlight>
-            <pre class="language-javascript"><code>{{ script }}</code></pre>
+          <div class="d-flex flex-row align-items-center justify-content-between">
+            <h6 class="mr-2">// Script</h6>
+            <button class="btn btn-dark btn-sm btn-code" v-clipboard:copy="script">Copy</button>
           </div>
 
-          <h5>Template</h5>
-          <button 
-            class="btn btn-primary btn-sm float-right btn-code"
-            v-clipboard:copy="template"
-          >Copy</button>
+          <div v-highlight>
+            <pre class="language-javascript"><code>{{ script }}</code></pre>
+          </div>
+          
+          <div class="d-flex flex-row align-items-center justify-content-between">
+            <h6 class="mr-2">// Template</h6>
+            <button class="btn btn-dark btn-sm btn-code" v-clipboard:copy="template">Copy</button>
+          </div>
 
-          <div class="mb-3" v-highlight>
+          <div v-highlight>
             <pre class="language-html"><code>{{ template }}</code></pre>
           </div>
         </div>

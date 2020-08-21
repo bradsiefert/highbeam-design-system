@@ -231,7 +231,10 @@ h6 .badge, .h6 .badge {
   padding: 0.2rem 0.4rem;
 }
 
-
+button .badge {
+  font-weight: 700;
+  font-family: $font-family-base;
+}
 
 // Buttons
 .btn-secondary, .btn-success, .btn-warning, .btn-info,

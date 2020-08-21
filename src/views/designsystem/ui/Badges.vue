@@ -51,7 +51,7 @@
           <div class="card-body">
             <h3>Badges with Buttons</h3>
             <button type="button" class="btn btn-primary">
-              Notifications <span class="badge bg-light text-dark">10</span>
+              Notifications <span class="badge bg-highlight text-dark">4</span>
             </button>
           </div>
         </div>

@@ -33,14 +33,15 @@
           </div>
 
           <div v-highlight>
-            <pre class="language-html"><code>&lt;button type="button" class="mr-1 btn btn-primary"&gt;Primary&lt;/button&gt;
-&lt;button type="button" class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
+            <pre class="language-html"><code>&lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;
+&lt;button type="button" class="btn btn-info"&gt;Info&lt;/button&gt;
 &lt;button type="button" class="btn btn-success"&gt;Success&lt;/button&gt;
+&lt;button type="button" class="btn btn-tip"&gt;tip&lt;/button&gt;
 &lt;button type="button" class="btn btn-danger"&gt;Danger&lt;/button&gt;
 &lt;button type="button" class="btn btn-warning"&gt;Warning&lt;/button&gt;
 &lt;button type="button" class="btn btn-highlight"&gt;Highlight&lt;/button&gt;
-&lt;button type="button" class="btn btn-info"&gt;Info&lt;/button&gt;
 &lt;button type="button" class="btn btn-light"&gt;Light&lt;/button&gt;
+&lt;button type="button" class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
 &lt;button type="button" class="btn btn-dark"&gt;Dark&lt;/button&gt;
 &lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;</code></pre>
           </div>
@@ -69,15 +70,17 @@
           </div>
 
           <div v-highlight>
-            <pre class="language-html"><code>&lt;button type="button" class="mr-1 btn btn-outline-primary"&gt;Primary&lt;/button&gt;
-&lt;button type="button" class="btn btn-outline-secondary"&gt;Secondary&lt;/button&gt;
+            <pre class="language-html"><code>&lt;button type="button" class="btn btn-outline-primary"&gt;Primary&lt;/button&gt;
+&lt;button type="button" class="btn btn-outline-info"&gt;Info&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-success"&gt;Success&lt;/button&gt;
+&lt;button type="button" class="btn btn-outline-tip"&gt;tip&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-danger"&gt;Danger&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-warning"&gt;Warning&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-highlight"&gt;Highlight&lt;/button&gt;
-&lt;button type="button" class="btn btn-outline-info"&gt;Info&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-light"&gt;Light&lt;/button&gt;
-&lt;button type="button" class="btn btn-outline-dark"&gt;Dark&lt;/button&gt;</code></pre>
+&lt;button type="button" class="btn btn-outline-secondary"&gt;Secondary&lt;/button&gt;
+&lt;button type="button" class="btn btn-outline-dark"&gt;Dark&lt;/button&gt;
+&lt;button type="button" class="btn btn-outline-link"&gt;Link&lt;/button&gt;</code></pre>
           </div>
         </div> 
         <!-- End code chunk -->
@@ -106,13 +109,14 @@
 
           <div v-highlight>
             <pre class="language-html"><code>&lt;button type="button" class="btn btn-primary" disabled&gt;Primary&lt;/button&gt;
-&lt;button type="button" class="btn btn-secondary" disabled&gt;Secondary&lt;/button&gt;
+&lt;button type="button" class="btn btn-info" disabled&gt;Info&lt;/button&gt;
 &lt;button type="button" class="btn btn-success" disabled&gt;Success&lt;/button&gt;
+&lt;button type="button" class="btn btn-tip" disabled&gt;tip&lt;/button&gt;
 &lt;button type="button" class="btn btn-danger" disabled&gt;Danger&lt;/button&gt;
 &lt;button type="button" class="btn btn-warning" disabled&gt;Warning&lt;/button&gt;
 &lt;button type="button" class="btn btn-highlight" disabled&gt;Highlight&lt;/button&gt;
-&lt;button type="button" class="btn btn-info" disabled&gt;Info&lt;/button&gt;
 &lt;button type="button" class="btn btn-light" disabled&gt;Light&lt;/button&gt;
+&lt;button type="button" class="btn btn-secondary" disabled&gt;Secondary&lt;/button&gt;
 &lt;button type="button" class="btn btn-dark" disabled&gt;Dark&lt;/button&gt;
 &lt;button type="button" class="btn btn-link" disabled&gt;Link&lt;/button&gt;</code></pre>
           </div>
@@ -201,9 +205,9 @@
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </div>
-            
+
             <hr>
-            
+
             <h4>Split Dropdown</h4>
             <div class="btn-group">
               <button type="button" class="btn btn-info">Action</button>
@@ -226,7 +230,30 @@
           </div>
 
           <div v-highlight>
-            <pre class="language-html"><code></code></pre>
+            <pre class="language-html"><code>&lt;div class="dropdown"&gt;
+  &lt;button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false"&gt;
+    Dropdown Button
+  &lt;/button&gt;
+  &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenuButton"&gt;
+    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="btn-group"&gt;
+  &lt;button type="button" class="btn btn-info"&gt;Action&lt;/button&gt;
+  &lt;button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false"&gt;
+    &lt;span class="sr-only"&gt;Toggle Dropdown&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;ul class="dropdown-menu"&gt;
+    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;hr class="dropdown-divider"&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre>
           </div>
         </div> 
         <!-- End code chunk -->

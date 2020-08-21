@@ -13,7 +13,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3>Regular Buttons</h3>
+            <h3 class="card-example-heading">Regular Buttons</h3>
             <button type="button" class="mr-1 btn btn-primary">Primary</button>
             <button type="button" class="mr-1 btn btn-info">Info</button>
             <button type="button" class="mr-1 btn btn-success">Success</button>
@@ -29,7 +29,7 @@
         </div>
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="mr-2">// HTML</h6>
+            <h6 class="code-example-heading">// HTML</h6>
           </div>
 
           <div v-highlight>
@@ -51,7 +51,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3>Outline Buttons</h3>
+            <h3 class="card-example-heading">Outline Buttons</h3>
             <button type="button" class="mr-1 btn btn-outline-primary">Primary</button>
             <button type="button" class="mr-1 btn btn-outline-info">Info</button>
             <button type="button" class="mr-1 btn btn-outline-success">Success</button>
@@ -66,7 +66,7 @@
         </div>
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="mr-2">// HTML</h6>
+            <h6 class="code-example-heading">// HTML</h6>
           </div>
 
           <div v-highlight>
@@ -88,7 +88,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3>Inactive Buttons</h3>
+            <h3 class="card-example-heading">Inactive Buttons</h3>
             <button type="button" class="mr-1 btn btn-primary" disabled>Primary</button>
             <button type="button" class="mr-1 btn btn-info" disabled>Info</button>
             <button type="button" class="mr-1 btn btn-success" disabled>Success</button>
@@ -104,7 +104,7 @@
         </div>
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="mr-2">// HTML</h6>
+            <h6 class="code-example-heading">// HTML</h6>
           </div>
 
           <div v-highlight>
@@ -126,7 +126,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3>Button Sizes</h3>
+            <h3 class="card-example-heading">Button Sizes</h3>
             <button type="button" class="mr-1 btn btn-xl btn-primary">Button XL</button>
             <button type="button" class="mr-1 btn btn-lg btn-primary">Button LG</button>
             <button type="button" class="mr-1 btn btn-primary">Button</button>
@@ -136,7 +136,7 @@
         </div>
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="mr-2">// HTML</h6>
+            <h6 class="code-example-heading">// HTML</h6>
           </div>
 
           <div v-highlight>
@@ -152,7 +152,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3>Button Groups</h3>
+            <h3 class="card-example-heading">Button Groups</h3>
             <div class="btn-group">
               <a href="#" class="btn btn-primary active">Active Link</a>
               <a href="#" class="btn btn-primary">Link</a>
@@ -170,7 +170,7 @@
         </div>
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="mr-2">// HTML</h6>
+            <h6 class="code-example-heading">// HTML</h6>
           </div>
 
           <div v-highlight>
@@ -192,7 +192,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3>Button Dropdowns</h3>
+            <h3 class="card-example-heading">Button Dropdowns</h3>
             
             <h4>Single Dropdown</h4>
             <div class="dropdown">
@@ -210,8 +210,8 @@
 
             <h4>Split Dropdown</h4>
             <div class="btn-group">
-              <button type="button" class="btn btn-info">Action</button>
-              <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+              <button type="button" class="btn btn-tip">Action</button>
+              <button type="button" class="btn btn-tip dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
                 <span class="sr-only">Toggle Dropdown</span>
               </button>
               <ul class="dropdown-menu">
@@ -226,7 +226,7 @@
         </div>
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="mr-2">// HTML</h6>
+            <h6 class="code-example-heading">// HTML</h6>
           </div>
 
           <div v-highlight>

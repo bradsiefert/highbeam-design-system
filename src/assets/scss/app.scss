@@ -88,7 +88,7 @@ body {
   font-size: 0.875rem;
 }
 
-.card-example h3 {
+.card-example-heading {
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding-bottom: .5rem;
@@ -108,13 +108,14 @@ body {
   padding-bottom: 0.5rem;
 }
 
-.code-example h6 {
+.code-example-heading {
   font-family: 'IBM Plex Mono';
   text-transform: uppercase;
   font-size: 0.75rem;
   margin-bottom: 0;
   font-weight: 600;
   color: $gray-800;
+  margin-right: 0.5rem;
 }
 
 .btn-code {
@@ -250,7 +251,7 @@ button .badge {
 }
 
 .btn-tip {
-  color: $gray-800;
+  color: $gray-700;
 }
 
 .btn {

@@ -13,7 +13,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3>Plain Badges</h3>
+            <h3 class="card-example-heading">Plain Badges</h3>
             <span class="mr-1 badge bg-primary">Primary</span>
             <span class="mr-1 badge bg-info">Info</span>
             <span class="mr-1 badge bg-success">Success</span>
@@ -28,7 +28,7 @@
         </div>
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="mr-2">// HTML</h6>
+            <h6 class="code-example-heading">// HTML</h6>
           </div>
 
           <div v-highlight>
@@ -49,7 +49,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3>Badges with Buttons</h3>
+            <h3 class="card-example-heading">Badges with Buttons</h3>
             <button type="button" class="btn btn-primary">
               Notifications <span class="badge bg-highlight text-dark">4</span>
             </button>
@@ -57,7 +57,7 @@
         </div>
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="mr-2">// HTML</h6>
+            <h6 class="code-example-heading">// HTML</h6>
           </div>
 
           <div v-highlight>
@@ -72,7 +72,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3>Badges with Headings</h3>
+            <h3 class="card-example-heading">Badges with Headings</h3>
             <h1>Example Heading <span class="badge bg-success">New</span></h1>
             <h2>Example Heading <span class="badge bg-success">New</span></h2>
             <h3 class="border-0" style="padding-bottom: 0;">Example Heading <span class="badge bg-success">New</span></h3>
@@ -83,7 +83,7 @@
         </div>
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="mr-2">// HTML</h6>
+            <h6 class="code-example-heading">// HTML</h6>
           </div>
 
           <div v-highlight>

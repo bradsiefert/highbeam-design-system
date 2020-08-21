@@ -13,7 +13,7 @@
         <!-- start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3>Normal Alerts</h3>
+            <h3 class="card-example-heading">Normal Alerts</h3>
             <div class="alert alert-primary alert-dismissible fade show" role="alert">
               A simple alert message for you to check out. More info here: <a href="#" class="alert-link">Link to page...</a>
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -139,7 +139,7 @@
         
         <!-- start code chunk -->
         <div class="card card-body card-example">
-          <h3>Alerts with Content</h3>
+          <h3 class="card-example-heading">Alerts with Content</h3>
           <div class="alert alert-danger alert-dismissible fade show mb-0" role="alert">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>

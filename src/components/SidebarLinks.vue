@@ -4,6 +4,7 @@
     <router-link class="nav-link active" to="/designsystem/">Overview</router-link>
     <router-link class="nav-link" to="/designsystem/framework">Framework</router-link>
     <router-link class="nav-link" to="/designsystem/grid">Container & Grid</router-link>
+    <router-link class="nav-link" to="/designsystem/spacing">Spacing</router-link>
     <router-link class="nav-link" to="/designsystem/colors">Colors</router-link>
     <router-link class="nav-link" to="/designsystem/typography">Typography</router-link>
     <router-link class="nav-link" to="/designsystem/icons">Icons</router-link>

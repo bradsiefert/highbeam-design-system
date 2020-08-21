@@ -21,7 +21,7 @@
           </div>
         </div>
         
-        <!-- start code chunk -->
+        <!-- Start code chunk -->
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
             <h6 class="mr-2">// Script</h6>
@@ -41,7 +41,7 @@
           </div>
         </div>
       </div> 
-      <!-- end code chunk -->
+      <!-- End code chunk -->
 
     </div>
   </div> <!-- div.container -->

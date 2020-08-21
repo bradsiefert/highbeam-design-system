@@ -15,7 +15,7 @@
 
       <div class="navbar-collapse offcanvas-collapse" id="offcanvas" :class="{ 'show': showOffcanvas }">
         <ul class="navbar-nav w-100">
-          <form class="w-100 mx-lg-3">
+          <form class="w-100 mx-lg-3 my-lg-1">
             <div class="input-group">
               <input type="text" class="form-control rounded-pill" placeholder="Search...">
             </div>

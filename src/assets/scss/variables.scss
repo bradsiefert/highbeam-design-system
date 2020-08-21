@@ -29,11 +29,11 @@ $indigo:    #6610F2 !default;
 $purple:    #6F42C1 !default;
 $pink:      #E64790 !default;
 $red:       #E74138 !default;
-$orange:    #FFAB5E !default;
+$orange:    #FC9332 !default;
 $yellow:    #FFD766 !default;
-$green:     #21D274 !default;
+$green:     #17BE64 !default;
 $teal:      #10E1A3 !default;
-$cyan:      #5AC3FE !default;
+$cyan:      #43BCFF !default;
 
 $primary:   $blue !default;
 $secondary: $gray-500 !default;
@@ -41,6 +41,7 @@ $success:   $green !default;
 $info:      $cyan !default;
 $warning:   $orange !default;
 $highlight: $yellow !default;
+$tip:       $teal !default;
 $danger:    $red !default;
 $light:     $gray-100 !default;
 $dark:      $gray-800 !default;
@@ -51,6 +52,7 @@ $theme-colors: (
   "success":    $success,
   "info":       $info,
   "highlight":  $highlight,
+  "tip":        $tip,
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
@@ -104,30 +106,30 @@ $h4-font-size:                $font-size-base * 1 !default;
 $h5-font-size:                $font-size-base * 0.75 !default;
 $h6-font-size:                $font-size-base * 0.6875 !default;
 
+$hr-color:                    $gray-200 !default;
+$hr-opacity:                  1 !default;
+
 // Tables
 // Buttons + Forms
-$input-btn-padding-y:         .375rem !default;
-$input-btn-padding-x:         .75rem !default;
-$input-btn-font-family:       'IBM Plex Mono' !default;
-$input-btn-font-size:         $font-size-base !default;
-$input-btn-line-height:       $line-height-base !default;
+$input-btn-padding-y:             0.375rem !default;
+$input-btn-padding-x:             0.75rem !default;
+$input-btn-font-family:           'IBM Plex Mono' !default;
+$input-btn-font-size:             0.8125rem !default;
+$input-btn-line-height:           1.4 !default;
 
-$input-btn-focus-width:         .2rem !default;
-$input-btn-focus-color-opacity: .25 !default;
-$input-btn-focus-color:         rgba($component-active-bg, $input-btn-focus-color-opacity) !default;
-$input-btn-focus-box-shadow:    0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+$input-btn-padding-y-sm:          0.25rem !default;
+$input-btn-padding-x-sm:          0.5rem !default;
+$input-btn-font-size-sm:          0.6875rem !default;
 
-$input-btn-padding-y-sm:      .25rem !default;
-$input-btn-padding-x-sm:      .5rem !default;
-$input-btn-font-size-sm:      $font-size-sm !default;
+$input-btn-padding-y-lg:          0.5rem !default;
+$input-btn-padding-x-lg:          1rem !default;
+$input-btn-font-size-lg:          0.9375rem !default;
 
-$input-btn-padding-y-lg:      .5rem !default;
-$input-btn-padding-x-lg:      1rem !default;
-$input-btn-font-size-lg:      $font-size-lg !default;
-
-$input-btn-border-width:      $border-width !default;
+$input-btn-border-width:          $border-width !default;
 
 // Buttons
+$btn-font-weight:                 500 !default;
+
 // Forms
 // Navs
 // Navbar
@@ -147,6 +149,11 @@ $card-spacer-x:                     1.5rem !default;
 // Popovers
 // Toasts
 // Badges
+$badge-font-weight:                 600 !default;
+$badge-padding-y:                   .25em !default;
+$badge-padding-x:                   .5rem !default;
+$badge-border-radius:               $border-radius-lg !default;
+
 // Modals
 // Alerts
 $alert-padding-y:                   0.5rem !default;

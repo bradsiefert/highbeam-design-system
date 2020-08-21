@@ -14,9 +14,6 @@
         <div class="card card-example">
           <div class="card-body">
             <h3>Normal Alerts</h3>
-            <p>
-              Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut. In faucibus justo sed pulvinar hendrerit. 
-            </p>
             <div class="alert alert-primary alert-dismissible fade show" role="alert">
               A simple alert message for you to check out. More info here: <a href="#" class="alert-link">Link to page...</a>
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -65,7 +62,7 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="alert alert-dark alert-dismissible fade show" role="alert">
+            <div class="alert alert-dark alert-dismissible fade show mb-0" role="alert">
               A simple alert message for you to check out. More info here: <a href="#" class="alert-link">Link to page...</a>
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -77,7 +74,6 @@
           <div class="card-body">
             <div class="d-flex flex-row align-items-center justify-content-between">
               <h6 class="mr-2">// HTML</h6>
-              <!-- <button class="btn btn-dark btn-sm btn-code" disabled>Copy</button> -->
             </div>
 
             <div v-highlight>

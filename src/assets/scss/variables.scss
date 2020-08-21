@@ -24,25 +24,38 @@ $black:    #000 !default;
 
 /* ---------- Site Specific Variables Updates --------- */
 // Colors
-$blue:      #0d6efd !default;
-$indigo:    #6610f2 !default;
-$purple:    #6f42c1 !default;
-$pink:      #d63384 !default;
-$red:       #dc3545 !default;
-$orange:    #fd7e14 !default;
+$blue:      #0775ED !default;
+$indigo:    #6610F2 !default;
+$purple:    #6F42C1 !default;
+$pink:      #E64790 !default;
+$red:       #E74138 !default;
+$orange:    #FFAB5E !default;
 $yellow:    #FFD766 !default;
-$green:     #28a745 !default;
-$teal:      #20c997 !default;
-$cyan:      #17a2b8 !default;
+$green:     #21D274 !default;
+$teal:      #10E1A3 !default;
+$cyan:      #5AC3FE !default;
 
 $primary:   $blue !default;
-$secondary: $gray-600 !default;
+$secondary: $gray-500 !default;
 $success:   $green !default;
 $info:      $cyan !default;
-$warning:   $yellow !default;
+$warning:   $orange !default;
+$highlight: $yellow !default;
 $danger:    $red !default;
 $light:     $gray-100 !default;
 $dark:      $gray-800 !default;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "highlight":  $highlight,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+) !default;
 
 // Options
 // Gradient
@@ -84,12 +97,12 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
-$h1-font-size:                $font-size-base * 2.5 !default;
-$h2-font-size:                $font-size-base * 2 !default;
-$h3-font-size:                $font-size-base * 1.75 !default;
-$h4-font-size:                $font-size-base * 1.5 !default;
-$h5-font-size:                $font-size-base * 1.25 !default;
-$h6-font-size:                $font-size-base !default;
+$h1-font-size:                $font-size-base * 2 !default;
+$h2-font-size:                $font-size-base * 1.5 !default;
+$h3-font-size:                $font-size-base * 1.25 !default;
+$h4-font-size:                $font-size-base * 1 !default;
+$h5-font-size:                $font-size-base * 0.75 !default;
+$h6-font-size:                $font-size-base * 0.6875 !default;
 
 // Tables
 // Buttons + Forms
@@ -136,6 +149,10 @@ $card-spacer-x:                     1.5rem !default;
 // Badges
 // Modals
 // Alerts
+$alert-padding-y:                   0.5rem !default;
+$alert-padding-x:                   1rem !default;
+$alert-link-font-weight:            600 !default;
+
 // Progress Bars
 // List Group
 // Image Thumbnails

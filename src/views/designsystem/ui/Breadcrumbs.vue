@@ -13,10 +13,12 @@
           Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut.
         </p>
         
-        <div class="card card-body card-example">
-          <breadcrumbs active="Home" />
-          <breadcrumbs :previous="{ '/': 'Home' }" active="Active Page"/>
-          <breadcrumbs :previous="{ '/': 'Home', '/designsystem': 'Design System' }" active="Breadcrumbs"/>
+        <div class="card card-example">
+          <div class="card-body">
+            <breadcrumbs active="Home" />
+            <breadcrumbs :previous="{ '/': 'Home' }" active="Active Page"/>
+            <breadcrumbs :previous="{ '/': 'Home', '/designsystem': 'Design System' }" active="Breadcrumbs"/>
+          </div>
         </div>
         
         <!-- start code chunk -->

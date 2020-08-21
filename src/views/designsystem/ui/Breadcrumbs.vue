@@ -15,42 +15,34 @@
         
         <div class="card card-body card-example">
           <breadcrumbs active="Home" />
-
-          <breadcrumbs
-            :previous="{ '/': 'Home' }"
-            active="Active Page"
-          />
-
-          <breadcrumbs
-            :previous="{ '/': 'Home', '/designsystem': 'Design System' }"
-            active="Breadcrumbs"
-          />
+          <breadcrumbs :previous="{ '/': 'Home' }" active="Active Page"/>
+          <breadcrumbs :previous="{ '/': 'Home', '/designsystem': 'Design System' }" active="Breadcrumbs"/>
         </div>
-
+        
+        <!-- start code chunk -->
         <div class="card card-body code-example">
-
           <div class="d-flex flex-row align-items-center justify-content-between">
             <h6 class="mr-2">// Script</h6>
             <button class="btn btn-dark btn-sm btn-code" v-clipboard:copy="script">Copy</button>
           </div>
 
           <div v-highlight>
-            <pre class="language-javascript"><code>{{ script }}</code></pre>
+            <pre class="user-select-all language-javascript"><code>{{ script }}</code></pre>
           </div>
-          
           <div class="d-flex flex-row align-items-center justify-content-between">
             <h6 class="mr-2">// Template</h6>
             <button class="btn btn-dark btn-sm btn-code" v-clipboard:copy="template">Copy</button>
           </div>
 
           <div v-highlight>
-            <pre class="language-html"><code>{{ template }}</code></pre>
+            <pre class="user-select-all language-html"><code>{{ template }}</code></pre>
           </div>
         </div>
+      </div> 
+      <!-- end code chunk -->
 
-      </div>
     </div>
-  </div> <!-- container -->
+  </div> <!-- div.container -->
 </template>
 
 <script>

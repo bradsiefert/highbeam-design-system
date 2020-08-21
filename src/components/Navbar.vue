@@ -39,9 +39,9 @@
         <ul class="navbar-nav mr-auto d-block d-lg-none">
           <SidebarLinks /> <!-- SidebarLinks is a component to easily update links in the nav and sidebar -->
         </ul>
-      </div><!-- navbar-collapse -->
-    </div><!-- container-fluid -->
-  </nav><!-- navbar -->
+      </div><!-- div.navbar-collapse -->
+    </div><!-- div.container-fluid -->
+  </nav><!-- div.navbar -->
 </template>
 
 <script>

@@ -5,6 +5,7 @@ import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
 
 // Design System
+import Alerts from '@/views/designsystem/ui/Alerts.vue'
 import Breadcrumbs from '@/views/designsystem/ui/Breadcrumbs.vue'
 
 Vue.use(VueRouter)
@@ -15,6 +16,7 @@ Vue.use(VueRouter)
 
   // Design System
   { path: '/designsystem/ui/breadcrumbs', name: 'Breadcrumbs', component: Breadcrumbs },
+  { path: '/designsystem/ui/alerts', name: 'Alerts', component: Alerts },
 ]
 
 const router = new VueRouter({

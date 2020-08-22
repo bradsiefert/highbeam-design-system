@@ -20,13 +20,18 @@
     <router-link class="nav-link" to="/designsystem/ui/breadcrumbs/">Breadcrumbs</router-link>
     <router-link class="nav-link" to="/designsystem/ui/buttons/">Buttons</router-link>
     <router-link class="nav-link" to="/designsystem/ui/cards/">Cards</router-link>
-    <router-link class="nav-link" to="/designsystem/ui/collapse/">Collapse</router-link>
     <router-link class="nav-link" to="/designsystem/ui/forms/">Forms</router-link>
     <router-link class="nav-link" to="/designsystem/ui/listgroups/">List Group</router-link>
     <router-link class="nav-link" to="/designsystem/ui/pagination/">Pagination</router-link>
     <router-link class="nav-link" to="/designsystem/ui/progressbar/">Progress Bar</router-link>
     <router-link class="nav-link" to="/designsystem/ui/tabbar/">Tab Bar</router-link>
     <router-link class="nav-link" to="/designsystem/ui/toasts/">Toasts</router-link>
+
+    <div class="ds-sidebar-header">Javascript Actions</div>
+    <router-link class="nav-link" to="/designsystem/ui/collapse/">Collapse</router-link>
+    <router-link class="nav-link" to="/designsystem/ui/dropdowns/">Dropdowns</router-link>
+    <router-link class="nav-link" to="/designsystem/ui/modals/">Modals</router-link>
+    <router-link class="nav-link" to="/designsystem/ui/popovers/">Popovers</router-link>
     <router-link class="nav-link" to="/designsystem/ui/tooltips/">Tooltips</router-link>
   </div>
 </template>

@@ -101,7 +101,6 @@
             <button type="button" class="mr-1 mb-1 btn btn-light" disabled>Light</button>
             <button type="button" class="mr-1 mb-1 btn btn-secondary" disabled>Secondary</button>
             <button type="button" class="mr-1 mb-1 btn btn-dark" disabled>Dark</button>
-            <button type="button" class="mr-1 mb-1 btn btn-link" disabled>Link</button>
           </div>
         </div>
         <div class="card card-body code-example">

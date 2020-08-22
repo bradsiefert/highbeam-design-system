@@ -15,6 +15,7 @@ import Alerts from '@/views/designsystem/ui/Alerts.vue'
 import Badges from '@/views/designsystem/ui/Badges.vue'
 import Breadcrumbs from '@/views/designsystem/ui/Breadcrumbs.vue'
 import Buttons from '@/views/designsystem/ui/Buttons.vue'
+import Cards from '@/views/designsystem/ui/Cards.vue'
 
 Vue.use(VueRouter)
 
@@ -36,6 +37,7 @@ Vue.use(VueRouter)
   { path: '/designsystem/ui/badges', name: 'Badges', component: Badges },
   { path: '/designsystem/ui/breadcrumbs', name: 'Breadcrumbs', component: Breadcrumbs },
   { path: '/designsystem/ui/buttons', name: 'Buttons', component: Buttons },
+  { path: '/designsystem/ui/cards', name: 'Cards', component: Cards },
 ]
 
 const router = new VueRouter({

@@ -25,7 +25,7 @@
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
             <h6 class="code-example-heading">// Script</h6>
-            <button class="btn btn-dark btn-sm btn-code" v-clipboard:copy="script">Copy</button>
+            <button class="btn btn-dark btn-sm" v-clipboard:copy="script">Copy</button>
           </div>
 
           <div v-highlight>
@@ -33,7 +33,7 @@
           </div>
           <div class="d-flex flex-row align-items-center justify-content-between">
             <h6 class="code-example-heading">// Template</h6>
-            <button class="btn btn-dark btn-sm btn-code" v-clipboard:copy="template">Copy</button>
+            <button class="btn btn-dark btn-sm" v-clipboard:copy="template">Copy</button>
           </div>
 
           <div v-highlight>

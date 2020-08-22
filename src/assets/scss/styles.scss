@@ -121,13 +121,6 @@ p {
   margin-right: 0.5rem;
 }
 
-.btn-code {
-  z-index: 2;
-  font-size: .75em;
-  text-transform: uppercase;
-  // TODO Remove this when buttons are styled
-}
-
 // VueCodeHighlight Prism Code Styling Tweaks
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
   background-color: transparent !important;
@@ -248,8 +241,7 @@ button .badge {
 .btn-secondary:hover, .btn-success:hover, .btn-warning:hover, .btn-info:hover,
 .btn-outline-secondary:hover, .btn-outline-success:hover, .btn-outline-warning:hover, .btn-outline-info:hover,
 .btn-secondary:hover:disabled, .btn-success:hover:disabled, .btn-warning:hover:disabled, .btn-info:hover:disabled,
-.btn-secondary:hover.disabled, .btn-success:hover.disabled, .btn-warning.disabled, .btn-info.disabled,
- {
+.btn-secondary:hover.disabled, .btn-success:hover.disabled, .btn-warning.disabled, .btn-info.disabled {
   color: $white;
 }
 

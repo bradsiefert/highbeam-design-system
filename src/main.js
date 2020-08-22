@@ -15,7 +15,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.use(VueClipboard)
 Vue.use(VueCodeHighlight)
 
-import './assets/scss/app.scss'
+import './assets/scss/styles.scss'
 import 'vue-code-highlight/themes/prism.css'
 
 Vue.config.productionTip = false

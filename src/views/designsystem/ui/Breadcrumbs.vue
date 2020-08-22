@@ -9,8 +9,8 @@
 
         <h1>Breadcrumbs</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar hendrerit. 
-          Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut.
+          Breadcrumbs are a set of links that give you page structure and context. They should especially for sites 
+          on sites with many layers of pages. For smaller sites, they can be omitted.
         </p>
         
         <div class="card card-example">

@@ -13,10 +13,9 @@
 
         <h1 class="mt-4">Overview</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar hendrerit. 
-          Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut. Pellentesque habitant morbi 
-          tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit ipsum sit amet 
-          neque varius, eget condimentum lacus egestas. Donec vulputate metus eu sagittis efficitur.
+          Highbeam is a design system built by Brad Siefert with help from Kris Kroski, EddieVB and the Earlybird 
+          team. It's the set of design principles and user interface elements that make up our products. It's meant 
+          to be a reference guide to more quickly and consistently create web apps for our clients.
         </p>
       </div>
     </div>

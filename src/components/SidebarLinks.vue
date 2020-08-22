@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="ds-sidebar-header">Design System</div>
-    <router-link class="nav-link active" to="/designsystem/">Overview</router-link>
-    <router-link class="nav-link" to="/designsystem/framework">Framework</router-link>
-    <router-link class="nav-link" to="/designsystem/grid">Container & Grid</router-link>
-    <router-link class="nav-link" to="/designsystem/spacing">Spacing</router-link>
-    <router-link class="nav-link" to="/designsystem/colors">Colors</router-link>
-    <router-link class="nav-link" to="/designsystem/typography">Typography</router-link>
-    <router-link class="nav-link" to="/designsystem/icons">Icons</router-link>
+    <router-link class="nav-link active" to="/">Overview</router-link>
+    <router-link class="nav-link" to="/framework">Framework</router-link>
+    <router-link class="nav-link" to="/grid">Containers & Grid</router-link>
+    <router-link class="nav-link" to="/spacing">Spacing</router-link>
+    <router-link class="nav-link" to="/colors">Colors</router-link>
+    <router-link class="nav-link" to="/typography">Typography</router-link>
+    <router-link class="nav-link" to="/icons">Icons</router-link>
 
     <div class="ds-sidebar-header">Data Components</div>
     <router-link class="nav-link" to="/designsystem/data/graphs">Graphs <span class="badge rounded-pill bg-highlight text-dark">Coming Soon</span></router-link>

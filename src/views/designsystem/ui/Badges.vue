@@ -6,24 +6,25 @@
 
         <h1>Badges</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar hendrerit. 
-          Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut.
+          Badges are a way to highlight information that's different from others, recently changed, or needs to 
+          stand for some reason. Badges can also be used as tags in certain contents as well. Adding <code>badge-tag</code> 
+          to a badge will give it tag styling. <em>(Coming soon)</em>
         </p>
         
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
             <h3 class="card-example-heading">Plain Badges</h3>
-            <span class="mr-1 badge bg-primary">Primary</span>
-            <span class="mr-1 badge bg-info">Info</span>
-            <span class="mr-1 badge bg-success">Success</span>
-            <span class="mr-1 badge bg-tip text-dark">Tip</span>
-            <span class="mr-1 badge bg-danger">Danger</span>
-            <span class="mr-1 badge bg-warning">Warning</span>
-            <span class="mr-1 badge bg-highlight text-dark">Highlight</span>
-            <span class="mr-1 badge bg-light text-dark">Light</span>
-            <span class="mr-1 badge bg-secondary">Secondary</span>
-            <span class="mr-1 badge bg-dark">Dark</span>
+            <span class="mr-1 mb-1 badge bg-primary">Primary</span>
+            <span class="mr-1 mb-1 badge bg-info">Info</span>
+            <span class="mr-1 mb-1 badge bg-success">Success</span>
+            <span class="mr-1 mb-1 badge bg-tip text-dark">Tip</span>
+            <span class="mr-1 mb-1 badge bg-danger">Danger</span>
+            <span class="mr-1 mb-1 badge bg-warning">Warning</span>
+            <span class="mr-1 mb-1 badge bg-highlight text-dark">Highlight</span>
+            <span class="mr-1 mb-1 badge bg-light text-dark">Light</span>
+            <span class="mr-1 mb-1 badge bg-secondary">Secondary</span>
+            <span class="mr-1 mb-1 badge bg-dark">Dark</span>
           </div>
         </div>
         <div class="card card-body code-example">
@@ -34,13 +35,14 @@
           <div v-highlight>
             <pre class="language-html">
 <code>&lt;span class="badge bg-primary"&gt;Primary&lt;/span&gt;
-&lt;span class="badge bg-secondary"&gt;Secondary&lt;/span&gt;
+&lt;span class="badge bg-info"&gt;Info&lt;/span&gt;
 &lt;span class="badge bg-success"&gt;Success&lt;/span&gt;
+&lt;span class="badge bg-tip"&gt;Tip&lt;/span&gt;
 &lt;span class="badge bg-danger"&gt;Danger&lt;/span&gt;
 &lt;span class="badge bg-warning text-dark"&gt;Warning&lt;/span&gt;
 &lt;span class="badge bg-highlight text-dark"&gt;Highlight&lt;/span&gt;
-&lt;span class="badge bg-info"&gt;Info&lt;/span&gt;
 &lt;span class="badge bg-light text-dark"&gt;Light&lt;/span&gt;
+&lt;span class="badge bg-secondary"&gt;Secondary&lt;/span&gt;
 &lt;span class="badge bg-dark"&gt;Dark&lt;/span&gt;</code></pre>
           </div>
         </div> 

@@ -6,8 +6,10 @@
 
         <h1>Alerts</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar hendrerit. 
-          Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut.
+          Alerts are a temporary way to give the user feedback or information about something they might not be 
+          aware of, a warning, an error, or a successful action. They can be shown after an action has occurred or 
+          on page load depending on the information. Toasts are another option, alerts are a more conspicuous and 
+          loud and clear way to message the user.
         </p>
         
         <!-- start code chunk -->
@@ -15,6 +17,12 @@
           <div class="card-body">
             <h3 class="card-example-heading">Normal Alerts</h3>
             <div class="alert alert-primary alert-dismissible fade show" role="alert">
+              A simple alert message for you to check out. More info here: <a href="#" class="alert-link">Link to page...</a>
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
               A simple alert message for you to check out. More info here: <a href="#" class="alert-link">Link to page...</a>
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -39,12 +47,6 @@
               </button>
             </div>
             <div class="alert alert-highlight alert-dismissible fade show" role="alert">
-              A simple alert message for you to check out. More info here: <a href="#" class="alert-link">Link to page...</a>
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="alert alert-info alert-dismissible fade show" role="alert">
               A simple alert message for you to check out. More info here: <a href="#" class="alert-link">Link to page...</a>
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -84,6 +86,13 @@
   &lt;/button&gt;
 &lt;/div&gt;
 
+&lt;div class="alert alert-info alert-dismissible fade show" role="alert"&gt;
+  A simple alert message for you to check out. More info here: &lt;a href="#" class="alert-link"&gt;Link to page...&lt;/a&gt;
+  &lt;button type="button" class="close" data-dismiss="alert" aria-label="Close"&gt;
+    &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
 &lt;div class="alert alert-success alert-dismissible fade show" role="alert"&gt;
   A simple alert message for you to check out. More info here: &lt;a href="#" class="alert-link"&gt;Link to page...&lt;/a&gt;
   &lt;button type="button" class="close" data-dismiss="alert" aria-label="Close"&gt;
@@ -106,13 +115,6 @@
 &lt;/div&gt;
 
 &lt;div class="alert alert-highlight alert-dismissible fade show" role="alert"&gt;
-  A simple alert message for you to check out. More info here: &lt;a href="#" class="alert-link"&gt;Link to page...&lt;/a&gt;
-  &lt;button type="button" class="close" data-dismiss="alert" aria-label="Close"&gt;
-    &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-
-&lt;div class="alert alert-info alert-dismissible fade show" role="alert"&gt;
   A simple alert message for you to check out. More info here: &lt;a href="#" class="alert-link"&gt;Link to page...&lt;/a&gt;
   &lt;button type="button" class="close" data-dismiss="alert" aria-label="Close"&gt;
     &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;

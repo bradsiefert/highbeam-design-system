@@ -4,8 +4,11 @@
 @import "~bootstrap";
 
 body {
-  background-color: $gray-100;
   margin-top: 64px;
+}
+
+p {
+  letter-spacing: -0.1px;
 }
 
 // Sidebar & Content

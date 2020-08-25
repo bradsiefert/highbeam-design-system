@@ -6,13 +6,68 @@
 
         <h1>Cards</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar hendrerit. Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit ipsum sit amet neque varius, eget condimentum lacus egestas. Donec vulputate metus eu sagittis efficitur. Quisque dignissim nibh turpis, et maximus nibh aliquam aliquet. Quisque tempus et nunc eu malesuada. Maecenas sodales, ante vel condimentum lobortis, arcu libero faucibus augue, vel molestie ipsum dui sit amet lacus.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar hendrerit. 
+          Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut. Pellentesque habitant morbi tristique 
+          senectus et netus et malesuada fames ac turpis egestas. Aenean blandit ipsum sit amet neque varius, eget 
+          condimentum lacus egestas. Donec vulputate metus eu sagittis efficitur. Quisque dignissim nibh turpis, 
+          et maximus nibh aliquam aliquet. Quisque tempus et nunc eu malesuada. Maecenas sodales, ante vel 
+          condimentum lobortis, arcu libero faucibus augue, vel molestie ipsum dui sit amet lacus.
         </p>
+        
+        <!-- Start code chunk -->
+        <div class="card card-example">
+          <div class="card-body">
+            <h3 class="card-example-heading">Card Box Options</h3>
+            <div class="card mb-3">
+              <div class="card-body card-body-sm">
+                Default
+              </div>
+            </div>
+
+            <div class="card well mb-3">
+              <div class="card-body card-body-sm">
+                Well
+              </div>
+            </div>
+
+            <div class="card raised mb-3">
+              <div class="card-body card-body-sm">
+                Raised
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-body code-example">
+          <div class="d-flex flex-row align-items-center justify-content-between">
+            <h6 class="code-example-heading">// HTML</h6>
+          </div>
+
+          <div v-highlight>
+            <pre class="language-html"><code>&lt;div class="card"&gt;
+  &lt;div class="card-body"&gt;
+    Default
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card well"&gt;
+  &lt;div class="card-body"&gt;
+    Well
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card raised"&gt;
+  &lt;div class="card-body"&gt;
+    Raised
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+          </div>
+        </div> 
+        <!-- End code chunk -->
 
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3 class="card-example-heading">Regular Cards</h3>
+            <h3 class="card-example-heading">Regular Card</h3>
 
             <div class="row">
               <div class="col-md-6">
@@ -39,7 +94,19 @@
           </div>
 
           <div v-highlight>
-            <pre class="language-html"><code></code></pre>
+            <pre class="user-select-all language-html"><code>&lt;div class="card"&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h2 class="card-title"&gt;Card Title Treatment&lt;/h2&gt;
+    &lt;h5 class="card-subtitle"&gt;Card Subtitle&lt;/h5&gt;
+    &lt;p&gt;
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus 
+      est id enim facilisis, at posuere turpis adipiscing et intefa ung.
+    &lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
           </div>
         </div> 
         <!-- End code chunk -->
@@ -47,7 +114,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3 class="card-example-heading">Cards with Header and/or Footer</h3>
+            <h3 class="card-example-heading">Card with Header and/or Footer</h3>
 
             <div class="row">
               <div class="col-md-6">
@@ -101,7 +168,41 @@
           </div>
 
           <div v-highlight>
-            <pre class="language-html"><code></code></pre>
+            <pre class="user-select-all language-html"><code>&lt;div class="card"&gt;
+  &lt;div class="card-header"&gt;
+    Card Heading
+  &lt;/div&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h2 class="card-title"&gt;Card Title Treatment&lt;/h2&gt;
+    &lt;p&gt;
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus 
+      est id enim facilisis, at posuere turpis adipiscing et intefa ung.
+    &lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+          </div>
+          
+          <div class="d-flex flex-row align-items-center justify-content-between">
+            <h6 class="code-example-heading">// HTML</h6>
+          </div>
+
+          <div v-highlight>
+            <pre class="user-select-all language-html"><code>&lt;div class="card"&gt;
+  &lt;div class="card-header"&gt;
+    Card Heading
+  &lt;/div&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h2 class="card-title"&gt;Card Title Treatment&lt;/h2&gt;
+    &lt;p&gt;
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus 
+      est id enim facilisis, at posuere turpis adipiscing et intefa ung.
+    &lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
           </div>
         </div> 
         <!-- End code chunk -->
@@ -109,7 +210,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3 class="card-example-heading">Cards with Image Tops</h3>
+            <h3 class="card-example-heading">Card with Image Tops</h3>
 
             <div class="row">
               <div class="col-md-6">
@@ -132,11 +233,20 @@
         </div>
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="code-example-heading">// HTML</h6>
+            <h6 class="user-select-all code-example-heading">// HTML</h6>
           </div>
 
           <div v-highlight>
-            <pre class="language-html"><code></code></pre>
+            <pre class="user-select-all language-html"><code>&lt;div class="card"&gt;
+  &lt;img src="https://dummyimage.com/640x320/eee/dedede" class="card-img-top"&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h2 class="card-title"&gt;Card Title Image&lt;/h2&gt;
+    &lt;h5 class="card-subtitle"&gt;Card Subtitle&lt;/h5&gt;
+    &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
           </div>
         </div> 
         <!-- End code chunk -->
@@ -144,7 +254,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3 class="card-example-heading">Cards with Tabs</h3>
+            <h3 class="card-example-heading">Card with Tabs</h3>
 
             <div class="row">
               <div class="col-md-12">
@@ -165,7 +275,7 @@
                         <a class="nav-link" href="#">Link</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Inactive</a>
                       </li>
                     </ul>
                   </div>
@@ -188,7 +298,33 @@
           </div>
 
           <div v-highlight>
-            <pre class="language-html"><code></code></pre>
+            <pre class="user-select-all language-html"><code>&lt;div class="card text-center"&gt;
+  &lt;div class="card-header"&gt;
+    &lt;ul class="nav nav-tabs card-header-tabs"&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link active" aria-current="true" href="#"&gt;Active&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"&gt;Inactive&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h2 class="card-title"&gt;Card Title Tabs&lt;/h2&gt;
+    &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
           </div>
         </div> 
         <!-- End code chunk -->
@@ -196,7 +332,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3 class="card-example-heading">Cards with Pills</h3>
+            <h3 class="card-example-heading">Card with Pills</h3>
 
             <div class="row">
               <div class="col-md-12">
@@ -217,7 +353,7 @@
                         <a class="nav-link" href="#">Link</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Inactive</a>
                       </li>
                     </ul>
                   </div>
@@ -240,13 +376,50 @@
           </div>
 
           <div v-highlight>
-            <pre class="language-html"><code></code></pre>
+            <pre class="user-select-all language-html"><code>&lt;div class="card text-center"&gt;
+  &lt;div class="card-header"&gt;
+    &lt;ul class="nav nav-pills card-header-pills"&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link active" aria-current="true" href="#"&gt;Active&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"&gt;Inactive&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h2 class="card-title"&gt;Card Title Pills&lt;/h2&gt;
+    &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
           </div>
         </div> 
         <!-- End code chunk -->
 
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="card my-4">
+          <div class="card-body card-body-sm text-center">
+            For more info → <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/components/card/">Bootstrap v5 / Cards</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div> <!-- div.container -->
 </template>
 

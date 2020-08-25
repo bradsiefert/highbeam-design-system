@@ -55,9 +55,8 @@
 
         
         <!-- Start code chunk -->
-        <div class="card card-example">
+        <!-- <div class="card card-example">
           <div class="card-body">
-            <!-- <h3 class="card-example-heading">Plain Badges</h3> -->
 
               <div class="bg-light d-inline-block mb-3 border text-center p-1">
               &nbsp;
@@ -66,30 +65,8 @@
                 0.25rem <small class="font-weight-bold">(256px)</small>
               </div>
 
-              <!-- <div class="bg-light d-inline-block mb-3 border text-center p-15">
-                <div class="text-dark">
-                  15rem<br>
-                  <small class="font-weight-bold">(256px)</small>
-                </div>
-              </div>
-              
-              <div class="bg-light d-inline-block mb-3 border text-center p-14">
-                <div class="text-dark">
-                  14rem<br>
-                  <small class="font-weight-bold">(256px)</small>
-                </div>
-              </div>
-
-              <div class="bg-light d-inline-block mb-3 border text-center p-13">
-                <div class="text-dark">
-                  13rem<br>
-                  <small class="font-weight-bold">(256px)</small>
-                </div>
-              </div> -->
-
-
           </div>
-        </div>
+        </div> -->
         <!-- End code chunk -->
 
       </div>

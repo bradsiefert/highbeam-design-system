@@ -150,6 +150,25 @@ $navbar-dark-toggler-border-color: transparent;
 
 // Dropdowns
 // Pagination
+$pagination-padding-y:              .5rem !default;
+$pagination-padding-x:              .75rem !default;
+$pagination-padding-y-sm:           .25rem !default;
+$pagination-padding-x-sm:           .75rem !default;
+$pagination-padding-y-lg:           .75rem !default;
+$pagination-padding-x-lg:           1rem !default;
+
+$pagination-hover-color:            $link-color !default;
+$pagination-hover-bg:               #ebf7fe !default;
+$pagination-hover-border-color:     $gray-300 !default;
+
+$pagination-active-color:           $link-color !default;
+$pagination-active-bg:              #ebf7fe !default;
+$pagination-active-border-color:    $gray-300 !default;
+
+$pagination-disabled-color:         $gray-400 !default;
+$pagination-disabled-bg:            $white !default;
+$pagination-disabled-border-color:  $gray-300 !default;
+
 // Cards
 $card-spacer-y:                     1.5rem !default;
 $card-spacer-x:                     1.5rem !default;

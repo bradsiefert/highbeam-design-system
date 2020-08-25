@@ -16,6 +16,13 @@ import Badges from '@/views/designsystem/ui/Badges.vue'
 import Breadcrumbs from '@/views/designsystem/ui/Breadcrumbs.vue'
 import Buttons from '@/views/designsystem/ui/Buttons.vue'
 import Cards from '@/views/designsystem/ui/Cards.vue'
+import Forms from '@/views/designsystem/ui/Forms.vue'
+import Menus from '@/views/designsystem/ui/Menus.vue'
+import Pagination from '@/views/designsystem/ui/Pagination.vue'
+import ProgressBar from '@/views/designsystem/ui/ProgressBar.vue'
+import Tables from '@/views/designsystem/ui/Tables.vue'
+import Tabs from '@/views/designsystem/ui/Tabs.vue'
+import Toasts from '@/views/designsystem/ui/Toasts.vue'
 
 Vue.use(VueRouter)
 
@@ -31,6 +38,7 @@ Vue.use(VueRouter)
   { path: '/icons', name: 'Icons', component: Icons },
   
   // Design System Data Components
+  { path: '/designsystem/data/tables', name: 'Tables', component: Tables },
 
   // Design System UI Elements
   { path: '/designsystem/ui/alerts', name: 'Alerts', component: Alerts },
@@ -38,6 +46,12 @@ Vue.use(VueRouter)
   { path: '/designsystem/ui/breadcrumbs', name: 'Breadcrumbs', component: Breadcrumbs },
   { path: '/designsystem/ui/buttons', name: 'Buttons', component: Buttons },
   { path: '/designsystem/ui/cards', name: 'Cards', component: Cards },
+  { path: '/designsystem/ui/forms', name: 'Forms', component: Forms },
+  { path: '/designsystem/ui/menus', name: 'Menus', component: Menus },
+  { path: '/designsystem/ui/pagination', name: 'Pagination', component: Pagination },
+  { path: '/designsystem/ui/progressbar', name: 'ProgressBar', component: ProgressBar },
+  { path: '/designsystem/ui/tabs', name: 'Tabs', component: Tabs },
+  { path: '/designsystem/ui/toasts', name: 'Toasts', component: Toasts },
 ]
 
 const router = new VueRouter({

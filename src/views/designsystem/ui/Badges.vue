@@ -7,8 +7,7 @@
         <h1>Badges</h1>
         <p>
           Badges are a way to highlight information that's different from others, recently changed, or needs to 
-          stand for some reason. Badges can also be used as tags in certain contents as well. Adding <code>badge-tag</code> 
-          to a badge will give it tag styling. <em>(Coming soon)</em>
+          stand for some reason. Badges can also be used as tags in certain contents as well.
         </p>
         
         <!-- Start code chunk -->

@@ -261,6 +261,19 @@
 
       </div>
     </div>
+    
+    <div class="row">
+      <div class="col-sm">
+        <div class="card my-4">
+          <div class="card-body card-body-sm text-center">
+            For more info → <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/components/buttons/">
+              Bootstrap v5 / Buttons
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div> <!-- div.container -->
 </template>
 

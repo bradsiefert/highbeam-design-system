@@ -88,6 +88,10 @@ $border-radius:               0.5rem !default;
 $border-radius-sm:            0.25rem !default;
 $border-radius-lg:            0.75rem !default;
 
+$box-shadow:                  0 .0 1rem rgba($black, .16) !default;
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .08) !default;
+$box-shadow-lg:               0 1rem 3rem rgba($black, .16) !default;
+
 $component-active-color:      $white !default;
 $component-active-bg:         $primary !default;
 
@@ -99,7 +103,7 @@ $font-size-base:              1rem; // Assumes the browser default, typically `1
 $font-size-sm:                $font-size-base * .875 !default;
 $font-size-lg:                $font-size-base * 1.25 !default;
 
-$display-font-weight:         500;
+$display-font-weight:         600;
 $headings-font-weight:        700;
 
 $line-height-base:            1.5 !default;
@@ -176,6 +180,18 @@ $card-spacer-x:                     1.5rem !default;
 // Tooltips
 // Popovers
 // Toasts
+$toast-max-width:                   384px !default;
+$toast-padding-x:                   1rem !default;
+$toast-padding-y:                   .25rem !default;
+$toast-font-size:                   .875rem !default;
+$toast-color:                       null !default;
+$toast-background-color:            $white !default;
+$toast-border-color:                rgba(0, 0, 0, .1) !default;
+$toast-border-radius:               $border-radius !default;
+
+$toast-header-background-color:     $gray-100 !default;
+$toast-header-border-color:         $gray-300 !default;
+
 // Badges
 $badge-font-weight:                 600 !default;
 $badge-padding-y:                   .25em !default;

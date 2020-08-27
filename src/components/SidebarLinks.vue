@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ds-sidebar-header">Design System</div>
-    <router-link class="nav-link active" to="/">Overview</router-link>
+    <router-link class="nav-link" to="/" exact>Overview</router-link>
     <router-link class="nav-link" to="/framework">Framework</router-link>
     <router-link class="nav-link" to="/grid">Containers & Grid</router-link>
     <router-link class="nav-link" to="/spacing">Spacing</router-link>

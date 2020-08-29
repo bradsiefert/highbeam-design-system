@@ -85,7 +85,7 @@ $border-width:                1px !default;
 $border-color:                $gray-300 !default;
 
 $border-radius:               0.5rem !default;
-$border-radius-sm:            0.25rem !default;
+$border-radius-sm:            0.375rem !default;
 $border-radius-lg:            0.75rem !default;
 
 $box-shadow:                  0 .0 1rem rgba($black, .16) !default;
@@ -97,7 +97,7 @@ $component-active-bg:         $primary !default;
 
 // Typography
 $font-family-sans-serif:      'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-monospace:       Menlo, SFMono-Regular, 'IBM Plex Mono', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-monospace:       'Fira Code','IBM Plex Mono', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 
 $font-size-base:              1rem; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .875 !default;
@@ -126,13 +126,18 @@ $table-hover-bg:              $light !default;
 // Buttons + Forms
 $input-btn-padding-y:             0.375rem !default;
 $input-btn-padding-x:             0.75rem !default;
-$input-btn-font-family:           'IBM Plex Mono' !default;
+$input-btn-font-family:           $font-family-monospace !default;
 $input-btn-font-size:             0.8125rem !default;
 $input-btn-line-height:           1.4 !default;
 
+$input-btn-focus-width:           .2rem !default;
+$input-btn-focus-color-opacity:   .16 !default;
+$input-btn-focus-color:           rgba($yellow, $input-btn-focus-color-opacity) !default;
+$input-btn-focus-box-shadow:      0 0 1rem rgba($yellow, 0.24) !default;
+
 $input-btn-padding-y-sm:          0.25rem !default;
 $input-btn-padding-x-sm:          0.5rem !default;
-$input-btn-font-size-sm:          0.6875rem !default;
+$input-btn-font-size-sm:          0.75rem !default;
 
 $input-btn-padding-y-lg:          0.5rem !default;
 $input-btn-padding-x-lg:          1rem !default;
@@ -144,13 +149,63 @@ $input-btn-border-width:          $border-width !default;
 $btn-font-weight:                 500 !default;
 
 // Forms
+$form-text-margin-top:                  .5rem !default;
+$form-text-font-size:                   .8125rem !default;
+$form-text-font-style:                  null !default;
+$form-text-font-weight:                 null !default;
+$form-text-color:                       $gray-500 !default;
+
+$form-label-margin-bottom:              .5rem !default;
+$form-label-font-size:                  .875rem !default;
+$form-label-font-style:                 null !default;
+$form-label-font-weight:                700 !default;
+$form-label-color:                      null !default;
+
+$input-padding-y:                       .5rem !default;
+$input-padding-x:                       1rem !default;
+
+$input-font-size:                       0.875rem !default;
+$input-line-height:                     1.5 !default;
+
+$input-padding-y-sm:                    $input-btn-padding-y-sm !default;
+$input-padding-x-sm:                    .75rem !default;
+$input-font-size-sm:                    $input-btn-font-size-sm !default;
+
+$input-padding-y-lg:                    $input-btn-padding-y-lg !default;
+$input-padding-x-lg:                    $input-btn-padding-x-lg !default;
+$input-font-size-lg:                    $input-btn-font-size-lg !default;
+
+$input-bg:                              $gray-100 !default;
+$input-disabled-bg:                     $gray-300 !default;
+$input-disabled-border-color:           $gray-400 !default;
+
+$input-color:                           $gray-700 !default;
+$input-border-color:                    $gray-400 !default;
+$input-border-width:                    $input-btn-border-width !default;
+
+$input-border-radius:                   $border-radius !default;
+$input-border-radius-sm:                $border-radius-sm !default;
+$input-border-radius-lg:                $border-radius !default;
+
+$input-focus-bg:                        $input-bg !default;
+$input-focus-border-color:              $yellow !default;
+$input-focus-color:                     $black !default;
+$input-focus-width:                     $input-btn-focus-width !default;
+$input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
+
+$form-check-input-width:                  1em !default;
+$form-check-margin-bottom:                .125rem !default;
+
+$input-group-addon-color:               $input-color !default;
+$input-group-addon-bg:                  $white !default;
+
 // Navs
 // Navbar
-$navbar-dark-color:                $gray-800;
-$navbar-dark-hover-color:          $link-color;
-$navbar-dark-active-color:         $link-color;
-$navbar-dark-disabled-color:       rgba($gray-800, .3);
-$navbar-dark-toggler-border-color: transparent;
+$navbar-dark-color:                 $gray-800;
+$navbar-dark-hover-color:           $link-color;
+$navbar-dark-active-color:          $link-color;
+$navbar-dark-disabled-color:        rgba($gray-800, .3);
+$navbar-dark-toggler-border-color:  transparent;
 
 // Dropdowns
 // Pagination

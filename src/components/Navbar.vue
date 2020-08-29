@@ -74,11 +74,17 @@ export default {
       font-size: 1.67rem;
     }
 
-    .navbar .form-control,
-    .navbar .form-control:focus {
+    .navbar .form-control {
       background-color: $gray-900;
       border: 1px solid $gray-800;
       color: $gray-600;
+    }
+    
+    .navbar .form-control:focus {
+      border-color: $yellow;
+      background-color: $gray-900;
+      box-shadow: 0 0 12px rgba(255, 215, 102, 0.24);
+      color: $yellow;
     }
   }
 

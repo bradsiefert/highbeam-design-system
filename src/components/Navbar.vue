@@ -17,7 +17,7 @@
         <ul class="navbar-nav w-100">
           <form class="w-100 mx-lg-3 my-lg-1">
             <div class="input-group">
-              <input type="text" class="form-control rounded-pill" placeholder="Search...">
+              <input type="text" class="form-control" placeholder="Search documentation...">
             </div>
           </form>
           <li class="nav-item">
@@ -69,8 +69,8 @@ export default {
 
   @media (min-width: 993px) {
     .navbar-dark .navbar-nav .nav-link {
-      padding-top: 0rem;
-      padding-bottom: 0rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
       font-size: 1.67rem;
     }
 

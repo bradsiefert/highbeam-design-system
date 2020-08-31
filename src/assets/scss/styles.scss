@@ -220,14 +220,11 @@ pre[class*="language-html"] {
 }
 
 // Badges
-h1 .badge, .h1 .badge,
-h2 .badge, .h2 .badge,
-h3 .badge, .h3 .badge {
+h1 .badge, .h1 .badge, h2 .badge, .h2 .badge, h3 .badge, .h3 .badge {
   border-radius: 0.5rem;
 }
 
-h5 .badge, .h5 .badge,
-h6 .badge, .h6 .badge {
+h5 .badge, .h5 .badge, h6 .badge, .h6 .badge {
   padding: 0.2rem 0.4rem;
 }
 
@@ -338,18 +335,6 @@ button .badge {
   margin-bottom: 1rem;
 }
 
-.form-control.form-control-sm {
-  min-height: 2rem;
-}
-
-.form-control {
-  min-height: 2.5rem;
-}
-
-.form-control.form-control-lg {
-  min-height: 3rem;
-}
-
 .form-label {
   line-height: 1.2;
 }
@@ -380,7 +365,7 @@ button .badge {
 .form-control:disabled:focus, .form-control[readonly]:focus, .form-control-plaintext:focus {
   outline: 0;
   border: 1px solid $red-100;
-  box-shadow: 0 0 4px rgba(231, 65, 56, 0.16);
+  box-shadow: 0 0 4px rgba($red, 0.16);
 }
 
 .form-file-label {
@@ -401,10 +386,13 @@ button .badge {
   line-height: 1.5;
 }
 
+// .form-range {
+//   background-image: linear-gradient(180deg, #FFFFFF 0%, #F5F5F5 100%);
+//   border: 1px solid #CCCCCC;
+// }
+
 // Pagination
-.pagination,
-.pagination-sm,
-.pagination-lg {
+.pagination, .pagination-sm, .pagination-lg {
   font-family: $font-family-code;
   font-size: 0.8125rem;
   font-weight: 500;
@@ -449,6 +437,7 @@ button .badge {
 // Toasts
 .toast {
   opacity: 1;
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.08);
 }
 
 .toast-header {

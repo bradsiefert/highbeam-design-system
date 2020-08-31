@@ -193,11 +193,27 @@ $input-focus-color:                     $black !default;
 $input-focus-width:                     $input-btn-focus-width !default;
 $input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
 
-$form-check-input-width:                  1em !default;
-$form-check-margin-bottom:                .125rem !default;
+$form-check-input-width:                1em !default;
+$form-check-margin-bottom:              .125rem !default;
 
 $input-group-addon-color:               $input-color !default;
 $input-group-addon-bg:                  $white !default;
+
+$input-height:                          2.5rem !default;
+$input-height-sm:                       2rem !default;
+$input-height-lg:                       3rem !default;
+
+$form-range-thumb-width:                   1.25rem !default;
+$form-range-thumb-height:                  $form-range-thumb-width !default;
+$form-range-thumb-bg:                      $white !default;
+$form-range-thumb-border:                  1px solid #CCCCCC !default;
+$form-range-thumb-border-radius:           1rem !default;
+$form-range-thumb-box-shadow:              0 .1rem .25rem rgba($black, .5) !default;
+$form-range-thumb-focus-box-shadow:        0 0 0 1px $body-bg, $input-focus-box-shadow !default;
+$form-range-thumb-focus-box-shadow-width:  $input-focus-width !default; // For focus box shadow issue in Edge
+$form-range-thumb-active-bg:               lighten($component-active-bg, 35%) !default;
+$form-range-thumb-disabled-bg:             $gray-500 !default;
+$form-range-thumb-transition:              background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
 
 // Navs
 // Navbar

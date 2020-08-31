@@ -95,7 +95,7 @@
           <div class="card-body">
             <h2 class="card-example-heading">Color Tints</h2>
             <p>Description.</p>
-            <div class="row gx-3 font-monospace">
+            <div class="row gx-3 font-monospace text-center">
               
               <!-- Color: $blue -->
               <div class="col-sm-6 col-lg-3 mb-3">
@@ -151,11 +151,11 @@
                   <h3 class="h4 mt-1 mb-0">$cyan-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-cyan-400 py-2 px-3 mb-0 text-white">
+                <div class="bg-cyan-400 py-2 px-3 mb-0 text-dark">
                   <h3 class="h4 mt-1 mb-0">$cyan-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-cyan-500 py-2 px-3 mb-0 text-white">
+                <div class="bg-cyan-500 py-2 px-3 mb-0 text-dark">
                   <h3 class="h4 mt-1 mb-0">$cyan-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
@@ -351,7 +351,7 @@
                   <h3 class="h4 mt-1 mb-0">$orange-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-orange-400 py-2 px-3 mb-0 text-white">
+                <div class="bg-orange-400 py-2 px-3 mb-0 text-dark">
                   <h3 class="h4 mt-1 mb-0">$orange-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
@@ -391,15 +391,15 @@
                   <h3 class="h4 mt-1 mb-0">$yellow-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-yellow-400 py-2 px-3 mb-0 text-white">
+                <div class="bg-yellow-400 py-2 px-3 mb-0 text-dark">
                   <h3 class="h4 mt-1 mb-0">$yellow-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-yellow-500 py-2 px-3 mb-0 text-white">
+                <div class="bg-yellow-500 py-2 px-3 mb-0 text-dark">
                   <h3 class="h4 mt-1 mb-0">$yellow-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-yellow-600 py-2 px-3 mb-0 text-white">
+                <div class="bg-yellow-600 py-2 px-3 mb-0 text-dark">
                   <h3 class="h4 mt-1 mb-0">$yellow-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
@@ -431,11 +431,11 @@
                   <h3 class="h4 mt-1 mb-0">$teal-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-teal-400 py-2 px-3 mb-0 text-white">
+                <div class="bg-teal-400 py-2 px-3 mb-0 text-dark">
                   <h3 class="h4 mt-1 mb-0">$teal-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-teal-500 py-2 px-3 mb-0 text-white">
+                <div class="bg-teal-500 py-2 px-3 mb-0 text-dark">
                   <h3 class="h4 mt-1 mb-0">$teal-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
@@ -471,7 +471,7 @@
                   <h3 class="h4 mt-1 mb-0">$green-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-green-400 py-2 px-3 mb-0 text-white">
+                <div class="bg-green-400 py-2 px-3 mb-0 text-dark">
                   <h3 class="h4 mt-1 mb-0">$green-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>

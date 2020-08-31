@@ -6,7 +6,9 @@
 
         <h1>Forms</h1>
         <p>
-          paragraph
+          Form inputs are the way the user provides information to the system. The controls should be explained in 
+          plain language where necessary and laid out in a way that is easily consumable for the user. There are 
+          validation classes and pseudo classes available to ensure the proper data is inputed.
         </p>
 
         <!-- Start code chunk -->

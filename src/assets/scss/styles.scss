@@ -1,10 +1,12 @@
 // Importin'
 @import "variables-highbeam.scss";
+@import "code-highlights.scss";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 @import "~bootstrap";
+@import "docs.scss";
 
 body {
   margin-top: 64px;
@@ -14,150 +16,22 @@ p {
   letter-spacing: -0.1px;
 }
 
-// Sidebar & Content
-.ds-sidebar {
-  position: fixed;
-  top: 64px;
-  height: calc(100vh - 64px);
-  overflow-y: auto;
-  padding-bottom: 2rem;
-  border-right: 1px solid $gray-300;
-  background-color: $white;
-  min-width: 224px;
-}
-
-.ds-sidebar-header {
-  font-weight: 700;
-  font-size: 0.75rem;
-  color: $primary;
-  letter-spacing: 0.33px;
-  text-transform: uppercase;
-  padding: 1.5rem 1.5rem 0.5rem;
-}
-
-.ds-sidebar .navbar-nav .nav-link {
-  border: none;
-  font-size: 0.9375rem;
-  letter-spacing: -0.1px;
-  line-height: 1.25rem;
-  font-weight: 600;
-  color: $gray-800;
-  border-left: 4px solid #fff;
-  padding: 0.5rem 0.5rem 0.5rem 1.25rem;
-}
-
-.ds-sidebar .navbar-nav .nav-link.active,
-.ds-sidebar .navbar-nav .nav-link:hover {
-  background-color: #FFFCF3;
-  border-left: 4px solid #FFD24C;
-  color: $black;
-}
-
-.ds-sidebar svg {
-  // This is to properly space font awesome icons in the sidebar
-  margin-right: 0.5rem;
-  font-size: 1rem;
-}
-
-.ds-content {
-  // Should max the width of ds-sidebar
-  margin-left: 224px;
-  padding-top: 32px;
-  padding-bottom: 64px;
-}
-
-@media (max-width: 991px) {
-  // Clears the layout for mobile
-  .ds-sidebar {
-    display: none;
-  }
-
-  .ds-content {
-    margin-left: 0;
-  }
-}
-
-// Design System Layout
 @media (min-width: 1056px) {
   .skinny-contain {
     max-width: 1056px;
   }
 }
 
-.card-example {
-  margin-top: 1.5rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+// Typography
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+  letter-spacing: -0.24px;
+  margin-bottom: 0.5rem;
 }
 
-.card-example p {
-  font-size: 0.875rem;
-}
-
-.card-example-heading {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding-bottom: .5rem;
-  border-bottom: 1px solid $gray-200;
-}
-
-.card-example h3:first-of-type {
-  margin-top: 0;
-}
-
-.code-example {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-top: none;
-  background-color: $gray-200;
-  font-size: 0.875rem;
-  padding-bottom: 0.5rem;
-}
-
-.code-example-heading {
-  font-family: $font-family-monospace;
+h5, .h5, h6, .h6 {
   text-transform: uppercase;
-  font-size: 0.75rem;
-  margin-bottom: 0;
-  font-weight: 600;
-  color: $gray-800;
-  margin-right: 0.5rem;
-}
-
-// VueCodeHighlight Prism Code Styling Tweaks
-:not(pre) > code[class*="language-"], pre[class*="language-"] {
-  background-color: transparent !important;
-}
-
-pre[class*="language-"] {
-  padding: 0 !important;
-  margin: 0.5rem 0 1rem !important;
-}
-
-.token.atrule, .token.attr-value, .token.keyword {
-  color: darken($blue, 12%) !important;
-}
-
-.token.string, .token.attr-name {
-  color: darken($green, 12%) !important;
-}
-
-.token.tag {
-  color: darken($red, 12%) !important;
-}
-
-pre[class*="language-html"] {
-  .token.atrule, .token.attr-value, .token.keyword {
-    color: darken($red, 12%) !important;
-  }
-
-  .token.string, .token.attr-name {
-    color: darken($blue, 8%) !important;
-  }
-
-  .token.tag {
-    color: darken($info, 40%) !important;
-  }
+  letter-spacing: 0.24px;
 }
 
 // Alerts 
@@ -395,11 +269,6 @@ button .badge {
 .form-file-button {
   line-height: 1.5;
 }
-
-// .form-range {
-//   background-image: linear-gradient(180deg, #FFFFFF 0%, #F5F5F5 100%);
-//   border: 1px solid #CCCCCC;
-// }
 
 // Pagination
 .pagination, .pagination-sm, .pagination-lg {

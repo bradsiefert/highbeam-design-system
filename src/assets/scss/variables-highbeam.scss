@@ -103,7 +103,6 @@ $font-size-base:              1rem; // Assumes the browser default, typically `1
 $font-size-sm:                $font-size-base * .875 !default;
 $font-size-lg:                $font-size-base * 1.25 !default;
 
-$display-font-weight:         600;
 $headings-font-weight:        700;
 
 $line-height-base:            1.5 !default;
@@ -116,6 +115,17 @@ $h3-font-size:                $font-size-base * 1.25 !default;
 $h4-font-size:                $font-size-base * 1 !default;
 $h5-font-size:                $font-size-base * 0.75 !default;
 $h6-font-size:                $font-size-base * 0.6875 !default;
+
+$display-font-sizes: (
+  1: 4.5rem,
+  2: 4rem,
+  3: 3.5rem,
+  4: 3rem,
+  5: 2.5rem,
+  6: 2rem
+) !default;
+
+$display-font-weight:         600;
 
 $hr-color:                    $gray-200 !default;
 $hr-opacity:                  1 !default;

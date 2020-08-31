@@ -1,0 +1,35 @@
+// VueCodeHighlight Prism Code Styling Tweaks
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background-color: transparent !important;
+}
+
+pre[class*="language-"] {
+  padding: 0 !important;
+  margin: 0.5rem 0 1rem !important;
+}
+
+.token.atrule, .token.attr-value, .token.keyword {
+  color: darken($blue, 12%) !important;
+}
+
+.token.string, .token.attr-name {
+  color: darken($green, 12%) !important;
+}
+
+.token.tag {
+  color: darken($red, 12%) !important;
+}
+
+pre[class*="language-html"] {
+  .token.atrule, .token.attr-value, .token.keyword {
+    color: darken($red, 12%) !important;
+  }
+
+  .token.string, .token.attr-name {
+    color: darken($blue, 8%) !important;
+  }
+
+  .token.tag {
+    color: darken($info, 40%) !important;
+  }
+}

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+// Design System Overview
 import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
 import Framework from '@/views/Framework.vue'
@@ -10,7 +11,10 @@ import Colors from '@/views/Colors.vue'
 import Typography from '@/views/Typography.vue'
 import Icons from '@/views/Icons.vue'
 
-// Design System
+// Design System Data Components
+import Tables from '@/views/designsystem/data/Tables.vue'
+
+// Design System UI Elements
 import Alerts from '@/views/designsystem/ui/Alerts.vue'
 import Badges from '@/views/designsystem/ui/Badges.vue'
 import Breadcrumbs from '@/views/designsystem/ui/Breadcrumbs.vue'
@@ -20,7 +24,6 @@ import Forms from '@/views/designsystem/ui/Forms.vue'
 import Menus from '@/views/designsystem/ui/Menus.vue'
 import Pagination from '@/views/designsystem/ui/Pagination.vue'
 import ProgressBar from '@/views/designsystem/ui/ProgressBar.vue'
-import Tables from '@/views/designsystem/ui/Tables.vue'
 import Tabs from '@/views/designsystem/ui/Tabs.vue'
 import Toasts from '@/views/designsystem/ui/Toasts.vue'
 

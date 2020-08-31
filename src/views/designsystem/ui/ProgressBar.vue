@@ -33,13 +33,13 @@
 
             <h3 class="card-example-heading">Height, Color & Label</h3>
             <p>
-              The default height of the progress bar is 0.5rem or 8px. You can update the height of the bar by adding 
+              The default height of the progress bar is 8px. You can update the height of the bar by adding 
               <code>style="height: 4px;"</code> to the <code>progress</code> surrounding div. To add a label, add your 
               copy inside the <code>progress-bar</code> div. The color of the bar can be updated by using the standard 
               template colors like <code>bg-info</code>.
             </p> 
 
-            <div class="progress mb-3" style="height: 1px;">
+            <div class="progress mb-3" style="height: 2px;">
               <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <div class="progress mb-3" style="height: 4px;">

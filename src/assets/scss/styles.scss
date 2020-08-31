@@ -214,7 +214,7 @@ pre[class*="language-html"] {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 0.75rem;
-  letter-spacing: 0.33px;
+  letter-spacing: 0.5px;
   border-radius: 0;
   font-family: $font-family-monospace;
 }
@@ -331,12 +331,22 @@ button .badge {
 }
 
 // Forms
+.form-control, .form-select {
+  letter-spacing: -0.16px;
+}
+
 .form-group {
   margin-bottom: 1rem;
 }
 
 .form-label {
   line-height: 1.2;
+}
+
+.form-check label {
+  font-family: $font-family-monospace;
+  font-size: 0.9375rem;
+  letter-spacing: -0.24px;
 }
 
 .form-control:disabled, .form-control[readonly] {
@@ -354,7 +364,7 @@ button .badge {
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: $border-radius;
-  font-family: $font-family-code;
+  font-family: $font-family-monospace;
   font-size: 0.875rem;
 }
 

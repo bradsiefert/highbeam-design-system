@@ -194,7 +194,9 @@ $input-focus-width:                     $input-btn-focus-width !default;
 $input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
 
 $form-check-input-width:                1em !default;
-$form-check-margin-bottom:              .125rem !default;
+$form-check-padding-left:               $form-check-input-width + .5em !default;
+$form-check-margin-bottom:              .25rem !default;
+$form-check-label-cursor:               pointer !default;
 
 $input-group-addon-color:               $input-color !default;
 $input-group-addon-bg:                  $white !default;

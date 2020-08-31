@@ -278,19 +278,19 @@
                 <h4 class="mt-2">Checkboxes</h4>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault">Default checkbox</label>
+                  <label class="form-check-label" for="flexCheckDefault">Default Checkbox</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                  <label class="form-check-label" for="flexCheckChecked">Checked checkbox</label>
+                  <label class="form-check-label" for="flexCheckChecked">Checked Checkbox</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
-                  <label class="form-check-label" for="flexCheckDisabled">Inactive checkbox</label>
+                  <label class="form-check-label" for="flexCheckDisabled">Inactive Checkbox</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedInactive" checked disabled>
-                  <label class="form-check-label" for="flexCheckCheckedInactive">Inactive checked checkbox</label>
+                  <label class="form-check-label" for="flexCheckCheckedInactive">Inactive Checked Checkbox</label>
                 </div>
               </div>
 
@@ -298,19 +298,19 @@
                 <h4 class="mt-2">Radio Buttons</h4>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                  <label class="form-check-label" for="flexRadioDefault1">Default radio</label>
+                  <label class="form-check-label" for="flexRadioDefault1">Default Radio</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                  <label class="form-check-label" for="flexRadioDefault2">Default checked radio</label>
+                  <label class="form-check-label" for="flexRadioDefault2">Default Checked Radio</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
-                  <label class="form-check-label" for="flexRadioDisabled">Disabled radio</label>
+                  <label class="form-check-label" for="flexRadioDisabled">Disabled Radio</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" checked disabled>
-                  <label class="form-check-label" for="flexRadioCheckedDisabled">Disabled checked radio</label>
+                  <label class="form-check-label" for="flexRadioCheckedDisabled">Disabled Checked Radio</label>
                 </div>
               </div>
 
@@ -318,19 +318,19 @@
                 <h4 class="mt-2">Switches</h4>
                 <div class="form-check form-switch">
                   <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                  <label class="form-check-label" for="flexSwitchCheckDefault">Default switch</label>
+                  <label class="form-check-label" for="flexSwitchCheckDefault">Default Switch</label>
                 </div>
                 <div class="form-check form-switch">
                   <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                  <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch</label>
+                  <label class="form-check-label" for="flexSwitchCheckChecked">Checked Switch</label>
                 </div>
                 <div class="form-check form-switch">
                   <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
-                  <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch</label>
+                  <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled Switch</label>
                 </div>
                 <div class="form-check form-switch">
                   <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
-                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch</label>
+                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled Checked Switch</label>
                 </div>
               </div>
             </div>

@@ -524,19 +524,58 @@
           </div>
         </div> 
         <!-- End code chunk -->
+        
+        <!-- Start code chunk -->
+        <div class="card card-example">
+          <div class="card-body">
+            
+            <h3 class="card-example-heading">Validation</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <form>
+                  <div class="form-group">
+                    <label for="form-invalid" class="form-label">Email Address</label>
+                    <input type="email" class="form-control is-invalid" id="form-invalid" placeholder="name@emailcom">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="form-valid" class="form-label">Email Address</label>
+                    <input type="email" class="form-control is-valid" id="form-valid" placeholder="name@email.com">
+                  </div>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="card card-body code-example">
+          <div class="d-flex flex-row align-items-center justify-content-between">
+            <h6 class="code-example-heading">// HTML</h6>
+          </div>
+
+          <div v-highlight>
+            <pre class="language-html"><code>&lt;div class="form-group"&gt;
+  &lt;label for="form-invalid" class="form-label"&gt;Email Address&lt;/label&gt;
+  &lt;input type="email" class="form-control is-invalid" id="form-invalid" placeholder="name@emailcom"&gt;
+&lt;/div&gt;
+
+&lt;div class="form-group"&gt;
+  &lt;label for="form-valid" class="form-label"&gt;Email Address&lt;/label&gt;
+  &lt;input type="email" class="form-control is-valid" id="form-valid" placeholder="name@email.com"&gt;
+&lt;/div&gt;</code></pre>
+          </div>
+        </div> 
+        <!-- End code chunk -->
 
       </div>
     </div>
     
-    <div class="row">
-      <div class="col-sm">
-        <div class="card my-4">
-          <div class="card-body card-body-sm text-center">
-            For more info → <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/forms/overview/">
-              Bootstrap v5 / Forms
-            </a>
-          </div>
-        </div>
+
+    <div class="card my-4">
+      <div class="card-body card-body-sm text-center">
+        For more info → <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/forms/overview/">
+          Bootstrap v5 / Forms
+        </a>
       </div>
     </div>
 

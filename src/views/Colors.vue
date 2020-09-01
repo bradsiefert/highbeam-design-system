@@ -100,39 +100,39 @@
               <!-- Color: $blue -->
               <div class="col-sm-6 col-lg-3 mb-3">
                 <div class="bg-blue-100 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$blue-100</h3>
+                  <h3 class="h4 lh-lg mb-0">$blue-100</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-blue-200 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$blue-200</h3>
+                  <h3 class="h4 lh-lg mb-0">$blue-200</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-blue-300 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$blue-300</h3>
+                  <h3 class="h4 lh-lg mb-0">$blue-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-blue-400 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$blue-400</h3>
+                  <h3 class="h4 lh-lg mb-0">$blue-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-blue-500 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$blue-500</h3>
+                  <h3 class="h4 lh-lg mb-0">$blue-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-blue-600 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$blue-600</h3>
+                  <h3 class="h4 lh-lg mb-0">$blue-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-blue-700 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$blue-700</h3>
+                  <h3 class="h4 lh-lg mb-0">$blue-700</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-blue-800 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$blue-800</h3>
+                  <h3 class="h4 lh-lg mb-0">$blue-800</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-blue-900 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$blue-900</h3>
+                  <h3 class="h4 lh-lg mb-0">$blue-900</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>
@@ -140,119 +140,119 @@
               <!-- Color: $cyan -->
               <div class="col-sm-6 col-lg-3 mb-3">
                 <div class="bg-cyan-100 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$cyan-100</h3>
+                  <h3 class="h4 lh-lg mb-0">$cyan-100</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-cyan-200 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$cyan-200</h3>
+                  <h3 class="h4 lh-lg mb-0">$cyan-200</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-cyan-300 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$cyan-300</h3>
+                  <h3 class="h4 lh-lg mb-0">$cyan-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-cyan-400 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$cyan-400</h3>
+                  <h3 class="h4 lh-lg mb-0">$cyan-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-cyan-500 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$cyan-500</h3>
+                <div class="bg-cyan-500 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$cyan-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-cyan-600 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$cyan-600</h3>
+                  <h3 class="h4 lh-lg mb-0">$cyan-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-cyan-700 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$cyan-700</h3>
+                  <h3 class="h4 lh-lg mb-0">$cyan-700</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-cyan-800 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$cyan-800</h3>
+                  <h3 class="h4 lh-lg mb-0">$cyan-800</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-cyan-900 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$cyan-900</h3>
+                  <h3 class="h4 lh-lg mb-0">$cyan-900</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>
 
-              <!-- Color: $indigo -->
+              <!-- Color: $purple -->
               <div class="col-sm-6 col-lg-3 mb-3">
-                <div class="bg-indigo-100 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$indigo-100</h3>
+                <div class="bg-purple-100 py-2 px-3 mb-0 text-dark">
+                  <h3 class="h4 lh-lg mb-0">$purple-100</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-indigo-200 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$indigo-200</h3>
+                <div class="bg-purple-200 py-2 px-3 mb-0 text-dark">
+                  <h3 class="h4 lh-lg mb-0">$purple-200</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-indigo-300 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$indigo-300</h3>
+                <div class="bg-purple-300 py-2 px-3 mb-0 text-dark">
+                  <h3 class="h4 lh-lg mb-0">$purple-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-indigo-400 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$indigo-400</h3>
+                <div class="bg-purple-400 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$purple-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-indigo-500 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$indigo-500</h3>
+                <div class="bg-purple-500 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$purple-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-indigo-600 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$indigo-600</h3>
+                <div class="bg-purple-600 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$purple-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-indigo-700 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$indigo-700</h3>
+                <div class="bg-purple-700 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$purple-700</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-indigo-800 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$indigo-800</h3>
+                <div class="bg-purple-800 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$purple-800</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-indigo-900 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$indigo-900</h3>
+                <div class="bg-purple-900 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$purple-900</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>
               
-              <!-- Color: $purple -->
+              <!-- Color: $indigo -->
               <div class="col-sm-6 col-lg-3 mb-3">
-                <div class="bg-purple-100 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$purple-100</h3>
+                <div class="bg-indigo-100 py-2 px-3 mb-0 text-dark">
+                  <h3 class="h4 lh-lg mb-0">$indigo-100</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-purple-200 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$purple-200</h3>
+                <div class="bg-indigo-200 py-2 px-3 mb-0 text-dark">
+                  <h3 class="h4 lh-lg mb-0">$indigo-200</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-purple-300 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$purple-300</h3>
+                <div class="bg-indigo-300 py-2 px-3 mb-0 text-dark">
+                  <h3 class="h4 lh-lg mb-0">$indigo-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-purple-400 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$purple-400</h3>
+                <div class="bg-indigo-400 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$indigo-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-purple-500 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$purple-500</h3>
+                <div class="bg-indigo-500 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$indigo-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-purple-600 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$purple-600</h3>
+                <div class="bg-indigo-600 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$indigo-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-purple-700 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$purple-700</h3>
+                <div class="bg-indigo-700 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$indigo-700</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-purple-800 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$purple-800</h3>
+                <div class="bg-indigo-800 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$indigo-800</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
-                <div class="bg-purple-900 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$purple-900</h3>
+                <div class="bg-indigo-900 py-2 px-3 mb-0 text-white">
+                  <h3 class="h4 lh-lg mb-0">$indigo-900</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>
@@ -260,39 +260,39 @@
               <!-- Color: $pink -->
               <div class="col-sm-6 col-lg-3 mb-3">
                 <div class="bg-pink-100 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$pink-100</h3>
+                  <h3 class="h4 lh-lg mb-0">$pink-100</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-pink-200 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$pink-200</h3>
+                  <h3 class="h4 lh-lg mb-0">$pink-200</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-pink-300 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$pink-300</h3>
+                  <h3 class="h4 lh-lg mb-0">$pink-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-pink-400 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$pink-400</h3>
+                  <h3 class="h4 lh-lg mb-0">$pink-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-pink-500 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$pink-500</h3>
+                  <h3 class="h4 lh-lg mb-0">$pink-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-pink-600 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$pink-600</h3>
+                  <h3 class="h4 lh-lg mb-0">$pink-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-pink-700 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$pink-700</h3>
+                  <h3 class="h4 lh-lg mb-0">$pink-700</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-pink-800 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$pink-800</h3>
+                  <h3 class="h4 lh-lg mb-0">$pink-800</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-pink-900 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$pink-900</h3>
+                  <h3 class="h4 lh-lg mb-0">$pink-900</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>
@@ -300,39 +300,39 @@
               <!-- Color: $red -->
               <div class="col-sm-6 col-lg-3 mb-3">
                 <div class="bg-red-100 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$red-100</h3>
+                  <h3 class="h4 lh-lg mb-0">$red-100</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-red-200 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$red-200</h3>
+                  <h3 class="h4 lh-lg mb-0">$red-200</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-red-300 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$red-300</h3>
+                  <h3 class="h4 lh-lg mb-0">$red-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-red-400 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$red-400</h3>
+                  <h3 class="h4 lh-lg mb-0">$red-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-red-500 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$red-500</h3>
+                  <h3 class="h4 lh-lg mb-0">$red-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-red-600 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$red-600</h3>
+                  <h3 class="h4 lh-lg mb-0">$red-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-red-700 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$red-700</h3>
+                  <h3 class="h4 lh-lg mb-0">$red-700</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-red-800 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$red-800</h3>
+                  <h3 class="h4 lh-lg mb-0">$red-800</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-red-900 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$red-900</h3>
+                  <h3 class="h4 lh-lg mb-0">$red-900</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>
@@ -340,39 +340,39 @@
               <!-- Color: $red -->
               <div class="col-sm-6 col-lg-3 mb-3">
                 <div class="bg-orange-100 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$orange-100</h3>
+                  <h3 class="h4 lh-lg mb-0">$orange-100</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-orange-200 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$orange-200</h3>
+                  <h3 class="h4 lh-lg mb-0">$orange-200</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-orange-300 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$orange-300</h3>
+                  <h3 class="h4 lh-lg mb-0">$orange-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-orange-400 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$orange-400</h3>
+                  <h3 class="h4 lh-lg mb-0">$orange-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-orange-500 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$orange-500</h3>
+                  <h3 class="h4 lh-lg mb-0">$orange-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-orange-600 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$orange-600</h3>
+                  <h3 class="h4 lh-lg mb-0">$orange-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-orange-700 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$orange-700</h3>
+                  <h3 class="h4 lh-lg mb-0">$orange-700</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-orange-800 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$orange-800</h3>
+                  <h3 class="h4 lh-lg mb-0">$orange-800</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-orange-900 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$orange-900</h3>
+                  <h3 class="h4 lh-lg mb-0">$orange-900</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>
@@ -380,39 +380,39 @@
               <!-- Color: $yellow -->
               <div class="col-sm-6 col-lg-3 mb-3">
                 <div class="bg-yellow-100 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$yellow-100</h3>
+                  <h3 class="h4 lh-lg mb-0">$yellow-100</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-yellow-200 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$yellow-200</h3>
+                  <h3 class="h4 lh-lg mb-0">$yellow-200</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-yellow-300 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$yellow-300</h3>
+                  <h3 class="h4 lh-lg mb-0">$yellow-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-yellow-400 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$yellow-400</h3>
+                  <h3 class="h4 lh-lg mb-0">$yellow-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-yellow-500 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$yellow-500</h3>
+                  <h3 class="h4 lh-lg mb-0">$yellow-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-yellow-600 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$yellow-600</h3>
+                  <h3 class="h4 lh-lg mb-0">$yellow-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-yellow-700 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$yellow-700</h3>
+                  <h3 class="h4 lh-lg mb-0">$yellow-700</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-yellow-800 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$yellow-800</h3>
+                  <h3 class="h4 lh-lg mb-0">$yellow-800</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-yellow-900 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$yellow-900</h3>
+                  <h3 class="h4 lh-lg mb-0">$yellow-900</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>
@@ -420,39 +420,39 @@
               <!-- Color: $teal -->
               <div class="col-sm-6 col-lg-3 mb-3">
                 <div class="bg-teal-100 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$teal-100</h3>
+                  <h3 class="h4 lh-lg mb-0">$teal-100</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-teal-200 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$teal-200</h3>
+                  <h3 class="h4 lh-lg mb-0">$teal-200</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-teal-300 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$teal-300</h3>
+                  <h3 class="h4 lh-lg mb-0">$teal-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-teal-400 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$teal-400</h3>
+                  <h3 class="h4 lh-lg mb-0">$teal-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-teal-500 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$teal-500</h3>
+                  <h3 class="h4 lh-lg mb-0">$teal-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-teal-600 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$teal-600</h3>
+                  <h3 class="h4 lh-lg mb-0">$teal-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-teal-700 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$teal-700</h3>
+                  <h3 class="h4 lh-lg mb-0">$teal-700</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-teal-800 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$teal-800</h3>
+                  <h3 class="h4 lh-lg mb-0">$teal-800</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-teal-900 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$teal-900</h3>
+                  <h3 class="h4 lh-lg mb-0">$teal-900</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>
@@ -460,39 +460,39 @@
               <!-- Color: $green -->
               <div class="col-sm-6 col-lg-3 mb-3">
                 <div class="bg-green-100 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$green-100</h3>
+                  <h3 class="h4 lh-lg mb-0">$green-100</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-green-200 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$green-200</h3>
+                  <h3 class="h4 lh-lg mb-0">$green-200</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-green-300 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$green-300</h3>
+                  <h3 class="h4 lh-lg mb-0">$green-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-green-400 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$green-400</h3>
+                  <h3 class="h4 lh-lg mb-0">$green-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-green-500 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$green-500</h3>
+                  <h3 class="h4 lh-lg mb-0">$green-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-green-600 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$green-600</h3>
+                  <h3 class="h4 lh-lg mb-0">$green-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-green-700 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$green-700</h3>
+                  <h3 class="h4 lh-lg mb-0">$green-700</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-green-800 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$green-800</h3>
+                  <h3 class="h4 lh-lg mb-0">$green-800</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-green-900 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$green-900</h3>
+                  <h3 class="h4 lh-lg mb-0">$green-900</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>
@@ -500,39 +500,39 @@
               <!-- Color: $gray -->
               <div class="col-sm-6 col-lg-3 mb-3">
                 <div class="bg-gray-100 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$gray-100</h3>
+                  <h3 class="h4 lh-lg mb-0">$gray-100</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-gray-200 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$gray-200</h3>
+                  <h3 class="h4 lh-lg mb-0">$gray-200</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-gray-300 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$gray-300</h3>
+                  <h3 class="h4 lh-lg mb-0">$gray-300</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-gray-400 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$gray-400</h3>
+                  <h3 class="h4 lh-lg mb-0">$gray-400</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-gray-500 py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$gray-500</h3>
+                  <h3 class="h4 lh-lg mb-0">$gray-500</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-gray-600 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$gray-600</h3>
+                  <h3 class="h4 lh-lg mb-0">$gray-600</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-gray-700 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$gray-700</h3>
+                  <h3 class="h4 lh-lg mb-0">$gray-700</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-gray-800 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$gray-800</h3>
+                  <h3 class="h4 lh-lg mb-0">$gray-800</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-gray-900 py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$gray-900</h3>
+                  <h3 class="h4 lh-lg mb-0">$gray-900</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>
@@ -540,11 +540,11 @@
               <!-- Color: $gray -->
               <div class="col-sm-6 col-lg-3 mb-3">
                 <div class="bg-white py-2 px-3 mb-0 text-dark">
-                  <h3 class="h4 mt-1 mb-0">$white</h3>
+                  <h3 class="h4 lh-lg mb-0">$white</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
                 <div class="bg-black py-2 px-3 mb-0 text-white">
-                  <h3 class="h4 mt-1 mb-0">$black</h3>
+                  <h3 class="h4 lh-lg mb-0">$black</h3>
                   <!-- <span class="small is-monospaced">#000000</span> -->
                 </div>
               </div>

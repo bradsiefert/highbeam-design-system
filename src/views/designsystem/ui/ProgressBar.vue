@@ -6,7 +6,8 @@
 
         <h1>Progress Bar</h1>
         <p>
-          Coming Soon
+          Progress Bars are a way to show how far along some data point is. They're helpful for multiple step 
+          registrations or showing a single kind of percentage data point that is easily derived from a total.
         </p>
         
         <!-- Start code chunk -->
@@ -57,7 +58,32 @@
           </div>
 
           <div v-highlight>
-            <pre class="language-html"><code></code></pre>
+            <pre class="language-html"><code>&lt;div class="progress"&gt;
+  &lt;div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+// Sizing
+&lt;div class="progress" style="height: 2px;"&gt;
+  &lt;div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="progress" style="height: 4px;"&gt;
+  &lt;div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="progress" style="height: 16px;"&gt;
+  &lt;div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"&gt;75%&lt;/div&gt;
+&lt;/div&gt;</code></pre>
           </div>
         </div> 
         <!-- End code chunk -->

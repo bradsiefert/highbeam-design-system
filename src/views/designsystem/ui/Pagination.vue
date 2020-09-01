@@ -14,7 +14,7 @@
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            <h3 class="card-example-heading">Small Pagination</h3>
+            <h3 class="card-example-heading">Pagination Sizing</h3>
             <nav aria-label="Page Navigation Small">
               <ul class="pagination pagination-sm">
                 <li class="page-item disabled"><a class="page-link" href="#">Prev</a></li>
@@ -25,8 +25,6 @@
               </ul>
             </nav>
 
-            <hr>
-            <h3 class="card-example-heading">Normal Pagination</h3>
             <nav aria-label="Page Navigation Regular">
               <ul class="pagination">
                 <li class="page-item disabled"><a class="page-link" href="#">Prev</a></li>
@@ -37,8 +35,6 @@
               </ul>
             </nav>
 
-            <hr>
-            <h3 class="card-example-heading">Large Pagination</h3>
             <nav aria-label="Page Navigation Large">
               <ul class="pagination pagination-lg">
                 <li class="page-item disabled"><a class="page-link" href="#">Prev</a></li>

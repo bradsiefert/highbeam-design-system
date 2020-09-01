@@ -156,7 +156,7 @@ $input-btn-font-size-lg:          0.9375rem !default;
 $input-btn-border-width:          $border-width !default;
 
 // Buttons
-$btn-font-weight:                 500 !default;
+$btn-font-weight:                 600 !default;
 
 // Forms
 $form-text-margin-top:                  .5rem !default;
@@ -308,4 +308,4 @@ $breadcrumb-divider:                quote("/") !default;
 // Spinners
 // Close
 // Code
-$code-color:                        $blue !default;
+$code-color:                        darken($info, 16%) !default;

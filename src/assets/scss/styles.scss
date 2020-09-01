@@ -3,8 +3,8 @@
 @import "code-highlights.scss";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 @import "~bootstrap";
 @import "docs.scss";
 
@@ -16,9 +16,13 @@ p {
   letter-spacing: -0.1px;
 }
 
-@media (min-width: 1056px) {
+hr {
+  margin: 1.5rem auto;
+}
+
+@media (min-width: 1024px) {
   .skinny-contain {
-    max-width: 1056px;
+    max-width: 1024px;
   }
 }
 
@@ -99,11 +103,11 @@ h5, .h5, h6, .h6 {
 }
 
 h1 .badge, .h1 .badge {
-  padding: 0.25rem 0.675rem;
+  padding: 0.25rem 0.875rem;
 }
 
 h2 .badge, .h2 .badge, h3 .badge, .h3 .badge {
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.75rem;
 }
 
 h4 .badge, .h4 .badge, h5 .badge, .h5 .badge, h6 .badge, .h6 .badge {

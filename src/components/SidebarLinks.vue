@@ -2,7 +2,6 @@
   <div>
     <div class="ds-sidebar-header">Design System</div>
     <router-link class="nav-link" to="/" exact>Overview</router-link>
-    <router-link class="nav-link" to="/framework">Framework</router-link>
     <router-link class="nav-link" to="/grid">Containers & Grid</router-link>
     <router-link class="nav-link" to="/spacing">Spacing</router-link>
     <router-link class="nav-link" to="/colors">Colors</router-link>
@@ -27,7 +26,7 @@
     <router-link class="nav-link" to="/designsystem/ui/tabs/">Tabs</router-link>
     <router-link class="nav-link" to="/designsystem/ui/toasts/">Toasts</router-link>
 
-    <div class="ds-sidebar-header">Javascript Actions</div>
+    <div class="ds-sidebar-header">JS Components</div>
     <router-link class="nav-link" to="/designsystem/ui/collapse/">Collapse <span class="badge rounded-pill bg-highlight text-dark">Coming Soon</span></router-link>
     <router-link class="nav-link" to="/designsystem/ui/dropdowns/">Dropdowns <span class="badge rounded-pill bg-highlight text-dark">Coming Soon</span></router-link>
     <router-link class="nav-link" to="/designsystem/ui/modals/">Modals <span class="badge rounded-pill bg-highlight text-dark">Coming Soon</span></router-link>

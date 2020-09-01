@@ -4,7 +4,6 @@ import VueRouter from 'vue-router'
 // Design System Overview
 import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
-import Framework from '@/views/Framework.vue'
 import ContainersandGrid from '@/views/ContainersandGrid.vue'
 import Spacing from '@/views/Spacing.vue'
 import Colors from '@/views/Colors.vue'
@@ -33,7 +32,6 @@ Vue.use(VueRouter)
   // Design System Overview
   { path: '/', name: 'Home', component: Home },
   { path: '/about', name: 'About', component: About },
-  { path: '/framework', name: 'Framework', component: Framework },
   { path: '/grid', name: 'ContainersandGrid', component: ContainersandGrid },
   { path: '/spacing', name: 'Spacing', component: Spacing },
   { path: '/colors', name: 'Colors', component: Colors },

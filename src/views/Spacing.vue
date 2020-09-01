@@ -12,6 +12,9 @@
         </nav>
 
         <h1 class="mt-4">Spacing</h1>
+        <h2>
+          <span class="badge bg-highlight text-dark mb-3">Under Construction</span>
+        </h2>
         <p>
           To be honest I've found Bootstrap's spacers to be lacking. I need many more options than the few they 
           offered. I took their 6 spaces and increased it them to 12 which I've found dramatically helps the 

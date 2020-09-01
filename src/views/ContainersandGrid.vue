@@ -12,10 +12,11 @@
         </nav>
 
         <h1 class="mt-4">Containers & Grid</h1>
+        <h2>
+          <span class="badge bg-highlight text-dark mb-3">Under Construction</span>
+        </h2>
         <p>
-          Highbeam is a design system built by Brad Siefert with help from Kris Kroski, EddieVB and the Earlybird 
-          team. It's the set of design principles and user interface elements that make up our products. It's meant 
-          to be a reference guide to more quickly and consistently create web apps for our clients.
+          Description coming soon.
         </p>
       </div>
     </div>

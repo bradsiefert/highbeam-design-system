@@ -13,88 +13,92 @@
 
         <h1 class="mt-4">Colors</h1>
         <p>
-          Description.
+          Colors bring a design to life. They tell the user which actions to take and help identify what's most important. 
         </p>
 
         <!-- Start code chunk -->
-        <div class="card card-example">
+        <div class="card card-example rounded">
           <div class="card-body">
             <h2 class="card-example-heading">Theme Colors</h2>
-            <p class="mb-2">
-              Description.
+            <p>
+              Bootstrap has these base theme colors that they use for alerts, buttons, badges, and all sorts of 
+              other places throughout the framework. They're given a more abstract name like "danger" or "warning" 
+              to help you remember the ways they might be used. I've added two colors to the theme: "tip" and 
+              "highlight". Tip uses <code>$teal</code> and Highlight uses <code>$yellow</code>. Making these theme 
+              colors makes it so there are badges, alerts, and buttons with those names available in the system. 
             </p>
-            <div class="row gx-3">
+            
+            <p class="mb-2">
+              Each color has been tweaked to better fit this design system. They're more saturated, brighter, and 
+              vibrant. There are 9 different gray colors that are used quite a bit throughout the system. The 
+              original grays all had blueish tints which have been updated to be pure grayscale.
+            </p>
+            <div class="row gx-3 mb-6">
               <div class="col-sm-6 col-lg-3">
                 <div class="bg-primary p-3 mt-3"></div>
-                  <small><strong>Primary</strong></small> <div class="small lh-lg font-monospace text-black-50 float-right">#0775ED</div>
+                  <small><strong>Primary</strong></small>
+                  <div class="small lh-lg font-monospace text-black-50 float-right">#0775ED</div>
               </div>
               <div class="col-sm-6 col-lg-3">
                 <div class="bg-info p-3 mt-3"></div>
-                  <small><strong>Info</strong></small> <div class="small lh-lg font-monospace text-black-50 float-right">#43BCFF</div>
+                  <small><strong>Info</strong></small>
+                  <div class="small lh-lg font-monospace text-black-50 float-right">#43BCFF</div>
               </div>
               <div class="col-sm-6 col-lg-3">
                 <div class="bg-success p-3 mt-3"></div>
-                <small><strong>Success</strong></small> <div class="small lh-lg font-monospace text-black-50 float-right">#17BE64</div>
+                <small><strong>Success</strong></small>
+                <div class="small lh-lg font-monospace text-black-50 float-right">#17BE64</div>
               </div>
               <div class="col-sm-6 col-lg-3">
                 <div class="bg-tip p-3 mt-3"></div>
-                  <small><strong>Tip</strong></small> <div class="small lh-lg font-monospace text-black-50 float-right">#10E1A3</div>
+                  <small><strong>Tip</strong></small>
+                  <div class="small lh-lg font-monospace text-black-50 float-right">#10E1A3</div>
               </div>
               <div class="col-sm-6 col-lg-3">
                 <div class="bg-danger p-3 mt-3"></div>
-                  <small><strong>Danger</strong></small> <div class="small lh-lg font-monospace text-black-50 float-right">#E74138</div>
+                  <small><strong>Danger</strong></small>
+                  <div class="small lh-lg font-monospace text-black-50 float-right">#E74138</div>
               </div>
               <div class="col-sm-6 col-lg-3">
                 <div class="bg-warning p-3 mt-3"></div>
-                <small><strong>Warning</strong></small> <div class="small lh-lg font-monospace text-black-50 float-right">#FC9332</div>
+                <small><strong>Warning</strong></small>
+                <div class="small lh-lg font-monospace text-black-50 float-right">#FC9332</div>
               </div>
               <div class="col-sm-6 col-lg-3">
                 <div class="bg-highlight p-3 mt-3"></div>
-                  <small><strong>Highlight</strong></small> <div class="small lh-lg is-monospaced text-black-50 float-right">#FFD766</div>
+                  <small><strong>Highlight</strong></small>
+                  <div class="small lh-lg is-monospaced text-black-50 float-right">#FFD766</div>
               </div>
               <div class="col-sm-6 col-lg-3">
                 <div class="bg-light p-3 mt-3"></div>
-                  <small><strong>Light</strong></small> <div class="small lh-lg is-monospaced text-black-50 float-right">#FAFAFA</div>
+                  <small><strong>Light</strong></small>
+                  <div class="small lh-lg is-monospaced text-black-50 float-right">#FAFAFA</div>
               </div>
               <div class="col-sm-6 col-lg-3">
                 <div class="bg-secondary p-3 mt-3"></div>
-                  <small><strong>Secondary</strong></small> <div class="small lh-lg is-monospaced text-black-50 float-right">#999999</div>
+                  <small><strong>Secondary</strong></small>
+                  <div class="small lh-lg is-monospaced text-black-50 float-right">#999999</div>
               </div>
               <div class="col-sm-6 col-lg-3">
                 <div class="bg-dark p-3 mt-3"></div>
-                  <small><strong>Dark</strong></small> <div class="small lh-lg is-monospaced text-black-50 float-right">#333333</div>
+                  <small><strong>Dark</strong></small>
+                  <div class="small lh-lg is-monospaced text-black-50 float-right">#333333</div>
               </div>
             </div>
 
-          </div>
-        </div>
-        <div class="card card-body code-example">
-          <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="code-example-heading">// SCSS</h6>
-          </div>
-
-          <div v-highlight>
-            <pre class="language-javascript"><code>$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "highlight":  $highlight,
-  "tip":        $tip,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-) !default;</code></pre>
-          </div>
-        </div> 
-        <!-- End code chunk -->
-        
-        <!-- Start code chunk -->
-        <div class="card card-example">
-          <div class="card-body">
             <h2 class="card-example-heading">Color Tints</h2>
-            <p>Description.</p>
+            <p>
+              Bootstrap v5 includes this wonderful series of color tints to the system. The "500" version of 
+              colors matches the same hue and tint as the theme colors. For example, <code>$blue-500</code> is 
+              the same color as <code>$primary</code> and <code>$blue</code>. Each of the tints is a SCSS variable 
+              which can be used throughout your SCSS files. 
+            </p>
+            
+            <p>
+              Be sure to ensure the element has enough contrast when you use one of these colors as a text or 
+              background color. You can use the CSS class <code>.text-dark</code> if you need to darken an 
+              elements text to ensure it has enough contrast.
+            </p>
             <div class="row gx-3 font-monospace text-center">
               
               <!-- Color: $blue -->

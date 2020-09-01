@@ -70,7 +70,7 @@
         </p>
         <div class="d-lg-flex align-items-center text-center">
           <div>
-            <button type="button" class="btn btn-highlight btn-lg mr-3 mb-3">↓ Download Sketch File v0</button>
+            <button type="button" class="btn btn-highlight btn-lg mr-md-4 mb-3">↓ Download Sketch File v0</button>
           </div>
           <p>
             Last update: <code class="mr-2">2020-09-XX</code>

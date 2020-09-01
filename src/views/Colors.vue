@@ -90,7 +90,7 @@
             <p>
               Bootstrap v5 includes this wonderful series of color tints to the system. The "500" version of 
               colors matches the same hue and tint as the theme colors. For example, <code>$blue-500</code> is 
-              the same color as <code>$primary</code> and <code>$blue</code>. Each of the tints is a SCSS variable 
+              the same color as <code>$primary</code> and <code>$blue</code>. Each tint is a SCSS variable 
               which can be used throughout your SCSS files. 
             </p>
             

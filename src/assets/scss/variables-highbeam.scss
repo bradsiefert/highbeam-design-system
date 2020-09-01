@@ -277,9 +277,9 @@ $toast-header-border-color:         $gray-300 !default;
 
 // Badges
 $badge-font-weight:                 600 !default;
-$badge-padding-y:                   .25em !default;
+$badge-padding-y:                   2px !default;
 $badge-padding-x:                   .5rem !default;
-$badge-border-radius:               $border-radius-lg !default;
+$badge-border-radius:               2rem !default;
 
 // Modals
 // Alerts
@@ -289,7 +289,6 @@ $alert-link-font-weight:            600 !default;
 
 // Progress Bars
 $progress-height:                   0.5rem !default;
-
 
 // List Group
 // Image Thumbnails

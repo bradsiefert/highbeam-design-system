@@ -94,12 +94,20 @@ h5, .h5, h6, .h6 {
 }
 
 // Badges
-h1 .badge, .h1 .badge, h2 .badge, .h2 .badge, h3 .badge, .h3 .badge {
-  border-radius: 0.5rem;
+.badge {
+  line-height: 1.1;
 }
 
-h5 .badge, .h5 .badge, h6 .badge, .h6 .badge {
-  padding: 0.2rem 0.4rem;
+h1 .badge, .h1 .badge {
+  padding: 0.25rem 0.675rem;
+}
+
+h2 .badge, .h2 .badge, h3 .badge, .h3 .badge {
+  padding: 0.25rem 0.5rem;
+}
+
+h4 .badge, .h4 .badge, h5 .badge, .h5 .badge, h6 .badge, .h6 .badge {
+  padding: 0.25rem 0.375rem;
 }
 
 button .badge {

@@ -1,5 +1,5 @@
 <template>
-  <div class="container skinny-contain">
+  <div class="container slim-contain">
     <div class="row">
       <div class="col-sm">
         <breadcrumbs :previous="{ '/': 'Home', '/designsystem': 'Design System' }" active="Tabs"/>

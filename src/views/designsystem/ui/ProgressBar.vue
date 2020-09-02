@@ -1,5 +1,5 @@
 <template>
-  <div class="container skinny-contain">
+  <div class="container slim-contain">
     <div class="row">
       <div class="col-sm">
         <breadcrumbs :previous="{ '/': 'Home', '/designsystem': 'Design System' }" active="Progress Bar"/>
@@ -35,9 +35,9 @@
             <h3 class="card-example-heading">Height, Color & Label</h3>
             <p>
               The default height of the progress bar is 8px. You can update the height of the bar by adding 
-              <code>style="height: 4px;"</code> to the <code>progress</code> surrounding div. To add a label, add your 
-              copy inside the <code>progress-bar</code> div. The color of the bar can be updated by using the standard 
-              template colors like <code>bg-info</code>.
+              <code>style="height: 4px;"</code> to the <code>.progress</code> surrounding div. To add a label, 
+              add your copy inside the <code>.progress-bar</code> div. The color of the bar can be updated by 
+              using the standard template colors like <code>.bg-info</code>.
             </p> 
 
             <div class="progress mb-3" style="height: 2px;">

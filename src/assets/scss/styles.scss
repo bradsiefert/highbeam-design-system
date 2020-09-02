@@ -21,8 +21,20 @@ hr {
 }
 
 @media (min-width: 1024px) {
-  .skinny-contain {
+  .slim-contain {
     max-width: 1024px;
+  }
+}
+
+@media (min-width: 800px) {
+  .skinny-contain {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 544px) {
+  .scrawny-contain {
+    max-width: 544px;
   }
 }
 
@@ -206,8 +218,7 @@ button .badge {
 
 // Code
 code {
-  font-size: 0.9375rem;
-  background-color: rgba(160, 160, 160, 0.08);
+  background-color: rgba(176, 176, 176, 0.08);
   padding: .125rem .25rem;
 }
 
@@ -333,6 +344,15 @@ label.list-group-item {
 // Tables
 .table-sm {
   font-size: 0.8125rem;
+}
+
+.table {
+  font-size: 0.875rem;
+}
+
+.is-narrow {
+  white-space: nowrap;
+  width: 1%;
 }
 
 // Toasts

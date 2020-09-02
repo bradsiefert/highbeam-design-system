@@ -1,5 +1,5 @@
 <template>
-  <div class="container skinny-contain">
+  <div class="container slim-contain">
     <div class="row">
       <div class="col-sm">
 
@@ -12,12 +12,22 @@
         </nav>
 
         <h1 class="mt-4">Icons</h1>
-        <h2>
+        <h3>
           <span class="badge bg-highlight text-dark mb-3">Under Construction</span>
-        </h2>
+        </h3>
         <p>
           Description coming soon.
         </p>
+        
+        <div class="card my-4">
+          <div class="card-body card-body-sm text-center">
+            More information about icons → 
+            <a target="_blank" href="https://fontawesome.com/icons?d=gallery&m=free">
+              Font Awesome Free
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   </div> <!-- container -->

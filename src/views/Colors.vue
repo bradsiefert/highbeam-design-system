@@ -1,5 +1,5 @@
 <template>
-  <div class="container skinny-contain">
+  <div class="container slim-contain">
     <div class="row">
       <div class="col-sm">
 
@@ -13,7 +13,8 @@
 
         <h1 class="mt-4">Colors</h1>
         <p>
-          Colors bring a design to life. They tell the user which actions to take and help identify what's most important. 
+          Colors bring a design to life. They tell the user which actions to take and help identify what's most 
+          important. 
         </p>
 
         <!-- Start code chunk -->
@@ -100,7 +101,7 @@
               elements text to ensure it has enough contrast.
             </p>
             <div class="row gx-3 font-monospace text-center">
-              
+
               <!-- Color: $blue -->
               <div class="col-sm-6 col-lg-3 mb-3">
                 <div class="bg-blue-100 py-2 px-3 mb-0 text-dark">

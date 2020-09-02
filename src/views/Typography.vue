@@ -1,5 +1,5 @@
 <template>
-  <div class="container skinny-contain">
+  <div class="container slim-contain">
     <div class="row">
       <div class="col-sm">
 
@@ -12,9 +12,9 @@
         </nav>
 
         <h1 class="mt-4">Typography</h1>
-        <h2>
+        <h3>
           <span class="badge bg-highlight text-dark mb-3">Under Construction</span>
-        </h2>
+        </h3>
         <p>
           Description coming soon.
         </p>

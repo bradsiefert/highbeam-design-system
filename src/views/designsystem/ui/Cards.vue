@@ -1,17 +1,12 @@
 <template>
-  <div class="container skinny-contain">
+  <div class="container slim-contain">
     <div class="row">
       <div class="col-sm">
         <breadcrumbs :previous="{ '/': 'Home', '/designsystem': 'Design System' }" active="Cards"/>
 
         <h1>Cards</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar hendrerit. 
-          Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut. Pellentesque habitant morbi tristique 
-          senectus et netus et malesuada fames ac turpis egestas. Aenean blandit ipsum sit amet neque varius, eget 
-          condimentum lacus egestas. Donec vulputate metus eu sagittis efficitur. Quisque dignissim nibh turpis, 
-          et maximus nibh aliquam aliquet. Quisque tempus et nunc eu malesuada. Maecenas sodales, ante vel 
-          condimentum lobortis, arcu libero faucibus augue, vel molestie ipsum dui sit amet lacus.
+          Description coming soon.
         </p>
         
         <!-- Start code chunk -->

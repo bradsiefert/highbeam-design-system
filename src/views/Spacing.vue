@@ -1,5 +1,5 @@
 <template>
-  <div class="container skinny-contain">
+  <div class="container slim-contain">
     <div class="row">
       <div class="col-sm">
 
@@ -12,15 +12,15 @@
         </nav>
 
         <h1 class="mt-4">Spacing</h1>
-        <h2>
+        <h3>
           <span class="badge bg-highlight text-dark mb-3">Under Construction</span>
-        </h2>
+        </h3>
         <p>
           To be honest I've found Bootstrap's spacers to be lacking. I need many more options than the few they 
           offered. I took their 6 spaces and increased it them to 12 which I've found dramatically helps the 
           flexibility of spacing elements.
         </p>
-        
+
         <p>
           These spacers can be used in the same way as Bootstrap's original spacers, on both margin and padding, 
           and can be used in single or multiple directions. Consult Bootstrap's spacing documentation for more 
@@ -29,7 +29,7 @@
 
         <div class="row">
           <div class="col-lg-6 col-xl-4">
-            <table class="table table-sm table-hover table-bordered rounded text-center bg-white">
+            <table class="table table-sm table-hover table-bordered text-right bg-white">
               <thead>
                 <tr class="bg-highlight">
                   <th scope="col">#</th>
@@ -38,8 +38,8 @@
                 </tr>
               </thead>
               <tbody>
-                <tr><td>12</td><th scope="row">16</th><td>256px</td></tr>
-                <tr><td>11</td><th scope="row">12</th><td>192px</td></tr>
+                <tr><td>12</td><th scope="row">12</th><td>192px</td></tr>
+                <tr><td>11</td><th scope="row">9</th><td>144px</td></tr>
                 <tr><td>10</td><th scope="row">8</th><td>128px</td></tr>
                 <tr><td>9</td><th scope="row">6</th><td>96px</td></tr>
                 <tr><td>8</td><th scope="row">5</th><td>80px</td></tr>

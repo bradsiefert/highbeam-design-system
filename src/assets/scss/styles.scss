@@ -204,6 +204,13 @@ button .badge {
   padding: 0.5rem 1.5rem;
 }
 
+// Code
+code {
+  font-size: 0.9375rem;
+  background-color: rgba(160, 160, 160, 0.08);
+  padding: .125rem .25rem;
+}
+
 // Forms
 .form-control, .form-select {
   letter-spacing: -0.16px;

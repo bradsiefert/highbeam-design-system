@@ -74,7 +74,7 @@
             <button type="button" class="btn btn-highlight btn-lg mr-md-4 mb-3">↓ Download Sketch File v0</button>
           </div>
           <p>
-            Last update: <code class="mr-2">2020-09-XX</code>
+            Last update: <code class="bg-transparent mr-2">2020-09-XX</code>
           </p>
         </div>
 
@@ -83,7 +83,7 @@
         <h2 class="mb-3">Release Notes</h2>
         <div class="mb-4">
           <h4 class="d-inline-block mr-2 mb-1">Version 1</h4>
-          <code class="mr-2">2020-09-XX</code>
+          <code class="bg-transparent mr-2">2020-09-XX</code>
           <p class="small">
             Initial commit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar 
             hendrerit. Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut. Pellentesque 

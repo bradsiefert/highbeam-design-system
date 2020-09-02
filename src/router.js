@@ -11,6 +11,7 @@ import Typography from '@/views/Typography.vue'
 import Icons from '@/views/Icons.vue'
 
 // Design System Data Components
+import Metrics from '@/views/designsystem/data/Metrics.vue'
 import Tables from '@/views/designsystem/data/Tables.vue'
 
 // Design System UI Elements
@@ -28,7 +29,7 @@ import Toasts from '@/views/designsystem/ui/Toasts.vue'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
   // Design System Overview
   { path: '/', name: 'Home', component: Home },
   { path: '/about', name: 'About', component: About },
@@ -39,6 +40,7 @@ Vue.use(VueRouter)
   { path: '/icons', name: 'Icons', component: Icons },
   
   // Design System Data Components
+  { path: '/designsystem/data/metrics', name: 'Metrics', component: Metrics },
   { path: '/designsystem/data/tables', name: 'Tables', component: Tables },
 
   // Design System UI Elements

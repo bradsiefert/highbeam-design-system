@@ -119,19 +119,7 @@ button .badge {
   font-family: $font-family-base;
 }
 
-// Buttons
-.btn-secondary, .btn-success, .btn-warning, .btn-info,
-.btn-outline-secondary.active, .btn-outline-success.active, .btn-outline-warning.active, .btn-outline-info.active,
-.btn-secondary:disabled, .btn-success:disabled, .btn-warning:disabled, .btn-info:disabled,
-.btn-secondary.disabled, .btn-success.disabled, .btn-warning.disabled, .btn-info.disabled,
-.btn-secondary:hover, .btn-success:hover, .btn-warning:hover, .btn-info:hover,
-.btn-outline-secondary:hover, .btn-outline-success:hover, .btn-outline-warning:hover, .btn-outline-info:hover,
-.btn-secondary:hover:disabled, .btn-success:hover:disabled, .btn-warning:hover:disabled, .btn-info:hover:disabled,
-.btn-secondary:hover.disabled, .btn-success:hover.disabled, .btn-warning.disabled, .btn-info.disabled {
-  color: $white;
-}
-
-.btn-tip {
+.btn-tip, .btn-tip:hover  {
   color: $gray-700;
 }
 
@@ -212,7 +200,7 @@ button .badge {
   margin-bottom: 1.5rem;
 }
 
-.card .list-group-item {
+.card-body .list-group-flush .list-group-item {
   padding: 0.5rem 1.5rem;
 }
 
@@ -280,6 +268,21 @@ button .badge {
 
 .form-file-button {
   line-height: 1.5;
+}
+
+// List Groups
+.list-group-item {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+label.list-group-item {
+  font-weight: normal;
+}
+
+.list-group-item-action:hover, .list-group-item-action:focus {
+  background-color: #FFFCF3;
 }
 
 // Pagination

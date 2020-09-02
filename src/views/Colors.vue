@@ -93,7 +93,7 @@
               the same color as <code>$primary</code> and <code>$blue</code>. Each tint is a SCSS variable 
               which can be used throughout your SCSS files. 
             </p>
-            
+
             <p>
               Be sure to ensure the element has enough contrast when you use one of these colors as a text or 
               background color. You can use the CSS class <code>.text-dark</code> if you need to darken an 

@@ -20,7 +20,7 @@ import Breadcrumbs from '@/views/designsystem/ui/Breadcrumbs.vue'
 import Buttons from '@/views/designsystem/ui/Buttons.vue'
 import Cards from '@/views/designsystem/ui/Cards.vue'
 import Forms from '@/views/designsystem/ui/Forms.vue'
-import Menus from '@/views/designsystem/ui/Menus.vue'
+import ListGroup from '@/views/designsystem/ui/ListGroup.vue'
 import Pagination from '@/views/designsystem/ui/Pagination.vue'
 import ProgressBar from '@/views/designsystem/ui/ProgressBar.vue'
 import Tabs from '@/views/designsystem/ui/Tabs.vue'
@@ -48,7 +48,7 @@ Vue.use(VueRouter)
   { path: '/designsystem/ui/buttons', name: 'Buttons', component: Buttons },
   { path: '/designsystem/ui/cards', name: 'Cards', component: Cards },
   { path: '/designsystem/ui/forms', name: 'Forms', component: Forms },
-  { path: '/designsystem/ui/menus', name: 'Menus', component: Menus },
+  { path: '/designsystem/ui/listgroup', name: 'ListGroup', component: ListGroup },
   { path: '/designsystem/ui/pagination', name: 'Pagination', component: Pagination },
   { path: '/designsystem/ui/progressbar', name: 'ProgressBar', component: ProgressBar },
   { path: '/designsystem/ui/tabs', name: 'Tabs', component: Tabs },

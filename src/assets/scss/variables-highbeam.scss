@@ -64,6 +64,8 @@ $theme-colors: (
   "dark":       $dark
 ) !default;
 
+$min-contrast-ratio:   2 !default;
+
 // Options
 // Gradient
 // Spacing
@@ -291,6 +293,18 @@ $alert-link-font-weight:            600 !default;
 $progress-height:                   0.5rem !default;
 
 // List Group
+$list-group-item-padding-y:         0.75rem !default;
+$list-group-item-padding-x:         $spacer !default;
+$list-group-disabled-color:         $gray-400 !default;
+
+$list-group-hover-bg:               $gray-100 !default;
+$list-group-active-color:           $black !default;
+$list-group-active-bg:              #FFFCF3 !default;
+$list-group-active-border-color:    rgba($black, .125) !default;
+
+$list-group-action-color:           $black !default;
+$list-group-action-hover-color:     $list-group-action-color !default;
+
 // Image Thumbnails
 // Figures
 // Breadcrumbs

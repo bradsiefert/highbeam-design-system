@@ -26,14 +26,14 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-none d-lg-block" target="_blank" href="https://fontawesome.com/icons">
+            <a class="nav-link d-none d-lg-block" target="_blank" href="https://fontawesome.com/icons?d=gallery&m=free">
             <font-awesome-icon :icon="['fab', 'font-awesome']" /></a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link d-none d-lg-block" href="/about">
               <font-awesome-icon :icon="['fas', 'address-card']" />
             </a>
-          </li>
+          </li> -->
         </ul>
 
         <ul class="navbar-nav mr-auto d-block d-lg-none">

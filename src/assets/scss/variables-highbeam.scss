@@ -1,18 +1,5 @@
-/* ---------- Bradstrap v4 Global Updates --------- */
-// 8pt Grid System
-$grid-gutter-width:     32px !default;
-$container-max-widths:  (sm: 544px, md: 736px, lg: 960px, xl: 1168px, xxl: 1280px) !default;
-$grid-breakpoints:      (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px) !default;
-
-// 8pt Spacers Extended
-$spacer: 1rem !default;
-$spacers: () !default;
-$spacers: map-merge((
-0: 0,
-1: ($spacer * .25),  2: ($spacer * .5),  3: ($spacer * 1),    4: ($spacer * 1.5),
-5: ($spacer * 2),    6: ($spacer * 3),   7: ($spacer * 4),    8: ($spacer * 5),
-9: ($spacer * 6),   10: ($spacer * 8),  11: ($spacer * 12),  12: ($spacer * 16)
-), $spacers);
+// Highbeam Design System Custom variables
+// Last Update 2020-09-XX
 
 // Updating Base Colors (I don't believe in false greys.)
 $white:    #fff !default;
@@ -69,6 +56,16 @@ $min-contrast-ratio:   2 !default;
 // Options
 // Gradient
 // Spacing
+// 8pt Spacers Extended
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+0: 0,
+1: ($spacer * .25),  2: ($spacer * .5),  3: ($spacer * 1),    4: ($spacer * 1.5),
+5: ($spacer * 2),    6: ($spacer * 3),   7: ($spacer * 4),    8: ($spacer * 5),
+9: ($spacer * 6),   10: ($spacer * 8),  11: ($spacer * 9),  12: ($spacer * 12)
+), $spacers);
+
 // Body
 $body-bg:                   $gray-100 !default;
 
@@ -79,8 +76,14 @@ $link-decoration:   none !default;
 
 // Paragraphs
 // Grid breakpoints
+$grid-breakpoints:      (xs: 0, sm: 544px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px) !default;
+
 // Grid containers
+$container-max-widths:  (sm: 512px, md: 736px, lg: 960px, xl: 1168px, xxl: 1280px) !default;
+
 // Grid columns
+$grid-gutter-width:     2rem !default;
+
 // Container padding
 // Components
 $border-width:                1px !default;
@@ -133,6 +136,11 @@ $hr-color:                    $gray-200 !default;
 $hr-opacity:                  1 !default;
 
 // Tables
+$table-cell-padding-y:        .5rem !default;
+$table-cell-padding-x:        .75rem !default;
+$table-cell-padding-y-sm:     .25rem !default;
+$table-cell-padding-x-sm:     .5rem !default;
+
 $table-hover-bg:              $light !default;
 
 // Buttons + Forms
@@ -322,4 +330,4 @@ $breadcrumb-divider:                quote("/") !default;
 // Spinners
 // Close
 // Code
-$code-color:                        darken($info, 16%) !default;
+$code-color:                        darken($info, 12%) !default;

@@ -76,7 +76,7 @@ $link-decoration:   none !default;
 
 // Paragraphs
 // Grid breakpoints
-$grid-breakpoints:      (xs: 0, sm: 544px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px) !default;
+$grid-breakpoints:      (xs: 0, sm: 544px, md: 768px, lg: 992px, xl: 1200px, xxl: 1312px) !default;
 
 // Grid containers
 $container-max-widths:  (sm: 512px, md: 736px, lg: 960px, xl: 1168px, xxl: 1280px) !default;
@@ -330,4 +330,4 @@ $breadcrumb-divider:                quote("/") !default;
 // Spinners
 // Close
 // Code
-$code-color:                        darken($info, 12%) !default;
+$code-color:                        darken($info, 16%) !default;

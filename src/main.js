@@ -17,6 +17,8 @@ Vue.use(VueCodeHighlight)
 
 import './assets/scss/styles.scss'
 import 'vue-code-highlight/themes/prism.css'
+// import './assets/scss/docs.scss'
+// import './assets/scss/code-highlights.scss'
 
 Vue.config.productionTip = false
 

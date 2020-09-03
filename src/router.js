@@ -4,11 +4,12 @@ import VueRouter from 'vue-router'
 // Design System Overview
 import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
-import ContainersandGrid from '@/views/ContainersandGrid.vue'
+import Layout from '@/views/Layout.vue'
 import Spacing from '@/views/Spacing.vue'
 import Colors from '@/views/Colors.vue'
 import Typography from '@/views/Typography.vue'
 import Icons from '@/views/Icons.vue'
+import Install from '@/views/Install.vue'
 
 // Design System Data Components
 import Metrics from '@/views/designsystem/data/Metrics.vue'
@@ -33,11 +34,12 @@ const routes = [
   // Design System Overview
   { path: '/', name: 'Home', component: Home },
   { path: '/about', name: 'About', component: About },
-  { path: '/grid', name: 'ContainersandGrid', component: ContainersandGrid },
+  { path: '/layout', name: 'Layout', component: Layout },
   { path: '/spacing', name: 'Spacing', component: Spacing },
   { path: '/colors', name: 'Colors', component: Colors },
   { path: '/typography', name: 'Typography', component: Typography },
   { path: '/icons', name: 'Icons', component: Icons },
+  { path: '/install', name: 'Install', component: Install },
   
   // Design System Data Components
   { path: '/designsystem/data/metrics', name: 'Metrics', component: Metrics },

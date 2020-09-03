@@ -5,6 +5,9 @@
         <breadcrumbs :previous="{ '/': 'Home', '/designsystem': 'Design System' }" active="Tabs"/>
 
         <h1>Tabs</h1>
+        <h3>
+          <span class="badge bg-highlight text-dark">Under Construction</span>
+        </h3>
         <p>
           Coming Soon
         </p>

@@ -2,11 +2,12 @@
   <div>
     <div class="ds-sidebar-header">Design System</div>
     <router-link class="nav-link" to="/">Overview</router-link>
-    <router-link class="nav-link" to="/grid">Containers & Grid</router-link>
+    <router-link class="nav-link" to="/layout">Layout</router-link>
     <router-link class="nav-link" to="/spacing">Spacing</router-link>
     <router-link class="nav-link" to="/colors">Colors</router-link>
     <router-link class="nav-link" to="/typography">Typography</router-link>
     <router-link class="nav-link" to="/icons">Icons</router-link>
+    <router-link class="nav-link" to="/install">Download & Install</router-link>
 
     <div class="ds-sidebar-header">UI Components</div>
     <router-link class="nav-link" to="/designsystem/ui/alerts/">Alerts</router-link>

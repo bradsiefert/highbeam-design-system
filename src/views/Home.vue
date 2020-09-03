@@ -59,24 +59,6 @@
             </a>
           </div>
         </div>
-        
-        <hr>
-
-        <h2>Sketch File</h2>
-        <p>
-          The companion file of this web app is the Highbeam Design System Sketch file. It has all of the elements 
-          saved as symbols to help you more quickly make design decisions or work on mockup ideas for screens. 
-          As changes happen to the web version of this design system, I will do my best to keep the Sketch file 
-          updated. A version of the Sketch file will be in repository at Github too.
-        </p>
-        <div class="d-lg-flex align-items-center text-center">
-          <div>
-            <button type="button" class="btn btn-highlight btn-lg mr-md-4 mb-3">↓ Download Sketch File v0</button>
-          </div>
-          <p>
-            Last update: <code class="bg-transparent mr-2">2020-09-XX</code>
-          </p>
-        </div>
 
         <hr>
 

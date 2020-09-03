@@ -32,7 +32,7 @@
             <p class="mb-2">
               Each color has been tweaked to better fit this design system. They're more saturated, brighter, and 
               vibrant. There are 9 different gray colors that are used quite a bit throughout the system. The 
-              original grays all had blueish tints which have been updated to be pure grayscale.
+              original grays all had blueish tints which have been updated to be grayscale.
             </p>
             <div class="row gx-3 mb-6">
               <div class="col-sm-6 col-lg-3">

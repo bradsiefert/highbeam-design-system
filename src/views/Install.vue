@@ -1,0 +1,75 @@
+<template>
+  <div class="container slim-contain">
+    <div class="row">
+      <div class="col-sm">
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+            <li class="breadcrumb-item"><router-link to="/">Design System</router-link></li>
+            <li class="breadcrumb-item active" aria-current="page">Download & Install</li>
+          </ol>
+        </nav>
+
+        <h1 class="mt-4">Download & Install</h1>
+        <h3>
+          <span class="badge bg-highlight text-dark">Under Construction</span>
+        </h3>
+
+        <hr>
+
+        <h2>SCSS & CSS</h2>
+        <p>
+          To include the Highbeam Design System into your web project, download the SCSS or CSS files below. These 
+           are meant to augment 
+           <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/getting-started/download/">Bootstrap 
+           v5, and you'll need to download</a> and include that in your project as well. Many of the tweaks and changes 
+           to the framework will work with version v4 of Bootstrap, but it currently hasn't been tested with v4. 
+        </p>
+
+        <p>
+          If you have issues or find a bug, please open an issue on Github and we'll do our best to get them fixed.
+        </p>
+        <div class="d-lg-flex align-items-center text-center">
+          <div>
+            <button type="button" class="btn btn-primary btn-lg mr-md-4 mb-3">↓ Download v0 SCSS & CSS</button>
+          </div>
+          <p>
+            Last update: <code class="bg-transparent mr-2">2020-09-XX</code>
+          </p>
+        </div>
+        
+        <hr>
+
+        <h2>Sketch File</h2>
+        <p>
+          The companion file of this web app is the Highbeam Design System Sketch file. It has all of the elements 
+          saved as symbols to help you more quickly make design decisions or work on mockup ideas for screens. 
+          As changes happen to the web version of this design system, I will do my best to keep the Sketch file 
+          updated. A version of the Sketch file will be in repository at Github too.
+        </p>
+        <div class="d-lg-flex align-items-center text-center">
+          <div>
+            <button type="button" class="btn btn-highlight btn-lg mr-md-4 mb-3">↓ Download Sketch File v0</button>
+          </div>
+          <p>
+            Last update: <code class="bg-transparent mr-2">2020-09-XX</code>
+          </p>
+        </div>
+
+        <hr>
+
+        <div class="card well border-0 my-4">
+          <div class="card-body card-body-sm text-center">
+            For more info → 
+            <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/getting-started/introduction/">
+              Highbeam Design System on Github
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div> <!-- container -->
+</template>
+

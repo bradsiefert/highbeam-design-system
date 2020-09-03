@@ -18,6 +18,15 @@
         <p>
           Description coming soon.
         </p>
+        
+        <div class="card well my-4">
+          <div class="card-body card-body-sm text-center">
+            For more info → <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/content/typography/">
+              Bootstrap v5 / Typography
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   </div> <!-- container -->

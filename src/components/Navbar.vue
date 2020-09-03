@@ -67,7 +67,7 @@ export default {
     background-color: $black;
   }
 
-  @media (min-width: 993px) {
+  @media (min-width: 1025px) {
     .navbar-dark .navbar-nav .nav-link {
       padding-top: 0.25rem;
       padding-bottom: 0.25rem;
@@ -88,7 +88,7 @@ export default {
     }
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: 1024px) {
     .offcanvas-collapse {
       position: fixed;
       top: 64px; /* Height of navbar */

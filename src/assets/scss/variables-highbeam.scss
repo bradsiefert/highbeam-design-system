@@ -76,10 +76,10 @@ $link-decoration:   none !default;
 
 // Paragraphs
 // Grid breakpoints
-$grid-breakpoints:      (xs: 0, sm: 544px, md: 768px, lg: 992px, xl: 1200px, xxl: 1312px) !default;
+$grid-breakpoints:      (xs: 0, sm: 512px, md: 768px, lg: 1024px, xl: 1280px, xxl: 1536px) !default;
 
 // Grid containers
-$container-max-widths:  (sm: 512px, md: 736px, lg: 960px, xl: 1168px, xxl: 1280px) !default;
+$container-max-widths:  (sm: 480px, md: 736px, lg: 992px, xl: 1200px, xxl: 1440px) !default;
 
 // Grid columns
 $grid-gutter-width:     2rem !default;

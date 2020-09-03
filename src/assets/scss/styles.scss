@@ -20,9 +20,9 @@ hr {
   margin: 1.5rem auto;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1056px) {
   .slim-contain {
-    max-width: 1024px;
+    max-width: 1056px;
   }
 }
 
@@ -221,6 +221,7 @@ button .badge {
 code {
   background-color: rgba(176, 176, 176, 0.08);
   padding: .125rem .25rem;
+  border-radius: .125rem;
 }
 
 // Forms

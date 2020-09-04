@@ -16,7 +16,7 @@
           <span class="badge bg-highlight text-dark mb-3">Under Construction</span>
         </h3>
         <p>
-          Description coming soon.
+          Coming soon.
         </p>
         
         <div class="card well my-4">

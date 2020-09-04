@@ -54,6 +54,9 @@ $theme-colors: (
 $min-contrast-ratio:   2 !default;
 
 // Options
+$enable-rfs:                  false !default;
+$enable-negative-margins:     true !default;
+
 // Gradient
 // Spacing
 // 8pt Spacers Extended

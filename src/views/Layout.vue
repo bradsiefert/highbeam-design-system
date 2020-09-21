@@ -12,26 +12,23 @@
         </nav>
 
         <h1 class="mt-4">Layout</h1>
-        <h3>
-          <span class="badge bg-highlight text-dark mb-3">Under Construction</span>
-        </h3>
-        <p>
-          Web apps can require widely different layouts to accomplish different tasks. These principles help 
-          create elegant, responsive layouts.
+        <p class="lead">
+          Web apps can require widely different layouts to accomplish different tasks. These principles help
+          create elegant and responsive layouts.
         </p>
-        
+
         <hr>
-        
+
         <div class="row">
           <div class="col-lg-5">
             <h2>Grid System Tweaks</h2>
             <p>
-              There are a number of changes that I've made to Bootstrap's Grid System. These changes are to make 
-              the system adhere to the 8pt grid with gutters and containers. I updated the grid's gutters to be 
-              2rems (32px) in between each of the grid columns. There is a gutter on the outside that is 16px 
+              There are a number of changes that I've made to Bootstrap's Grid System. These changes are to make
+              the system adhere to the 8pt grid with gutters and containers. I updated the grid's gutters to be
+              2rems (32px) in between each of the grid columns. There is a gutter on the outside that is 16px
               on the left and right sides of the container.
             </p>
-          </div>  
+          </div>
           <div class="col-lg-7">
             <div class="table-responsive">
               <table class="table table-hover table-sm bg-white mb-0">
@@ -85,11 +82,11 @@
           <div class="col-lg-5">
             <h2>Skinny Containers</h2>
             <p>
-              Sometimes the Bootstrap <code>.container</code> is just too darn wide. Can you relate? If so, these 
+              Sometimes the Bootstrap <code>.container</code> is just too darn wide. Can you relate? If so, these
               skinny containers are for you.
             </p>
 
-          </div>  
+          </div>
           <div class="col-lg-7">
             <div class="table-responsive">
               <table class="table table-hover bg-white mb-0">
@@ -127,17 +124,17 @@
         </div>
 
         <hr>
-        
+
         <div class="row">
           <div class="col-lg-5">
             <h2>Responsive Grid</h2>
             <p>
-              Bootstrap has a wonderful responsive grid and I didn't see any reason to change it. Wrap your content in 
-              a <code>.container</code> div, a <code>.row</code> div, and then however many grid columns your layout 
-              requires. Bootstrap's grid documentation is very comprehensive. For more information check out the 
-              documentation. 
+              Bootstrap has a wonderful responsive grid and I didn't see any reason to change it. Wrap your content in
+              a <code>.container</code> div, a <code>.row</code> div, and then however many grid columns your layout
+              requires. Bootstrap's grid documentation is very comprehensive. For more information check out the
+              documentation.
             </p>
-          </div>  
+          </div>
           <div class="col-lg-7">
             <div class="card card-body code-example well rounded">
               <div v-highlight>

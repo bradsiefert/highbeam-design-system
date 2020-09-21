@@ -6,11 +6,9 @@
 
         <h1>Pagination</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus justo sed pulvinar hendrerit. 
-          Vivamus interdum sapien sapien, sit amet tempus justo lacinia ut. Pellentesque habitant morbi tristique 
-          senectus et netus et malesuada fames ac turpis egestas.
+          Coming soon.
         </p>
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
@@ -85,12 +83,12 @@
   &lt;/ul&gt;
 &lt;/nav&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
 
       </div>
     </div>
-    
+
     <div class="row">
       <div class="col-sm">
         <div class="card my-4">

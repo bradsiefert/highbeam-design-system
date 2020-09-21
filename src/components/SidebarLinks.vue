@@ -6,7 +6,7 @@
     <router-link class="nav-link" to="/spacing">Spacing</router-link>
     <router-link class="nav-link" to="/colors">Colors</router-link>
     <router-link class="nav-link" to="/typography">Typography</router-link>
-    <router-link class="nav-link" to="/icons">Icons</router-link>
+    <!-- <router-link class="nav-link" to="/icons">Icons</router-link> -->
     <router-link class="nav-link" to="/install">Download & Install</router-link>
 
     <div class="ds-sidebar-header">UI Components</div>
@@ -21,7 +21,7 @@
     <router-link class="nav-link" to="/designsystem/ui/progressbar/">Progress Bar</router-link>
     <router-link class="nav-link" to="/designsystem/ui/tabs/">Tabs <span class="badge rounded-pill bg-highlight text-dark">Soon</span></router-link>
     <router-link class="nav-link" to="/designsystem/ui/toasts/">Toasts</router-link>
-    
+
     <div class="ds-sidebar-header">Data Components</div>
     <router-link class="nav-link" to="/designsystem/data/graphs">Graphs <span class="badge rounded-pill bg-highlight text-dark">Soon</span></router-link>
     <router-link class="nav-link" to="/designsystem/data/graphs">Filters <span class="badge rounded-pill bg-highlight text-dark">Soon</span></router-link>

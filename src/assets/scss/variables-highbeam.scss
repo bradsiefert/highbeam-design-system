@@ -1,7 +1,7 @@
 // Highbeam Design System Custom variables
 // Last Update 2020-09-XX
 
-// Updating Base Colors (I don't believe in false greys.)
+// Updating Base Colors (I don't believe in false grays.)
 $white:    #fff !default;
 $gray-100: #fafafa !default;
 $gray-200: #eeeeee !default;
@@ -64,9 +64,8 @@ $spacer: 1rem !default;
 $spacers: () !default;
 $spacers: map-merge((
 0: 0,
-1: ($spacer * .25),  2: ($spacer * .5),  3: ($spacer * 1),    4: ($spacer * 1.5),
-5: ($spacer * 2),    6: ($spacer * 3),   7: ($spacer * 4),    8: ($spacer * 5),
-9: ($spacer * 6),   10: ($spacer * 8),  11: ($spacer * 9),  12: ($spacer * 12)
+1: ($spacer * .25),  2: ($spacer * .5),  3: ($spacer * 1),    4: ($spacer * 1.5),  5: ($spacer * 2),
+6: ($spacer * 3),    7: ($spacer * 4),   8: ($spacer * 5),    9: ($spacer * 6),   10: ($spacer * 8)
 ), $spacers);
 
 // Body
@@ -117,7 +116,7 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
-$h1-font-size:                $font-size-base * 2 !default;
+$h1-font-size:                $font-size-base * 2.25 !default;
 $h2-font-size:                $font-size-base * 1.5 !default;
 $h3-font-size:                $font-size-base * 1.25 !default;
 $h4-font-size:                $font-size-base * 1 !default;
@@ -125,15 +124,18 @@ $h5-font-size:                $font-size-base * 0.75 !default;
 $h6-font-size:                $font-size-base * 0.6875 !default;
 
 $display-font-sizes: (
-  1: 4.5rem,
-  2: 4rem,
-  3: 3.5rem,
-  4: 3rem,
-  5: 2.5rem,
+  1: 4rem,
+  2: 3rem,
+  3: 2.75rem,
+  4: 2.5rem,
+  5: 2.25rem,
   6: 2rem
 ) !default;
 
 $display-font-weight:         600;
+
+$lead-font-size:              $font-size-base * 1.25 !default;
+$lead-font-weight:            normal !default;
 
 $hr-color:                    $gray-200 !default;
 $hr-opacity:                  1 !default;

@@ -6,12 +6,12 @@
 
         <h1>Alerts</h1>
         <p>
-          Alerts are a temporary way to give the user feedback or information about something they might not be 
-          aware of, a warning, an error, or a successful action. They can be shown after an action has occurred or 
-          on page load depending on the information. Toasts are another option, alerts are a more conspicuous and 
+          Alerts are a temporary way to give the user feedback or information about something they might not be
+          aware of, a warning, an error, or a successful action. They can be shown after an action has occurred or
+          on page load depending on the information. Toasts are another option, alerts are a more conspicuous and
           loud and clear way to message the user.
         </p>
-        
+
         <!-- start code chunk -->
         <div class="card card-example">
           <div class="card-body">
@@ -136,9 +136,9 @@
 &lt;/div&gt;</code></pre>
             </div>
           </div>
-        </div> 
+        </div>
         <!-- end code chunk -->
-        
+
         <!-- start code chunk -->
         <div class="card card-body card-example">
           <h3 class="card-example-heading">Alerts with Content</h3>
@@ -177,7 +177,7 @@
 
       </div>
     </div>
-    
+
     <div class="row">
       <div class="col-sm">
         <div class="card my-4">

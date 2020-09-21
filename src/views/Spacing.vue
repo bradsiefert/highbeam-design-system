@@ -15,21 +15,21 @@
         <div class="row">
           <div class="col-lg-6 col-xl-8">
             <p>
-              To be honest I've found the number of Bootstrap's spacers to be lacking. I need many more options than 
-              the few they offered. I took their 6 spaces and increased it them to 12 which I've found dramatically 
+              To be honest I've found the number of Bootstrap's spacers to be lacking. I need many more options than
+              the few they offered. I took their 6 spaces and increased it them to 12 which I've found dramatically
               helps the flexibility of spacing elements.
             </p>
 
             <p>
-              These spacers can be used in the same way as Bootstrap's original spacers, on both margin and padding, 
-              and can be used in single or multiple directions. Consult Bootstrap's spacing documentation for more 
+              These spacers can be used in the same way as Bootstrap's original spacers, on both margin and padding,
+              and can be used in single or multiple directions. Consult Bootstrap's spacing documentation for more
               information about usage.
             </p>
-            
+
             <p>
               These spacers can be used with both margin <code>m*</code> and padding <code>p*</code> in all directions:
             </p>
-            
+
             <ul>
               <li><code>t*</code> for top</li>
               <li><code>r*</code> for right</li>
@@ -38,7 +38,7 @@
               <li><code>x*</code> horizontally for both left and right</li>
               <li><code>y*</code> vertically for both top and bottom</li>
             </ul>
-          </div>  
+          </div>
           <div class="col-lg-6 col-xl-4">
             <table class="table table-sm table-hover text-center bg-white">
               <thead>
@@ -60,8 +60,6 @@
                 <tr><td><code>-8</code></td><th scope="row">5</th><td>80px</td></tr>
                 <tr><td><code>-9</code></td><th scope="row">6</th><td>96px</td></tr>
                 <tr><td><code>-10</code></td><th scope="row">8</th><td>128px</td></tr>
-                <tr><td><code>-11</code></td><th scope="row">9</th><td>144px</td></tr>
-                <tr><td><code>-12</code></td><th scope="row">12</th><td>192px</td></tr>
               </tbody>
             </table>
           </div>

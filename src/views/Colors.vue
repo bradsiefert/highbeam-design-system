@@ -12,25 +12,25 @@
         </nav>
 
         <h1 class="mt-4">Colors</h1>
-        <p>
-          Colors bring a design to life. They tell the user which actions to take and help identify what's most 
-          important. 
+        <p class="lead">
+          Colors bring a design to life. They tell the user which actions to take and help identify what's most
+          important.
         </p>
-        
+
         <hr>
 
         <h2>Theme Colors</h2>
         <p>
-          Bootstrap has these base theme colors that they use for alerts, buttons, badges, and all sorts of 
-          other places throughout the framework. They're given a more abstract name like "danger" or "warning" 
-          to help you remember the ways they might be used. I've added two colors to the theme: "tip" and 
-          "highlight". Tip uses <code>$teal</code> and Highlight uses <code>$yellow</code>. Making these theme 
-          colors makes it so there are badges, alerts, and buttons with those names available in the system. 
+          Bootstrap has these base theme colors that they use for alerts, buttons, badges, and all sorts of
+          other places throughout the framework. They're given a more abstract name like "danger" or "warning"
+          to help you remember the ways they might be used. I've added two colors to the theme: "tip" and
+          "highlight". Tip uses <code>$teal</code> and Highlight uses <code>$yellow</code>. Making these theme
+          colors makes it so there are badges, alerts, and buttons with those names available in the system.
         </p>
 
         <p class="mb-2">
-          Each color has been tweaked to better fit this design system. They're more saturated, brighter, and 
-          vibrant. There are 9 different gray colors that are used quite a bit throughout the system. The 
+          Each color has been tweaked to better fit this design system. They're more saturated, brighter, and
+          vibrant. There are 9 different gray colors that are used quite a bit throughout the system. The
           original grays all had blueish tints which have been updated to be grayscale.
         </p>
         <div class="row gx-3 mb-6">
@@ -88,15 +88,15 @@
 
         <h2 class="card-example-heading">Color Tints</h2>
         <p>
-          Bootstrap v5 includes this wonderful series of color tints to the system. The "500" version of 
-          colors matches the same hue and tint as the theme colors. For example, <code>$blue-500</code> is 
-          the same color as <code>$primary</code> and <code>$blue</code>. Each tint is a SCSS variable 
-          which can be used throughout your SCSS files. 
+          Bootstrap v5 includes this wonderful series of color tints to the system. The "500" version of
+          colors matches the same hue and tint as the theme colors. For example, <code>$blue-500</code> is
+          the same color as <code>$primary</code> and <code>$blue</code>. Each tint is a SCSS variable
+          which can be used throughout your SCSS files.
         </p>
 
         <p>
-          Be sure to ensure the element has enough contrast when you use one of these colors as a text or 
-          background color. You can use the CSS class <code>.text-dark</code> if you need to darken an 
+          Be sure to ensure the element has enough contrast when you use one of these colors as a text or
+          background color. You can use the CSS class <code>.text-dark</code> if you need to darken an
           elements text to ensure it has enough contrast.
         </p>
         <div class="row gx-3 font-monospace text-center">
@@ -140,7 +140,7 @@
               <!-- <span class="small is-monospaced">#000000</span> -->
             </div>
           </div>
-          
+
           <!-- Color: $cyan -->
           <div class="col-sm-6 col-lg-3 mb-3">
             <div class="bg-cyan-100 py-2 px-3 mb-0 text-dark">
@@ -340,7 +340,7 @@
               <!-- <span class="small is-monospaced">#000000</span> -->
             </div>
           </div>
-          
+
           <!-- Color: $red -->
           <div class="col-sm-6 col-lg-3 mb-3">
             <div class="bg-orange-100 py-2 px-3 mb-0 text-dark">
@@ -380,7 +380,7 @@
               <!-- <span class="small is-monospaced">#000000</span> -->
             </div>
           </div>
-          
+
           <!-- Color: $yellow -->
           <div class="col-sm-6 col-lg-3 mb-3">
             <div class="bg-yellow-100 py-2 px-3 mb-0 text-dark">
@@ -460,7 +460,7 @@
               <!-- <span class="small is-monospaced">#000000</span> -->
             </div>
           </div>
-          
+
           <!-- Color: $green -->
           <div class="col-sm-6 col-lg-3 mb-3">
             <div class="bg-green-100 py-2 px-3 mb-0 text-dark">
@@ -500,7 +500,7 @@
               <!-- <span class="small is-monospaced">#000000</span> -->
             </div>
           </div>
-          
+
           <!-- Color: $gray -->
           <div class="col-sm-6 col-lg-3 mb-3">
             <div class="bg-gray-100 py-2 px-3 mb-0 text-dark">
@@ -540,7 +540,7 @@
               <!-- <span class="small is-monospaced">#000000</span> -->
             </div>
           </div>
-          
+
           <!-- Color: $gray -->
           <div class="col-sm-6 col-lg-3 mb-3">
             <div class="bg-white py-2 px-3 mb-0 text-dark">

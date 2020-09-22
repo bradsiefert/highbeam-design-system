@@ -58,6 +58,25 @@ h5, .h5, h6, .h6 {
   line-height: 1.4;
 }
 
+// Responsive Text
+@include media-breakpoint-up(xs) {
+  html {
+    font-size: 1.125rem;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.0625rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1rem;
+  }
+}
+
 // Alerts
 .alert {
   font-size: 0.875rem;

@@ -106,7 +106,7 @@
                     <td>Max width <strong>1200px</strong></td>
                   </tr>
                   <tr>
-                    <td class="is-narrow"><code>.container</code><code>.container-md slim-contain</code></td>
+                    <td class="is-narrow"><code>.container</code><code>.slim-contain</code></td>
                     <td>Max width <strong>1024px</strong></td>
                   </tr>
                   <tr>

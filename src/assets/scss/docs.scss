@@ -21,7 +21,7 @@
 
 .ds-sidebar .navbar-nav .nav-link {
   border: none;
-  font-size: 0.9375rem;
+  font-size: $font-size-400;
   letter-spacing: -0.1px;
   line-height: 1.25rem;
   font-weight: 600;
@@ -68,7 +68,7 @@
 }
 
 .card-example p {
-  font-size: 0.9375rem;
+  font-size: $font-size-400;
 }
 
 .card-example-heading {

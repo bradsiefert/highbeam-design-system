@@ -58,7 +58,7 @@
             <div class="table-responsive">
               <table class="table table-sm table-hover table-sm bg-white">
                 <thead>
-                  <tr class="bg-yellow-300">
+                  <tr class="bg-yellow-200">
                     <th scope="col">#</th>
                     <th scope="col">Weights</th>
                   </tr>
@@ -111,9 +111,9 @@
 
           <div class="col-xl-4">
             <div class="table-responsive">
-              <table class="table table-sm table-hover table-sm bg-white">
+              <table class="table table-sm table-hover bg-white">
                 <thead>
-                  <tr class="bg-yellow-300">
+                  <tr class="bg-yellow-200">
                     <th scope="col">#</th>
                     <th scope="col">Weights</th>
                   </tr>
@@ -130,6 +130,149 @@
         </div>
 
         <hr>
+
+        <h2 class="mb-3">Type Sizing</h2>
+        <p>
+          Coming soon.
+        </p>
+
+        <div class="table-responsive">
+          <table class="table table-hover bg-white">
+            <thead>
+              <tr class="bg-yellow-200">
+                <th>Size</th>
+                <th>SCSS Variable</th>
+                <th>CSS Class</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-100</code></td>
+                <td><code>.font-size-100</code></td>
+                <td>
+                  <span class="font-size-100">Example copy 0123</span>
+                  <br><small class="text-muted">0.75rem, 12px</small>
+                </td>
+              </tr>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-200</code></td>
+                <td><code>.font-size-200</code></td>
+                <td>
+                  <span class="font-size-200">Example copy 0123</span>
+                  <br><small class="text-muted">0.8125rem, 13px</small>
+                </td>
+              </tr>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-300</code></td>
+                <td><code>.font-size-300</code></td>
+                <td>
+                  <span class="font-size-300">Example copy 0123</span>
+                  <br><small class="text-muted">0.875rem, 14px</small>
+                </td>
+              </tr>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-400</code></td>
+                <td><code>.font-size-400</code></td>
+                <td>
+                  <span class="font-size-400">Example copy 0123</span>
+                  <br><small class="text-muted">0.9375rem, 15px</small>
+                </td>
+              </tr>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-500</code></td>
+                <td><code>.font-size-500</code></td>
+                <td>
+                  <span class="font-size-500">Example copy 0123</span>
+                  <br><small class="text-muted">1rem, 16px</small>
+                </td>
+              </tr>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-600</code></td>
+                <td><code>.font-size-600</code></td>
+                <td>
+                  <span class="font-size-600">Example copy 0123</span>
+                  <br><small class="text-muted">1.25rem, 20px</small>
+                </td>
+              </tr>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-700</code></td>
+                <td><code>.font-size-700</code></td>
+                <td>
+                  <span class="font-size-700">Example copy 0123</span>
+                  <br><small class="text-muted">1.5rem, 24px</small>
+                </td>
+              </tr>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-800</code></td>
+                <td><code>.font-size-800</code></td>
+                <td>
+                  <span class="font-size-800">Example copy 0123</span>
+                  <br><small class="text-muted">1.75rem, 28px</small>
+                </td>
+              </tr>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-900</code></td>
+                <td><code>.font-size-900</code></td>
+                <td>
+                  <span class="font-size-900">Example copy 0123</span>
+                  <br><small class="text-muted">2rem, 32px</small>
+                </td>
+              </tr>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-1000</code></td>
+                <td><code>.font-size-1000</code></td>
+                <td>
+                  <span class="font-size-1000">Example copy 0123</span>
+                  <br><small class="text-muted">2.5rem, 40px</small>
+                </td>
+              </tr>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-1100</code></td>
+                <td><code>.font-size-1100</code></td>
+                <td>
+                  <span class="font-size-1100">Example copy 0123</span>
+                  <br><small class="text-muted">3rem, 48px</small>
+                </td>
+              </tr>
+              <tr>
+
+                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-1200</code></td>
+                <td><code>.font-size-1200</code></td>
+                <td>
+                  <span class="font-size-1200">Example copy 0123</span>
+                  <br><small class="text-muted">4rem, 56px</small>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <hr>
+
 
         <!-- Start code chunk -->
         <div class="card card-example">

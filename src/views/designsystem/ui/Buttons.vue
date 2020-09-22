@@ -1,17 +1,17 @@
 <template>
-  <div class="container slim-contain">
+  <div class="container-md container-md slim-contain">
     <div class="row">
       <div class="col-sm">
         <breadcrumbs :previous="{ '/': 'Home', '/designsystem': 'Design System' }" active="Buttons"/>
 
         <h1>Buttons</h1>
         <p>
-          Buttons give clear calls to action to the user. Buttons are used to do an action on a page or to navigate 
-          to another screen. Having a variety of button colors is helpful to differentiate actions, but be careful 
-          not to use too many colors near each other. Primary, secondary, info, and dark buttons should be the first 
+          Buttons give clear calls to action to the user. Buttons are used to do an action on a page or to navigate
+          to another screen. Having a variety of button colors is helpful to differentiate actions, but be careful
+          not to use too many colors near each other. Primary, secondary, info, and dark buttons should be the first
           options with other options being used or destructive or tertiary actions.
         </p>
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
@@ -47,9 +47,9 @@
 &lt;button type="button" class="btn btn-dark"&gt;Dark&lt;/button&gt;
 &lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
@@ -84,7 +84,7 @@
 &lt;button type="button" class="btn btn-outline-dark"&gt;Dark&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-link"&gt;Link&lt;/button&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
 
         <!-- Start code chunk -->
@@ -121,9 +121,9 @@
 &lt;button type="button" class="btn btn-dark" disabled&gt;Dark&lt;/button&gt;
 &lt;button type="button" class="btn btn-link" disabled&gt;Link&lt;/button&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
@@ -147,9 +147,9 @@
 &lt;button type="button" class="btn btn-sm btn-primary"&gt;Button SM&lt;/button&gt;
 &lt;button type="button" class="btn btn-xs btn-primary"&gt;Button XS&lt;/button&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
@@ -159,7 +159,7 @@
               <a href="#" class="btn btn-primary">Link</a>
               <a href="#" class="btn btn-primary">Link</a>
             </div>
-            
+
             <hr>
 
             <div class="btn-group">
@@ -187,14 +187,14 @@
   &lt;a href="#" class="btn btn-outline-dark"&gt;Link&lt;/a&gt;
 &lt;/div&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
             <h3 class="card-example-heading">Button Dropdowns</h3>
-            
+
             <h4>Single Dropdown</h4>
             <div class="dropdown">
               <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
@@ -256,12 +256,12 @@
   &lt;/ul&gt;
 &lt;/div&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
 
       </div>
     </div>
-    
+
     <div class="row">
       <div class="col-sm">
         <div class="card my-4">

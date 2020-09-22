@@ -40,7 +40,7 @@
             </ul>
           </div>
           <div class="col-lg-6 col-xl-4">
-            <table class="table table-sm table-hover text-center bg-white">
+            <table class="table table-sm table-hover text-center bg-white font-monospace">
               <thead>
                 <tr class="bg-yellow-300">
                   <th scope="col">#</th>
@@ -49,17 +49,17 @@
                 </tr>
               </thead>
               <tbody>
-                <tr><td><code>-0</code></td><th scope="row">0</th><td>0px</td></tr>
-                <tr><td><code>-1</code></td><th scope="row">0.25</th><td>4px</td></tr>
-                <tr><td><code>-2</code></td><th scope="row">0.5</th><td>8px</td></tr>
-                <tr><td><code>-3</code></td><th scope="row">1</th><td>16px</td></tr>
-                <tr><td><code>-4</code></td><th scope="row">1.5</th><td>24px</td></tr>
-                <tr><td><code>-5</code></td><th scope="row">2</th><td>32px</td></tr>
-                <tr><td><code>-6</code></td><th scope="row">3</th><td>48px</td></tr>
-                <tr><td><code>-7</code></td><th scope="row">4</th><td>64px</td></tr>
-                <tr><td><code>-8</code></td><th scope="row">5</th><td>80px</td></tr>
-                <tr><td><code>-9</code></td><th scope="row">6</th><td>96px</td></tr>
-                <tr><td><code>-10</code></td><th scope="row">8</th><td>128px</td></tr>
+                <tr><td><code>-0</code></td><td><strong>0</strong></td><td>0px</td></tr>
+                <tr><td><code>-1</code></td><td><strong>0.25</strong></td><td>4px</td></tr>
+                <tr><td><code>-2</code></td><td><strong>0.5</strong></td><td>8px</td></tr>
+                <tr><td><code>-3</code></td><td><strong>1</strong></td><td>16px</td></tr>
+                <tr><td><code>-4</code></td><td><strong>1.5</strong></td><td>24px</td></tr>
+                <tr><td><code>-5</code></td><td><strong>2</strong></td><td>32px</td></tr>
+                <tr><td><code>-6</code></td><td><strong>3</strong></td><td>48px</td></tr>
+                <tr><td><code>-7</code></td><td><strong>4</strong></td><td>64px</td></tr>
+                <tr><td><code>-8</code></td><td><strong>5</strong></td><td>80px</td></tr>
+                <tr><td><code>-9</code></td><td><strong>6</strong></td><td>96px</td></tr>
+                <tr><td><code>-10</code></td><td><strong>8</strong></td><td>128px</td></tr>
               </tbody>
             </table>
           </div>

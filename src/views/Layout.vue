@@ -31,7 +31,7 @@
           </div>
           <div class="col-lg-7">
             <div class="table-responsive">
-              <table class="table table-hover table-sm bg-white mb-0">
+              <table class="table table-hover table-sm bg-white mb-0 font-monospace">
                 <thead>
                   <tr class="bg-yellow-300">
                     <th scope="col">Size</th>
@@ -89,7 +89,7 @@
           </div>
           <div class="col-lg-7">
             <div class="table-responsive">
-              <table class="table table-hover table-sm bg-white mb-0">
+              <table class="table table-hover table-sm bg-white mb-0 font-monospace">
                 <thead>
                   <tr class="bg-yellow-300">
                     <th scope="col">Class</th>
@@ -99,7 +99,7 @@
                 <tbody>
                   <tr>
                     <td class="is-narrow"><code>.container-fluid</code></td>
-                    <td><strong>Full screen width</strong></td>
+                    <td><strong>Full Screen Width</strong></td>
                   </tr>
                   <tr>
                     <td class="is-narrow"><code>.container</code></td>

@@ -370,7 +370,10 @@ label.list-group-item {
 
 // Tables
 .table th {
-  color: $gray-900;
+  font-size: $font-size-200;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: $font-family-monospace;
 }
 
 .table-sm {

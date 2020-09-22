@@ -111,7 +111,7 @@
 
           <div class="col-xl-4">
             <div class="table-responsive">
-              <table class="table table-sm table-hover bg-white">
+              <table class="table table-sm table-hover bg-white font-monospace">
                 <thead>
                   <tr class="bg-yellow-200">
                     <th scope="col">#</th>

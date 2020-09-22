@@ -1,5 +1,5 @@
 <template>
-  <div class="container slim-contain">
+  <div class="container-md slim-contain">
     <div class="row">
       <div class="col-sm">
 
@@ -58,7 +58,7 @@
             <div class="table-responsive">
               <table class="table table-sm table-hover table-sm bg-white">
                 <thead>
-                  <tr class="bg-light">
+                  <tr class="bg-yellow-300">
                     <th scope="col">#</th>
                     <th scope="col">Weights</th>
                   </tr>
@@ -113,7 +113,7 @@
             <div class="table-responsive">
               <table class="table table-sm table-hover table-sm bg-white">
                 <thead>
-                  <tr class="bg-light">
+                  <tr class="bg-yellow-300">
                     <th scope="col">#</th>
                     <th scope="col">Weights</th>
                   </tr>

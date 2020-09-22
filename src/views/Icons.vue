@@ -18,10 +18,10 @@
         <p>
           Coming soon.
         </p>
-        
+
         <div class="card well my-4">
           <div class="card-body card-body-sm text-center">
-            More information about icons → 
+            More information about icons →
             <a target="_blank" href="https://fontawesome.com/icons?d=gallery&m=free">
               Font Awesome Free
             </a>

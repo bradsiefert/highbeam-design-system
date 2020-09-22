@@ -1,5 +1,5 @@
 <template>
-  <div class="container slim-contain">
+  <div class="container-md slim-contain">
     <div class="row">
       <div class="col-md">
 
@@ -33,7 +33,7 @@
             <div class="table-responsive">
               <table class="table table-hover table-sm bg-white mb-0">
                 <thead>
-                  <tr class="bg-light">
+                  <tr class="bg-yellow-300">
                     <th scope="col">Size</th>
                     <th scope="col">Screen Breakpoints</th>
                     <th scope="col">Container Max Width</th>
@@ -91,7 +91,7 @@
             <div class="table-responsive">
               <table class="table table-hover bg-white mb-0">
                 <thead>
-                  <tr class="bg-light">
+                  <tr class="bg-yellow-300">
                     <th scope="col">Class</th>
                     <th scope="col">Width</th>
                   </tr>
@@ -106,7 +106,7 @@
                     <td>Max width <strong>1200px</strong></td>
                   </tr>
                   <tr>
-                    <td class="is-narrow"><code>.container</code><code>.slim-contain</code></td>
+                    <td class="is-narrow"><code>.container</code><code>.container-md slim-contain</code></td>
                     <td>Max width <strong>1024px</strong></td>
                   </tr>
                   <tr>

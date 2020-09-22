@@ -23,10 +23,11 @@
 
         <h2 class="mb-3">Typefaces</h2>
 
-        <div class="mb-3"><code>$font-family-sans-serif</code></div>
-        <div class="display-4 mb-1">Inter</div>
+
+        <div class="font-size-1000 font-weight-bold mb-1">Inter</div>
         <div class="row">
           <div class="col-xl-8">
+            <div class="mb-3"><code>$font-family-sans-serif</code></div>
             <div class="table-responsive">
               <table class="table table-sm table-hover">
                 <tbody>
@@ -77,11 +78,10 @@
 
         <hr>
 
-        <div class="mb-3"><code>$font-family-sans-monospace</code></div>
-        <div class="display-4 mb-1 font-monospace">Fira Code</div>
-
+        <div class="font-size-1000 font-weight-bold mb-1 font-monospace">Fira Code</div>
         <div class="row">
           <div class="col-xl-8">
+            <div class="mb-3"><code>$font-family-sans-monospace</code></div>
             <div class="table-responsive">
               <table class="table table-sm table-hover font-monospace">
                 <tbody>
@@ -140,15 +140,21 @@
           <table class="table table-hover bg-white">
             <thead>
               <tr class="bg-yellow-200">
-                <th>Size</th>
                 <th>SCSS Variable</th>
                 <th>CSS Class</th>
+                <th>Size</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
+                <td><code>$font-size-000</code></td>
+                <td><code>.font-size-000</code></td>
+                <td>
+                  <span class="font-size-000">Example copy 0123</span>
+                  <br><small class="text-muted">0.625rem, 10px</small>
+                </td>
+              </tr>
+              <tr>
                 <td><code>$font-size-100</code></td>
                 <td><code>.font-size-100</code></td>
                 <td>
@@ -157,8 +163,6 @@
                 </td>
               </tr>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
                 <td><code>$font-size-200</code></td>
                 <td><code>.font-size-200</code></td>
                 <td>
@@ -167,8 +171,6 @@
                 </td>
               </tr>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
                 <td><code>$font-size-300</code></td>
                 <td><code>.font-size-300</code></td>
                 <td>
@@ -177,8 +179,6 @@
                 </td>
               </tr>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
                 <td><code>$font-size-400</code></td>
                 <td><code>.font-size-400</code></td>
                 <td>
@@ -187,8 +187,6 @@
                 </td>
               </tr>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
                 <td><code>$font-size-500</code></td>
                 <td><code>.font-size-500</code></td>
                 <td>
@@ -197,8 +195,6 @@
                 </td>
               </tr>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
                 <td><code>$font-size-600</code></td>
                 <td><code>.font-size-600</code></td>
                 <td>
@@ -207,8 +203,6 @@
                 </td>
               </tr>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
                 <td><code>$font-size-700</code></td>
                 <td><code>.font-size-700</code></td>
                 <td>
@@ -217,8 +211,6 @@
                 </td>
               </tr>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
                 <td><code>$font-size-800</code></td>
                 <td><code>.font-size-800</code></td>
                 <td>
@@ -227,8 +219,6 @@
                 </td>
               </tr>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
                 <td><code>$font-size-900</code></td>
                 <td><code>.font-size-900</code></td>
                 <td>
@@ -237,8 +227,6 @@
                 </td>
               </tr>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
                 <td><code>$font-size-1000</code></td>
                 <td><code>.font-size-1000</code></td>
                 <td>
@@ -247,8 +235,6 @@
                 </td>
               </tr>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
                 <td><code>$font-size-1100</code></td>
                 <td><code>.font-size-1100</code></td>
                 <td>
@@ -257,8 +243,6 @@
                 </td>
               </tr>
               <tr>
-
-                <!-- <td>Lipsum description text.</td> -->
                 <td><code>$font-size-1200</code></td>
                 <td><code>.font-size-1200</code></td>
                 <td>

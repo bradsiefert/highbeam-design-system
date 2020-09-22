@@ -89,7 +89,7 @@
           </div>
           <div class="col-lg-7">
             <div class="table-responsive">
-              <table class="table table-hover bg-white mb-0">
+              <table class="table table-hover table-sm bg-white mb-0">
                 <thead>
                   <tr class="bg-yellow-300">
                     <th scope="col">Class</th>

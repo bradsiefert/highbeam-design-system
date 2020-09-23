@@ -55,7 +55,7 @@ h5, .h5, h6, .h6 {
   line-height: 1.4;
 }
 
-// Responsive Text
+// Responsive Text on Mobile
 @include media-breakpoint-up(xs) {
   html {
     font-size: 1.125rem;
@@ -369,23 +369,52 @@ label.list-group-item {
 }
 
 // Tables
-.table th {
-  font-size: $font-size-200;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: $font-family-monospace;
+.table {
+  font-size: $font-size-300;
+  background: $white;
 }
 
 .table-sm {
   font-size: $font-size-200;
 }
 
-.table-data {
-  // font-family: $font-family-monospace;
+.table th {
+  font-size: $font-size-200;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: $font-family-monospace;
+  line-height: 1.2;
 }
 
-.table {
-  font-size: $font-size-300;
+.table.table-data {
+  font-family: $font-family-monospace;
+  text-align: right;
+  line-height: 1.7;
+}
+
+.table.table-sm.table-data {
+  line-height: 1.8;
+}
+
+.table.table-data th {
+  font-family: $font-family-sans-serif;
+  text-transform: none;
+  font-weight: bold;
+  font-size: $font-size-200;
+  letter-spacing: -0.1px;
+  height: 64px;
+}
+
+.table-data.table-bordered td {
+  border-width: 0;
+}
+
+.table-data.table-bordered td:first-child {
+  border-width: 0 0 0 1px;
+}
+
+.table-data.table-bordered td:last-child {
+  border-width: 0 1px 0 0;
 }
 
 .is-narrow {

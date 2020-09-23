@@ -33,7 +33,7 @@
             <div class="table-responsive">
               <table class="table table-hover table-sm bg-white mb-0 font-monospace">
                 <thead>
-                  <tr class="bg-yellow-300">
+                  <tr class="bg-light">
                     <th scope="col">Size</th>
                     <th scope="col">Screen Breakpoints</th>
                     <th scope="col">Container Max Width</th>
@@ -91,7 +91,7 @@
             <div class="table-responsive">
               <table class="table table-hover table-sm bg-white mb-0 font-monospace">
                 <thead>
-                  <tr class="bg-yellow-300">
+                  <tr class="bg-light">
                     <th scope="col">Class</th>
                     <th scope="col">Width</th>
                   </tr>

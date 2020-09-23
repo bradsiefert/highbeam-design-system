@@ -139,7 +139,7 @@
         <div class="table-responsive">
           <table class="table table-hover bg-white">
             <thead>
-              <tr class="bg-yellow-200">
+              <tr class="bg-light">
                 <th>SCSS Variable</th>
                 <th>CSS Class</th>
                 <th>Size</th>

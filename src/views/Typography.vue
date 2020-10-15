@@ -138,7 +138,7 @@
         </p>
 
         <p>
-          I took some inspiration from the color gradients that Bootstrap and other design systems use and created this type sizing scale that goes from <code>-000</code> to <code>-1200.</code> It's influenced by <a target="_blank" href="https://type-scale.com/">Type Scale website</a> that helps visualize scaling a typeface to a variety of sizing, both large and small. I found that the "Minor Third" scale was closest to what I was desiring in a type scale. Like the color variants, <code>-500</code> is the base size, 1rem. I've found it incredibly helpful to remove sizing from headings in particular. I find it helps me make a site semantically correct while still having a lot of flexibility in styling a page.
+          I took some inspiration from the color gradients that Bootstrap and other design systems use and to create this type sizing scale. It goes from <code>-000</code> to <code>-1200</code>.  Like the color variants, <code>-500</code> is the base size, which for this is 1rem. Another major influence was <a target="_blank" href="https://type-scale.com/">Type Scale</a> which helps visualize scaling a typeface to a variety of sizes. I found that the "Minor Third" scale was closest to what I was desiring in a type scale. I've found it incredibly helpful to remove sizing from headings in particular. It helps me make a site semantically correct while still having a lot of flexibility in styling a page.
         </p>
 
         <p>

@@ -12,15 +12,12 @@
         </nav>
 
         <h1 class="mt-4">Typography</h1>
-        <h3>
-          <span class="badge bg-highlight text-dark mb-3">Under Construction</span>
-        </h3>
         <p>
           Typography is one of the most important choices made in developing a design system. It touches nearly every user interface element. I've chosen the sans serif font <a target="_blank" href="https://fonts.google.com/specimen/Inter">Inter</a> (made by Figma's Rasmus Andersson) as the main typeface and <a target="_blank" href="https://fonts.google.com/specimen/Fira+Code">Fira Code</a> (made by Mozilla), a monospaced font, for elements like inputs, buttons, code, and some tabular data. Our work is full of data so I chose a monospaced font to show our computer science influences and to provide consistency and rhythm in our content.
         </p>
 
         <p>
-          Both fonts are available from Google Fonts and can be included either by @import or as an @font-face.
+          Both fonts are available from Google Fonts and can be included either by <code>@import</code> or as an <code>@font-face</code>.
         </p>
 
         <hr>
@@ -137,10 +134,18 @@
 
         <h2 class="mb-3">Type Sizing</h2>
         <p>
-          Coming soon.
+          Bootstrap's typography sizing is focused on headings and what they call "Display" classes. Display classes are very large type settings that are often used in large content like heros. I've always struggled with relying on having type sizing tied to only these headings and displays so I created sizing that wouldn't be tied to other classes or elements.
         </p>
 
-        <div class="table-responsive">
+        <p>
+          I took some inspiration from the color gradients that Bootstrap and other design systems use and created this type sizing scale that goes from <code>-000</code> to <code>-1200.</code> It's influenced by <a target="_blank" href="https://type-scale.com/">Type Scale website</a> that helps visualize scaling a typeface to a variety of sizing, both large and small. I found that the "Minor Third" scale was closest to what I was desiring in a type scale. Like the color variants, <code>-500</code> is the base size, 1rem. I've found it incredibly helpful to remove sizing from headings in particular. I find it helps me make a site semantically correct while still having a lot of flexibility in styling a page.
+        </p>
+
+        <p>
+          The type sizes are available as both SCSS variables and CSS classes to make it easy to use throughout a site.
+        </p>
+
+        <div class="table-responsive mt-6">
           <table class="table table-hover bg-white">
             <thead>
               <tr class="bg-light">

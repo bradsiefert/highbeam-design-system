@@ -16,7 +16,11 @@
           <span class="badge bg-highlight text-dark mb-3">Under Construction</span>
         </h3>
         <p>
-          Coming soon.
+          Typography is one of the most important choices made in developing a design system. It touches nearly every user interface element. I've chosen the sans serif font <a target="_blank" href="https://fonts.google.com/specimen/Inter">Inter</a> (made by Figma's Rasmus Andersson) as the main typeface and <a target="_blank" href="https://fonts.google.com/specimen/Fira+Code">Fira Code</a> (made by Mozilla), a monospaced font, for elements like inputs, buttons, code, and some tabular data. Our work is full of data so I chose a monospaced font to show our computer science influences and to provide consistency and rhythm in our content.
+        </p>
+
+        <p>
+          Both fonts are available from Google Fonts and can be included either by @import or as an @font-face.
         </p>
 
         <hr>
@@ -29,7 +33,7 @@
           <div class="col-xl-8">
             <div class="mb-3"><code>$font-family-sans-serif</code></div>
             <div class="table-responsive">
-              <table class="table table-sm table-hover">
+              <table class="table table-sm bg-light">
                 <tbody>
                   <tr>
                     <td class="border-0 px-0">
@@ -83,7 +87,7 @@
           <div class="col-xl-8">
             <div class="mb-3"><code>$font-family-sans-monospace</code></div>
             <div class="table-responsive">
-              <table class="table table-sm table-hover font-monospace">
+              <table class="table table-sm bg-light font-monospace">
                 <tbody>
                   <tr>
                     <td class="border-0 px-0">

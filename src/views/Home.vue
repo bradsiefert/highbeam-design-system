@@ -19,9 +19,7 @@
           <span class="badge bg-highlight text-dark mb-2">Under Construction</span>
         </h2>
         <p class="lead">
-          Highbeam is a design system built by Brad Siefert with help from Kris Kroski, Eddie VanBogaert and the
-          Earlybird team. It's the set of design principles and user interface elements that make up our products.
-          It's meant to be a reference guide to more quickly and consistently create web apps for our clients.
+          Highbeam Design System is built by Brad Siefert and the <a target="_blank" href="https://earlybird.co">Earlybird</a>/<a target="_blank" href="https://highbeamdata.com">Highbeam</a> team. It's the design principles and user interface elements that make up our products. It's meant to be a reference guide to quickly and consistently create web apps for our clients.
         </p>
 
         <img src="@/assets/images/preview-image-wide.jpg" class="img-fluid my-3" alt="Highbeam Preview Image">
@@ -29,8 +27,8 @@
         <hr>
         <h2>Framework</h2>
         <p>
-          This design system is built on top of <code>Bootstrap v5.0.0</code>, which is still the it's alpha phase.
-          There are likely to be more updates to come, but I don't think it will break much (if any) of this design
+          This design system is built on top of <code>Bootstrap v5</code>, which is still in its alpha phase.
+          There are many updates to come, but I don't think it will break much (if any) of this design
           system. I've tried my best to, if at all possible, update SCSS variables first, then write custom CSS to
           augment those changes. I think this will help to make updates to go more smoothly. The
           <code>variables-highbeam.scss</code> file has the same order of variables as Bootstrap v5's
@@ -38,7 +36,7 @@
         </p>
 
         <p>
-          There are many ways to use a frontend framework like Bootstrap and I've tried to stay as true to
+          There are many ways to use a front-end framework like Bootstrap and I've tried to stay as true to
           the "Bootstrap way" of building components. There will be some custom classes and small
           differences, but overall, it should be well within the standards of someone who has used
           Bootstrap's framework before.

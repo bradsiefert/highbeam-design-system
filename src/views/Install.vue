@@ -20,40 +20,47 @@
 
         <h2>SCSS & CSS</h2>
         <p>
-          To include the Highbeam Design System into your web project, download the SCSS or CSS files below. These 
-           are meant to augment 
-           <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/getting-started/download/">Bootstrap 
-           v5, and you'll need to download</a> and include that in your project as well. Many of the tweaks and changes 
-           to the framework will work with version v4 of Bootstrap, but it currently hasn't been tested with v4. 
+          To include the Highbeam Design System into your web project, download the SCSS or CSS files below. These files
+           are meant to augment
+           <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/getting-started/download/">Bootstrap
+           v5, and you'll need to download</a> and include it in your project. Many of the tweaks and changes
+           to the framework will work with version v4 of Bootstrap, but it currently hasn't been tested with v4.
         </p>
 
         <p>
           If you have issues or find a bug, please open an issue on Github and we'll do our best to get them fixed.
         </p>
-        <div class="d-lg-flex align-items-center text-center">
+        <div class="d-lg-flex align-items-center text-center mb-4">
           <div>
             <button type="button" class="btn btn-primary btn-lg mr-md-4 mb-3">↓ Download v0 SCSS & CSS</button>
           </div>
           <p>
-            Last update: <code class="bg-transparent mr-2">2020-09-XX</code>
+            Last update: <code class="bg-transparent mr-2">2020-XX-XX</code>
           </p>
         </div>
-        
+
+        <!-- <h3>To include the Highbeam Design System in your project...</h3>
+        <ol>
+          <li>Install or include the latest version of Bootstrap 5. <a href="">More info here.</a></li>
+          <li>Decide if you're using Bootstrap by either SCSS or CSS.</li>
+          <li>Include </li>
+        </ol> -->
+
         <hr>
 
-        <h2>Sketch File</h2>
+        <h2><strike>Sketch File</strike></h2>
         <p>
-          The companion file of this web app is the Highbeam Design System Sketch file. It has all of the elements 
-          saved as symbols to help you more quickly make design decisions or work on mockup ideas for screens. 
-          As changes happen to the web version of this design system, I will do my best to keep the Sketch file 
-          updated. A version of the Sketch file will be in repository at Github too.
+          <strike>The companion file of this web app is the Highbeam Design System Sketch file. It has all of the elements
+          saved as symbols to help you more quickly make design decisions or work on mockup ideas for screens.
+          As changes happen to the web version of this design system, I will do my best to keep the Sketch file
+          updated. A version of the Sketch file will be in repository at Github too.</strike>
         </p>
         <div class="d-lg-flex align-items-center text-center">
           <div>
-            <button type="button" class="btn btn-highlight btn-lg mr-md-4 mb-3">↓ Download Sketch File v0</button>
+            <button type="button" class="btn btn-highlight btn-lg mr-md-4 mb-3" disabled><strike>↓ Download Sketch File v0</strike></button>
           </div>
           <p>
-            Last update: <code class="bg-transparent mr-2">2020-09-XX</code>
+            <span class="text-muted">Coming Soon</span><!-- Last update: <code class="bg-transparent mr-2">2020-09-XX</code> -->
           </p>
         </div>
 
@@ -61,7 +68,7 @@
 
         <div class="card well border-0 my-4">
           <div class="card-body card-body-sm text-center">
-            For more info → 
+            For more info →
             <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/getting-started/introduction/">
               Highbeam Design System on Github
             </a>

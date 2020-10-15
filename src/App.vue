@@ -25,6 +25,6 @@ export default {
   },
   data: () => ({
     showOffcanvas: false, // This is to make the offcanvas menu open/close on mobile.
-  }),
+  })
 }
 </script>

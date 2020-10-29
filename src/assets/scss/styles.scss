@@ -82,8 +82,10 @@ h5, .h5, h6, .h6 {
   border: none;
 }
 
-.alert .close {
-  font-size: calc(1.25rem + 0.125vw);
+.alert .btn-close {
+  font-size: $font-size-300;
+  width: 1.25em;
+  height: 1.25em;
 }
 
 .alert-heading {
@@ -436,18 +438,20 @@ label.list-group-item {
   letter-spacing: 0.5px;
   text-transform: uppercase;
   padding-right: 0.75rem;
+  min-height: 2rem;
 }
 
 .toast-header small {
   font-weight: 600;
   letter-spacing: 0px;
   color: $gray-500;
+  padding-top: 1px;
 }
 
-.toast .close {
-  font-size: $font-size-600;
-  line-height: 0.9;
-  padding-top: 1px;
+.toast .btn-close {
+  font-size: $font-size-100;
+  width: 2em;
+  height: 1.25em;
 }
 
 .toast-body {

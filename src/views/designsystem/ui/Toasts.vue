@@ -18,9 +18,7 @@
               <div class="toast-header">
                 <span class="mr-auto">Login Successful</span>
                 <small>8 mins ago</small>
-                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
+                <button type="button" class="ml-2 btn-close" data-dismiss="toast" aria-label="Close"></button>
               </div>
               <div class="toast-body">
                 Welcome to Highbeam! <a href="#">Let's do a quick tutorial.</a>

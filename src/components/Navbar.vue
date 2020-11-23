@@ -17,7 +17,7 @@
         <ul class="navbar-nav w-100">
           <form class="w-100 mx-lg-3 my-lg-1">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search documentation...">
+              <input type="text" class="form-control" placeholder="Search documentation (coming soon)..." disabled>
             </div>
           </form>
           <li class="nav-item">
@@ -74,12 +74,17 @@ export default {
       font-size: 1.67rem;
     }
 
-    .navbar .form-control {
+    .navbar .form-control,
+    .navbar .form-control:disabled {
       background-color: $gray-900;
       border: 1px solid $gray-800;
       color: $gray-600;
     }
     
+    .navbar .form-control:disabled::placeholder {
+      color: $gray-700;
+    }
+
     .navbar .form-control:focus {
       border-color: $yellow;
       background-color: $gray-900;

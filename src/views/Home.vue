@@ -11,7 +11,7 @@
           </ol>
         </nav>
 
-        <h1 class="display-4 font-weight-bold mt-4 mb-2">
+        <h1 class="display-4 fw-bold mt-4 mb-2">
           Highbeam Design System
           <!-- <span class="badge bg-success mb-2">New!</span> -->
         </h1>

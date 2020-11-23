@@ -33,7 +33,7 @@
             <div class="table-responsive">
               <table class="table table-hover table-sm bg-white mb-0 font-monospace">
                 <thead>
-                  <tr class="bg-light">
+                  <tr class="bg-yellow-300">
                     <th scope="col">Size</th>
                     <th scope="col">Screen Breakpoints</th>
                     <th scope="col">Container Max Width</th>
@@ -91,7 +91,7 @@
             <div class="table-responsive">
               <table class="table table-hover table-sm bg-white mb-0 font-monospace">
                 <thead>
-                  <tr class="bg-light">
+                  <tr class="bg-yellow-300">
                     <th scope="col">Class</th>
                     <th scope="col">Width</th>
                   </tr>
@@ -140,7 +140,7 @@
               <div v-highlight>
                 <pre class="language-html"><code>&lt;div class="container"&gt;
   &lt;div class="row"&gt;
-    &lt;div class="col-md-6"&gt;
+    &lt;div class="col-md"&gt;
       One of three columns
     &lt;/div&gt;
     &lt;div class="col-md"&gt;

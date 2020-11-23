@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div class="container-md slim-contain">
     <div class="row">
       <div class="col-sm">
@@ -25,7 +25,7 @@
         <h2 class="mb-3">Typefaces</h2>
 
 
-        <div class="font-size-1000 font-weight-bold mb-1">Inter</div>
+        <div class="font-size-1000 fw-bold mb-1">Inter</div>
         <div class="row">
           <div class="col-xl-8">
             <div class="mb-3"><code>$font-family-sans-serif</code></div>
@@ -34,21 +34,21 @@
                 <tbody>
                   <tr>
                     <td class="border-0 px-0">
-                      <span class="display-6 font-weight-normal lh-1 text-uppercase">
+                      <span class="display-6 fw-normal lh-1 text-uppercase">
                         abcdefghijklmnopqrstuvwxyz
                       </span>
                     </td>
                   </tr>
                   <tr>
                     <td class="border-0 px-0">
-                      <span class="display-6 font-weight-normal lh-1">
+                      <span class="display-6 fw-normal lh-1">
                         abcdefghijklmnopqrstuvwxyz
                       </span>
                     </td>
                   </tr>
                   <tr>
                     <td class="border-0 px-0">
-                      <span class="display-6 font-weight-normal lh-1">1234567890</span>
+                      <span class="display-6 fw-normal lh-1">1234567890</span>
                     </td>
                   </tr>
                 </tbody>
@@ -60,7 +60,7 @@
             <div class="table-responsive">
               <table class="table table-sm table-hover table-sm bg-white">
                 <thead>
-                  <tr class="bg-yellow-200">
+                  <tr class="bg-yellow-300">
                     <th scope="col">#</th>
                     <th scope="col">Weights</th>
                   </tr>
@@ -79,7 +79,7 @@
 
         <hr>
 
-        <div class="font-size-1000 font-weight-bold mb-1 font-monospace">Fira Code</div>
+        <div class="font-size-1000 fw-bold mb-1 font-monospace">Fira Code</div>
         <div class="row">
           <div class="col-xl-8">
             <div class="mb-3"><code>$font-family-sans-monospace</code></div>
@@ -88,21 +88,21 @@
                 <tbody>
                   <tr>
                     <td class="border-0 px-0">
-                      <span class="display-6 font-weight-normal lh-1 text-uppercase">
+                      <span class="display-6 fw-normal lh-1 text-uppercase">
                         abcdefghijklmnopqrstuvwxyz
                       </span>
                     </td>
                   </tr>
                   <tr>
                     <td class="border-0 px-0">
-                      <span class="display-6 font-weight-normal lh-1">
+                      <span class="display-6 fw-normal lh-1">
                         abcdefghijklmnopqrstuvwxyz
                       </span>
                     </td>
                   </tr>
                   <tr>
                     <td class="border-0 px-0">
-                      <span class="display-6 font-weight-normal lh-1">1234567890</span>
+                      <span class="display-6 fw-normal lh-1">1234567890</span>
                     </td>
                   </tr>
                 </tbody>
@@ -114,7 +114,7 @@
             <div class="table-responsive">
               <table class="table table-sm table-hover bg-white font-monospace">
                 <thead>
-                  <tr class="bg-yellow-200">
+                  <tr class="bg-yellow-300">
                     <th scope="col">#</th>
                     <th scope="col">Weights</th>
                   </tr>

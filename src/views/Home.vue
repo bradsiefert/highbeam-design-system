@@ -13,7 +13,7 @@
 
         <h1 class="display-4 fw-bold mt-4 mb-2">
           Highbeam Design System
-          <!-- <span class="badge bg-success mb-2">New!</span> -->
+          <span class="badge bg-success mb-2">New!</span>
         </h1>
         <h2>
           <span class="badge bg-highlight text-dark mb-2">Under Construction</span>

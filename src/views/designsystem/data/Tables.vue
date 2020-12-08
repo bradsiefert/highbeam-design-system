@@ -4,12 +4,33 @@
       <div class="col-sm">
         <breadcrumbs :previous="{ '/': 'Home', '/designsystem': 'Design System' }" active="Tables"/>
 
-        <h1>Tables</h1>
+        <h1>Tabs</h1>
+        <h3>
+          <span class="badge bg-highlight text-dark">Under Construction</span>
+        </h3>
         <p>
           Coming Soon
         </p>
 
-        <div class="table-responsive">
+        <!-- Start code chunk -->
+        <div class="card card-example">
+          <div class="card-body">
+            <h3 class="card-example-heading"> </h3>
+
+          </div>
+        </div>
+        <div class="card card-body code-example">
+          <div class="d-flex flex-row align-items-center justify-content-between">
+            <h6 class="code-example-heading">// HTML</h6>
+          </div>
+
+          <div v-highlight>
+            <pre class="language-html"><code></code></pre>
+          </div>
+        </div>
+        <!-- End code chunk -->
+
+        <!-- <div class="table-responsive">
           <table class="table table-hover table-data table-bordered">
             <thead>
               <tr class="bg-light">
@@ -46,7 +67,7 @@
               </tr>
             </tbody>
           </table>
-        </div>
+        </div> -->
 
         <!-- Start code chunk -->
         <!-- <div class="card card-example">

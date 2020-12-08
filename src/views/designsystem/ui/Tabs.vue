@@ -11,7 +11,7 @@
         <p>
           Coming Soon
         </p>
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
@@ -27,21 +27,9 @@
           <div v-highlight>
             <pre class="language-html"><code></code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
 
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col-sm">
-        <div class="card my-4">
-          <div class="card-body card-body-sm text-center">
-            For more info → <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/forms/overview/">
-              Bootstrap v5 / Forms
-            </a>
-          </div>
-        </div>
       </div>
     </div>
 

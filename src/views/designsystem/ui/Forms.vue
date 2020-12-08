@@ -526,11 +526,11 @@
           </div>
         </div> 
         <!-- End code chunk -->
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
-            
+
             <h3 class="card-example-heading">Validation</h3>
             <div class="row">
               <div class="col-lg-6">
@@ -565,6 +565,66 @@
   &lt;label for="form-valid" class="form-label"&gt;Email Address&lt;/label&gt;
   &lt;input type="email" class="form-control is-valid" id="form-valid" placeholder="name@email.com"&gt;
 &lt;/div&gt;</code></pre>
+          </div>
+        </div> 
+        <!-- End code chunk -->
+        
+        <!-- Start code chunk -->
+        <div class="card card-example">
+          <div class="card-body">
+
+            <h3 class="card-example-heading">Inputs with Floating Label</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <form>
+                  <h4>Inputs</h4>
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email Address</label>
+                  </div>
+
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
+                    <label for="floatingInputValue">Email Address (with placeholder)</label>
+                  </div>
+                  
+                  <h4>Text Area</h4>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Comments</label>
+                  </div>
+                  
+                  
+                  <h4>Selects</h4>
+                  <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected>Choose gender identity...</option>
+                      <option value="1">Man</option>
+                      <option value="2">Woman</option>
+                      <option value="3">Non-binary</option>
+                      <option value="4">Prefer Not to Answer</option>
+                    </select>
+                    <label for="floatingSelect">Gender Identity</label>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="card card-body code-example">
+          <div class="d-flex flex-row align-items-center justify-content-between">
+            <h6 class="code-example-heading">// HTML</h6>
+          </div>
+
+          <div v-highlight>
+            <pre class="language-html"><code></code></pre>
           </div>
         </div> 
         <!-- End code chunk -->

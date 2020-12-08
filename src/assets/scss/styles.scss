@@ -17,6 +17,12 @@ hr {
   margin: 1.5rem auto;
 }
 
+@media (min-width: 1232px) {
+  .svelte-contain {
+    max-width: 1232px;
+  }
+}
+
 @media (min-width: 1056px) {
   .slim-contain {
     max-width: 1056px;

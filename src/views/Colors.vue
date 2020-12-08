@@ -70,7 +70,7 @@
               <div class="small lh-lg is-monospaced text-black-50 float-right">#FFD766</div>
           </div>
           <div class="col-sm-6 col-lg-3">
-            <div class="bg-light p-3 mt-3"></div>
+            <div class="bg-light p-3 mt-3 border"></div>
               <small><strong>Light</strong></small>
               <div class="small lh-lg is-monospaced text-black-50 float-right">#FAFAFA</div>
           </div>
@@ -553,6 +553,14 @@
             </div>
           </div>
 
+        </div>
+
+        <div class="card my-4">
+          <div class="card-body card-body-sm text-center">
+            For more info → <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/customize/color/">
+              Bootstrap v5 / Colors
+            </a>
+          </div>
         </div>
 
       </div>

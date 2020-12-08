@@ -24,7 +24,6 @@
 
         <h2 class="mb-3">Typefaces</h2>
 
-
         <div class="font-size-1000 fw-bold mb-1">Inter</div>
         <div class="row">
           <div class="col-xl-8">
@@ -76,8 +75,6 @@
             </div>
           </div>
         </div>
-
-        <hr>
 
         <div class="font-size-1000 fw-bold mb-1 font-monospace">Fira Code</div>
         <div class="row">
@@ -262,10 +259,6 @@
             </tbody>
           </table>
         </div>
-
-
-        <hr>
-
 
         <!-- Start code chunk -->
         <div class="card card-example">

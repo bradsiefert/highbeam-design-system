@@ -65,7 +65,7 @@
           </div>
         </div>
 
-        <div class="card well my-4">
+        <div class="card my-4">
           <div class="card-body card-body-sm text-center">
             For more info → <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/utilities/spacing/">
               Bootstrap v5 / Spacing

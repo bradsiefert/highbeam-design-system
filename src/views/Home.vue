@@ -13,7 +13,6 @@
 
         <h1 class="display-4 fw-bold mt-4 mb-2">
           Highbeam Design System
-          <span class="badge bg-success mb-2">New!</span>
         </h1>
         <h2>
           <span class="badge bg-highlight text-dark mb-2">Under Construction</span>
@@ -29,27 +28,19 @@
         <p>
           This design system is built on top of <code>Bootstrap v5</code>, which is still in its alpha phase.
           There are many updates to come, but I don't think it will break much (if any) of this design
-          system. I've tried my best to, if at all possible, update SCSS variables first, then write custom CSS to
-          augment those changes. I think this will help to make updates to go more smoothly. The
-          <code>variables-highbeam.scss</code> file has the same order of variables as Bootstrap v5's
-          <code>variables.scss</code> file to make it easier to compare the two files.
+          system. I've tried my best to, if at all possible, update SCSS variables first, then write custom CSS to augment those changes. I think this will help to make updates to go more smoothly. The <code>variables-highbeam.scss</code> file has the same order of variables as Bootstrap v5's <code>variables.scss</code> file to make it easier to compare the two files.
         </p>
 
         <p>
-          There are many ways to use a front-end framework like Bootstrap and I've tried to stay as true to
-          the "Bootstrap way" of building components. There will be some custom classes and small
-          differences, but overall, it should be well within the standards of someone who has used
-          Bootstrap's framework before.
+          There are many ways to use a front-end framework like Bootstrap and I've tried to stay as true to the "Bootstrap way" of building components. There will be some custom classes and small differences, but overall, it should be well within the standards of someone who has used Bootstrap's framework before.
         </p>
 
         <p>
           I will not be copying Bootstrap's wonderful documentation line for line. I'm focusing on clearly
-          defining the UI elements and components to be explained and copied for use in your web apps.
-          Please consult Bootstrap's documentation for more information about utilities, classes, and their
-          design principles.
+          defining the UI elements and components to be explained and copied for use in your web apps. Please consult Bootstrap's documentation for more information about utilities, classes, and their design principles.
         </p>
 
-        <div class="card well border-0 my-4">
+        <div class="card my-4">
           <div class="card-body card-body-sm text-center">
             For more info →
             <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/getting-started/introduction/">
@@ -58,7 +49,7 @@
           </div>
         </div>
 
-        <hr>
+        <!-- <hr> -->
 
         <h2 class="mb-3">Release Notes</h2>
         <div class="mb-4">
@@ -71,16 +62,20 @@
           </p>
         </div>
 
-        <div class="card well border-0 my-4">
-          <div class="card-body card-body-sm text-center">
-            Full Release History →
-            <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/getting-started/introduction/">
-              Highbeam Design System on Github
-            </a>
-          </div>
-        </div>
+        <GithubLink />
 
       </div>
     </div>
   </div> <!-- container -->
 </template>
+
+<script>
+import GithubLink from '@/components/GithubLink.vue'
+
+export default {
+  name: 'Home',
+  components: {
+    GithubLink
+  }
+}
+</script>

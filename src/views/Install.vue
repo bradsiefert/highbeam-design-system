@@ -66,17 +66,19 @@
 
         <hr>
 
-        <div class="card well border-0 my-4">
-          <div class="card-body card-body-sm text-center">
-            For more info →
-            <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/getting-started/introduction/">
-              Highbeam Design System on Github
-            </a>
-          </div>
-        </div>
+        <GithubLink />
 
       </div>
     </div>
   </div> <!-- container -->
 </template>
+<script>
+  import GithubLink from '@/components/GithubLink.vue'
 
+  export default {
+    name: 'Download & Install',
+    components: {
+      GithubLink
+    }
+  }
+  </script>

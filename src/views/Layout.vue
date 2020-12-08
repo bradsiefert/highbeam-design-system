@@ -103,6 +103,10 @@
                   </tr>
                   <tr>
                     <td class="is-narrow"><code>.container</code></td>
+                    <td>Max width <strong>1440px</strong></td>
+                  </tr>
+                  <tr>
+                    <td class="is-narrow"><code>.container</code><code>.svelte-contain</code></td>
                     <td>Max width <strong>1200px</strong></td>
                   </tr>
                   <tr>
@@ -157,7 +161,7 @@
           </div>
         </div>
 
-        <div class="card well my-4">
+        <div class="card my-4">
           <div class="card-body card-body-sm text-center">
             For more info → <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/layout/grid/">
               Bootstrap v5 / Layout

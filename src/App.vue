@@ -20,6 +20,12 @@ import SidebarLinks from '@/components/SidebarLinks.vue'
 
 export default {
   name: 'Home',
+  metaInfo: {
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: 'Highbeam Design System',
+    // all titles will be injected into this template
+    titleTemplate: '%s | Overview'
+  },
   components: {
     Navbar, SidebarLinks
   },

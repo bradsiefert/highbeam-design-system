@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueClipboard from 'vue-clipboard2'
 import VueCodeHighlight from 'vue-code-highlight'
+import VueMeta from 'vue-meta'
 
 import App from './App.vue'
 import router from './router'
@@ -14,6 +15,7 @@ library.add(faUserSecret, faClipboard, faBootstrap, faFontAwesome, faAddressCard
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.use(VueClipboard)
 Vue.use(VueCodeHighlight)
+Vue.use(VueMeta)
 
 import './assets/scss/styles.scss'
 import 'vue-code-highlight/themes/prism.css'

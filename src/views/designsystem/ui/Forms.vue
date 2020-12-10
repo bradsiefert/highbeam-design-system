@@ -6,8 +6,8 @@
 
         <h1>Forms</h1>
         <p>
-          Form inputs are the way the user provides information to the system. The controls should be explained in 
-          plain language where necessary and laid out in a way that is easily consumable for the user. There are 
+          Form inputs are the way the user provides information to the system. The controls should be explained in
+          plain language where necessary and laid out in a way that is easily consumable for the user. There are
           validation classes and pseudo classes available to ensure the proper data is inputed.
         </p>
 
@@ -52,14 +52,8 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="customFile" class="form-label">Upload Photo</label>
-                    <div class="form-file">
-                      <input type="file" class="form-file-input" id="customFile">
-                      <label class="form-file-label" for="customFile">
-                        <span class="form-file-text">Choose photo...</span>
-                        <span class="form-file-button">Browse</span>
-                      </label>
-                    </div>
+                    <label for="formFile" class="form-label">Upload Photo</label>
+                    <input class="form-control" type="file" id="formFile">
                   </div>
 
                   <div class="form-group mb-1">
@@ -171,9 +165,9 @@
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
@@ -204,7 +198,7 @@
                   </datalist>
                 </div>
               </div>
-              
+
               <div class="col-lg-6">
                 <div class="form-group">
                   <label for="select2" class="form-label">Select Web Skills</label>
@@ -216,7 +210,7 @@
                     <option value="5">Backend Developer</option>
                     <option value="6">DevOps Engineer</option>
                   </select>
-                </div> 
+                </div>
               </div>
 
             </div>
@@ -267,7 +261,7 @@
   &lt;/select&gt;
 &lt;/div&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
 
         <!-- Start code chunk -->
@@ -296,7 +290,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-4">  
+              <div class="col-lg-4">
                 <h4 class="mt-2">Radio Buttons</h4>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -316,7 +310,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-4"> 
+              <div class="col-lg-4">
                 <h4 class="mt-2">Switches</h4>
                 <div class="form-check form-switch">
                   <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
@@ -399,7 +393,7 @@
   &lt;label class="form-check-label" for="switch4"&gt;Disabled checked switch&lt;/label&gt;
 &lt;/div&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
 
         <!-- Start code chunk -->
@@ -524,7 +518,7 @@
   &lt;/select&gt;
 &lt;/div&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
 
         <!-- Start code chunk -->
@@ -566,9 +560,9 @@
   &lt;input type="email" class="form-control is-valid" id="form-valid" placeholder="name@email.com"&gt;
 &lt;/div&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
@@ -592,14 +586,14 @@
                     <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
                     <label for="floatingInputValue">Email Address (with placeholder)</label>
                   </div>
-                  
+
                   <h4>Text Area</h4>
                   <div class="form-floating">
                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                     <label for="floatingTextarea">Comments</label>
                   </div>
-                  
-                  
+
+
                   <h4>Selects</h4>
                   <div class="form-floating">
                     <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
@@ -626,12 +620,12 @@
           <div v-highlight>
             <pre class="language-html"><code></code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
 
       </div>
     </div>
-    
+
 
     <div class="card my-4">
       <div class="card-body card-body-sm text-center">

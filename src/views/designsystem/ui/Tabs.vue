@@ -9,7 +9,7 @@
           <span class="badge bg-highlight text-dark">Under Construction</span>
         </h3>
         <p>
-          Coming Soon
+          Coming soon.
         </p>
 
         <!-- Start code chunk -->
@@ -32,6 +32,18 @@
 
       </div>
     </div>
+
+    <!-- <div class="row">
+      <div class="col-sm">
+        <div class="card my-4">
+          <div class="card-body card-body-sm text-center">
+            For more info → <a target="_blank" href="https://v5.getbootstrap.com/docs/5.0/content/tables/">
+              Bootstrap v5 / Tables
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> -->
 
   </div> <!-- div.container -->
 </template>

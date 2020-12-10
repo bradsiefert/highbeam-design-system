@@ -5,10 +5,13 @@
         <breadcrumbs :previous="{ '/': 'Home', '/designsystem': 'Design System' }" active="Metrics"/>
 
         <h1>Metrics</h1>
+        <h3>
+          <span class="badge bg-highlight text-dark">Under Construction</span>
+        </h3>
         <p>
-          Coming Soon
+          Coming soon.
         </p>
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
@@ -24,12 +27,12 @@
           <div v-highlight>
             <pre class="language-html"><code></code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
 
       </div>
     </div>
-    
+
     <div class="row">
       <div class="col-sm">
         <div class="card my-4">

@@ -19,12 +19,12 @@
     <router-link class="nav-link" to="/designsystem/ui/listgroup/">List Group</router-link>
     <router-link class="nav-link" to="/designsystem/ui/pagination/">Pagination</router-link>
     <router-link class="nav-link" to="/designsystem/ui/progressbar/">Progress Bar</router-link>
-    <router-link class="nav-link" to="/designsystem/ui/tabs/">Tabs <span class="badge rounded-pill bg-highlight text-dark">Soon</span></router-link>
+    <!-- <router-link class="nav-link" to="/designsystem/ui/tabs/">Tabs <span class="badge rounded-pill bg-highlight text-dark">Soon</span></router-link> -->
     <router-link class="nav-link" to="/designsystem/ui/toasts/">Toasts</router-link>
 
     <div class="ds-sidebar-header">Data Components</div>
-    <router-link class="nav-link" to="/designsystem/data/graphs">Graphs <span class="badge rounded-pill bg-highlight text-dark">Soon</span></router-link>
-    <router-link class="nav-link" to="/designsystem/data/graphs">Filters <span class="badge rounded-pill bg-highlight text-dark">Soon</span></router-link>
+    <!-- <router-link class="nav-link" to="/designsystem/data/graphs">Graphs <span class="badge rounded-pill bg-highlight text-dark">Soon</span></router-link>
+    <router-link class="nav-link" to="/designsystem/data/graphs">Filters <span class="badge rounded-pill bg-highlight text-dark">Soon</span></router-link> -->
     <router-link class="nav-link" to="/designsystem/data/metrics">Metrics</router-link>
     <router-link class="nav-link" to="/designsystem/data/tables">Tables</router-link>
 

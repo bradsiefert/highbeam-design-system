@@ -32,10 +32,10 @@
         </p>
         <div class="d-lg-flex align-items-center text-center mb-4">
           <div>
-            <button type="button" class="btn btn-primary btn-lg mr-md-4 mb-3" disabled><strike>↓ Download v0 SCSS & CSS</strike></button>
+            <button type="button" class="btn btn-primary btn-lg me-md-4 mb-3" disabled><strike>↓ Download v0 SCSS & CSS</strike></button>
           </div>
           <p>
-            <span class="text-muted">Coming Soon!</span><!-- <strike>Last update: <code class="bg-transparent mr-2">2020-XX-XX</code></strike> -->
+            <span class="text-muted">Coming Soon!</span><!-- <strike>Last update: <code class="bg-transparent me-2">2020-XX-XX</code></strike> -->
           </p>
         </div>
 
@@ -57,10 +57,10 @@
         </p>
         <div class="d-lg-flex align-items-center text-center">
           <div>
-            <button type="button" class="btn btn-highlight btn-lg mr-md-4 mb-3" disabled><strike>↓ Download Sketch File v0</strike></button>
+            <button type="button" class="btn btn-highlight btn-lg me-md-4 mb-3" disabled><strike>↓ Download Sketch File v0</strike></button>
           </div>
           <p>
-            <span class="text-muted">Coming Soon</span><!-- Last update: <code class="bg-transparent mr-2">2020-09-XX</code> -->
+            <span class="text-muted">Coming Soon</span><!-- Last update: <code class="bg-transparent me-2">2020-09-XX</code> -->
           </p>
         </div>
 

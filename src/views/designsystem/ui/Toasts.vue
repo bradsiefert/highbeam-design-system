@@ -16,7 +16,7 @@
 
             <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
               <div class="toast-header">
-                <span class="mr-auto">Login Successful</span>
+                <span class="me-auto">Login Successful</span>
                 <small>8 mins ago</small>
                 <button type="button" class="ml-2 btn-close" data-dismiss="toast" aria-label="Close"></button>
               </div>
@@ -35,7 +35,7 @@
           <div v-highlight>
             <pre class="user-select-all language-html"><code>&lt;div class="toast" role="alert" aria-live="assertive" aria-atomic="true"&gt;
   &lt;div class="toast-header"&gt;
-    &lt;span class="mr-auto"&gt;Login Successful&lt;/span&gt;
+    &lt;span class="me-auto"&gt;Login Successful&lt;/span&gt;
     &lt;small&gt;8 mins ago&lt;/small&gt;
     &lt;button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close"&gt;
       &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;

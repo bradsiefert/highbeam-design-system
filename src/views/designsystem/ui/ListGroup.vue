@@ -8,7 +8,7 @@
         <p>
           List groups are a secondary or tertiary way to navigate or collect data. They can sit inside or outside of cards.
         </p>
-        
+
         <!-- Start code chunk -->
         <div class="card card-example">
           <div class="card-body">
@@ -27,23 +27,23 @@
                   </a>
                 </div>
               </div>
-              
+
               <div class="col-xl-4 col-lg-6">
                 <div class="list-group">
                   <label class="list-group-item">
-                    <input class="form-check-input mr-2" type="checkbox" value="">I have worked in technology.
+                    <input class="form-check-input me-2" type="checkbox" value="">I have worked in technology.
                   </label>
                   <label class="list-group-item">
-                    <input class="form-check-input mr-2" type="checkbox" value="">I have worked in automotive.
+                    <input class="form-check-input me-2" type="checkbox" value="">I have worked in automotive.
                   </label>
                   <label class="list-group-item">
-                    <input class="form-check-input mr-2" type="checkbox" value="">I have worked in medicine.
+                    <input class="form-check-input me-2" type="checkbox" value="">I have worked in medicine.
                   </label>
                   <label class="list-group-item">
-                    <input class="form-check-input mr-2" type="checkbox" value="">I have worked in fintech.
+                    <input class="form-check-input me-2" type="checkbox" value="">I have worked in fintech.
                   </label>
                   <label class="list-group-item">
-                    <input class="form-check-input mr-2" type="checkbox" value="">I have worked in law.
+                    <input class="form-check-input me-2" type="checkbox" value="">I have worked in law.
                   </label>
                 </div>
               </div>
@@ -73,28 +73,28 @@
 // Checkboxes
 &lt;div class="list-group"&gt;
   &lt;label class="list-group-item"&gt;
-    &lt;input class="form-check-input mr-2" type="checkbox" value=""&gt;I have worked in technology.
+    &lt;input class="form-check-input me-2" type="checkbox" value=""&gt;I have worked in technology.
   &lt;/label&gt;
   &lt;label class="list-group-item"&gt;
-    &lt;input class="form-check-input mr-2" type="checkbox" value=""&gt;I have worked in automotive.
+    &lt;input class="form-check-input me-2" type="checkbox" value=""&gt;I have worked in automotive.
   &lt;/label&gt;
   &lt;label class="list-group-item"&gt;
-    &lt;input class="form-check-input mr-2" type="checkbox" value=""&gt;I have worked in medicine.
+    &lt;input class="form-check-input me-2" type="checkbox" value=""&gt;I have worked in medicine.
   &lt;/label&gt;
   &lt;label class="list-group-item"&gt;
-    &lt;input class="form-check-input mr-2" type="checkbox" value=""&gt;I have worked in fintech.
+    &lt;input class="form-check-input me-2" type="checkbox" value=""&gt;I have worked in fintech.
   &lt;/label&gt;
   &lt;label class="list-group-item"&gt;
-    &lt;input class="form-check-input mr-2" type="checkbox" value=""&gt;I have worked in law.
+    &lt;input class="form-check-input me-2" type="checkbox" value=""&gt;I have worked in law.
   &lt;/label&gt;
 &lt;/div&gt;</code></pre>
           </div>
-        </div> 
+        </div>
         <!-- End code chunk -->
 
       </div>
     </div>
-    
+
     <div class="row">
       <div class="col-sm">
         <div class="card my-4">

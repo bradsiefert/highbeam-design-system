@@ -16,17 +16,17 @@
         <div class="card card-example">
           <div class="card-body">
             <h3 class="card-example-heading">Regular Buttons</h3>
-            <button type="button" class="mr-1 mb-1 btn btn-primary">Primary</button>
-            <button type="button" class="mr-1 mb-1 btn btn-info">Info</button>
-            <button type="button" class="mr-1 mb-1 btn btn-success">Success</button>
-            <button type="button" class="mr-1 mb-1 btn btn-tip">Tip</button>
-            <button type="button" class="mr-1 mb-1 btn btn-danger">Danger</button>
-            <button type="button" class="mr-1 mb-1 btn btn-warning">Warning</button>
-            <button type="button" class="mr-1 mb-1 btn btn-highlight">Highlight</button>
-            <button type="button" class="mr-1 mb-1 btn btn-light">Light</button>
-            <button type="button" class="mr-1 mb-1 btn btn-secondary">Secondary</button>
-            <button type="button" class="mr-1 mb-1 btn btn-dark">Dark</button>
-            <button type="button" class="mr-1 mb-1 btn btn-link">Link</button>
+            <button type="button" class="me-1 mb-1 btn btn-primary">Primary</button>
+            <button type="button" class="me-1 mb-1 btn btn-info">Info</button>
+            <button type="button" class="me-1 mb-1 btn btn-success">Success</button>
+            <button type="button" class="me-1 mb-1 btn btn-tip">Tip</button>
+            <button type="button" class="me-1 mb-1 btn btn-danger">Danger</button>
+            <button type="button" class="me-1 mb-1 btn btn-warning">Warning</button>
+            <button type="button" class="me-1 mb-1 btn btn-highlight">Highlight</button>
+            <button type="button" class="me-1 mb-1 btn btn-light">Light</button>
+            <button type="button" class="me-1 mb-1 btn btn-secondary">Secondary</button>
+            <button type="button" class="me-1 mb-1 btn btn-dark">Dark</button>
+            <button type="button" class="me-1 mb-1 btn btn-link">Link</button>
           </div>
         </div>
         <div class="card card-body code-example">
@@ -54,16 +54,16 @@
         <div class="card card-example">
           <div class="card-body">
             <h3 class="card-example-heading">Outline Buttons</h3>
-            <button type="button" class="mr-1 mb-1 btn btn-outline-primary">Primary</button>
-            <button type="button" class="mr-1 mb-1 btn btn-outline-info">Info</button>
-            <button type="button" class="mr-1 mb-1 btn btn-outline-success">Success</button>
-            <button type="button" class="mr-1 mb-1 btn btn-outline-tip">Tip</button>
-            <button type="button" class="mr-1 mb-1 btn btn-outline-danger">Danger</button>
-            <button type="button" class="mr-1 mb-1 btn btn-outline-warning">Warning</button>
-            <button type="button" class="mr-1 mb-1 btn btn-outline-highlight">Highlight</button>
-            <button type="button" class="mr-1 mb-1 btn btn-outline-light">Light</button>
-            <button type="button" class="mr-1 mb-1 btn btn-outline-secondary">Secondary</button>
-            <button type="button" class="mr-1 mb-1 btn btn-outline-dark">Dark</button>
+            <button type="button" class="me-1 mb-1 btn btn-outline-primary">Primary</button>
+            <button type="button" class="me-1 mb-1 btn btn-outline-info">Info</button>
+            <button type="button" class="me-1 mb-1 btn btn-outline-success">Success</button>
+            <button type="button" class="me-1 mb-1 btn btn-outline-tip">Tip</button>
+            <button type="button" class="me-1 mb-1 btn btn-outline-danger">Danger</button>
+            <button type="button" class="me-1 mb-1 btn btn-outline-warning">Warning</button>
+            <button type="button" class="me-1 mb-1 btn btn-outline-highlight">Highlight</button>
+            <button type="button" class="me-1 mb-1 btn btn-outline-light">Light</button>
+            <button type="button" class="me-1 mb-1 btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="me-1 mb-1 btn btn-outline-dark">Dark</button>
           </div>
         </div>
         <div class="card card-body code-example">
@@ -91,16 +91,16 @@
         <div class="card card-example">
           <div class="card-body">
             <h3 class="card-example-heading">Inactive Buttons</h3>
-            <button type="button" class="mr-1 mb-1 btn btn-primary" disabled>Primary</button>
-            <button type="button" class="mr-1 mb-1 btn btn-info" disabled>Info</button>
-            <button type="button" class="mr-1 mb-1 btn btn-success" disabled>Success</button>
-            <button type="button" class="mr-1 mb-1 btn btn-tip" disabled>Tip</button>
-            <button type="button" class="mr-1 mb-1 btn btn-danger" disabled>Danger</button>
-            <button type="button" class="mr-1 mb-1 btn btn-warning" disabled>Warning</button>
-            <button type="button" class="mr-1 mb-1 btn btn-highlight" disabled>Highlight</button>
-            <button type="button" class="mr-1 mb-1 btn btn-light" disabled>Light</button>
-            <button type="button" class="mr-1 mb-1 btn btn-secondary" disabled>Secondary</button>
-            <button type="button" class="mr-1 mb-1 btn btn-dark" disabled>Dark</button>
+            <button type="button" class="me-1 mb-1 btn btn-primary" disabled>Primary</button>
+            <button type="button" class="me-1 mb-1 btn btn-info" disabled>Info</button>
+            <button type="button" class="me-1 mb-1 btn btn-success" disabled>Success</button>
+            <button type="button" class="me-1 mb-1 btn btn-tip" disabled>Tip</button>
+            <button type="button" class="me-1 mb-1 btn btn-danger" disabled>Danger</button>
+            <button type="button" class="me-1 mb-1 btn btn-warning" disabled>Warning</button>
+            <button type="button" class="me-1 mb-1 btn btn-highlight" disabled>Highlight</button>
+            <button type="button" class="me-1 mb-1 btn btn-light" disabled>Light</button>
+            <button type="button" class="me-1 mb-1 btn btn-secondary" disabled>Secondary</button>
+            <button type="button" class="me-1 mb-1 btn btn-dark" disabled>Dark</button>
           </div>
         </div>
         <div class="card card-body code-example">
@@ -128,11 +128,11 @@
         <div class="card card-example">
           <div class="card-body">
             <h3 class="card-example-heading">Button Sizes</h3>
-            <button type="button" class="mr-1 mb-1 btn btn-xl btn-primary">Button XL</button>
-            <button type="button" class="mr-1 mb-1 btn btn-lg btn-primary">Button LG</button>
-            <button type="button" class="mr-1 mb-1 btn btn-primary">Button</button>
-            <button type="button" class="mr-1 mb-1 btn btn-sm btn-primary">Button SM</button>
-            <button type="button" class="mr-1 mb-1 btn btn-xs btn-primary">Button XS</button>
+            <button type="button" class="me-1 mb-1 btn btn-xl btn-primary">Button XL</button>
+            <button type="button" class="me-1 mb-1 btn btn-lg btn-primary">Button LG</button>
+            <button type="button" class="me-1 mb-1 btn btn-primary">Button</button>
+            <button type="button" class="me-1 mb-1 btn btn-sm btn-primary">Button SM</button>
+            <button type="button" class="me-1 mb-1 btn btn-xs btn-primary">Button XS</button>
           </div>
         </div>
         <div class="card card-body code-example">

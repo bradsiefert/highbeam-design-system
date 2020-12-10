@@ -57,7 +57,7 @@
         <div class="card code-example">
           <div class="card-body">
             <div class="d-flex flex-row align-items-center justify-content-between">
-              <h6 class="mr-2">// HTML</h6>
+              <h6 class="me-2">// HTML</h6>
             </div>
 
             <div v-highlight>
@@ -119,7 +119,7 @@
         </div>
         <div class="card card-body code-example">
           <div class="d-flex flex-row align-items-center justify-content-between">
-            <h6 class="mr-2">// HTML</h6>
+            <h6 class="me-2">// HTML</h6>
             <!-- <button class="btn btn-dark btn-sm btn-code" disabled>Copy</button> -->
           </div>
 

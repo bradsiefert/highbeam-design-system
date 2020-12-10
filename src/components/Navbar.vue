@@ -36,7 +36,7 @@
           </li> -->
         </ul>
 
-        <ul class="navbar-nav mr-auto d-block d-lg-none">
+        <ul class="navbar-nav me-auto d-block d-lg-none">
           <SidebarLinks /> <!-- SidebarLinks is a component to easily update links in the nav and sidebar -->
         </ul>
       </div><!-- div.navbar-collapse -->

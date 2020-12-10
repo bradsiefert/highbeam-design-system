@@ -14,16 +14,16 @@
         <div class="card card-example">
           <div class="card-body">
             <h3 class="card-example-heading">Plain Badges</h3>
-            <span class="mr-1 mb-1 badge bg-primary">Primary</span>
-            <span class="mr-1 mb-1 badge bg-info">Info</span>
-            <span class="mr-1 mb-1 badge bg-success">Success</span>
-            <span class="mr-1 mb-1 badge bg-tip text-dark">Tip</span>
-            <span class="mr-1 mb-1 badge bg-danger">Danger</span>
-            <span class="mr-1 mb-1 badge bg-warning">Warning</span>
-            <span class="mr-1 mb-1 badge bg-highlight text-dark">Highlight</span>
-            <span class="mr-1 mb-1 badge bg-light text-dark">Light</span>
-            <span class="mr-1 mb-1 badge bg-secondary">Secondary</span>
-            <span class="mr-1 mb-1 badge bg-dark">Dark</span>
+            <span class="me-1 mb-1 badge bg-primary">Primary</span>
+            <span class="me-1 mb-1 badge bg-info">Info</span>
+            <span class="me-1 mb-1 badge bg-success">Success</span>
+            <span class="me-1 mb-1 badge bg-tip text-dark">Tip</span>
+            <span class="me-1 mb-1 badge bg-danger">Danger</span>
+            <span class="me-1 mb-1 badge bg-warning">Warning</span>
+            <span class="me-1 mb-1 badge bg-highlight text-dark">Highlight</span>
+            <span class="me-1 mb-1 badge bg-light text-dark">Light</span>
+            <span class="me-1 mb-1 badge bg-secondary">Secondary</span>
+            <span class="me-1 mb-1 badge bg-dark">Dark</span>
           </div>
         </div>
         <div class="card card-body code-example">

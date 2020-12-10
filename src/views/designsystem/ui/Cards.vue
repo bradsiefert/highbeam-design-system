@@ -74,7 +74,7 @@
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus 
                       est id enim facilisis, at posuere turpis adipiscing et intefa ung.
                     </p>
-                    <a href="#" class="btn btn-primary mr-2">Card Action</a>
+                    <a href="#" class="btn btn-primary me-2">Card Action</a>
                     <a href="#" class="btn btn-link">Card Link</a>
                   </div>
                 </div>
@@ -97,7 +97,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus 
       est id enim facilisis, at posuere turpis adipiscing et intefa ung.
     &lt;/p&gt;
-    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-primary me-2"&gt;Card Action&lt;/a&gt;
     &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -123,7 +123,7 @@
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus 
                       est id enim facilisis, at posuere turpis adipiscing et intefa ung.
                     </p>
-                    <a href="#" class="btn btn-primary mr-2">Card Action</a>
+                    <a href="#" class="btn btn-primary me-2">Card Action</a>
                     <a href="#" class="btn btn-link">Card Link</a>
                   </div>
                 </div>
@@ -145,7 +145,7 @@
                     <li class="list-group-item">Vestibulum at eros</li>
                   </ul>
                   <div class="card-body">
-                    <a href="#" class="btn btn-primary mr-2">Card Action</a>
+                    <a href="#" class="btn btn-primary me-2">Card Action</a>
                     <a href="#" class="btn btn-link">Card Link</a>
                   </div>
                   <div class="card-footer">
@@ -173,7 +173,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus 
       est id enim facilisis, at posuere turpis adipiscing et intefa ung.
     &lt;/p&gt;
-    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-primary me-2"&gt;Card Action&lt;/a&gt;
     &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
@@ -194,7 +194,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus 
       est id enim facilisis, at posuere turpis adipiscing et intefa ung.
     &lt;/p&gt;
-    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-primary me-2"&gt;Card Action&lt;/a&gt;
     &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
@@ -216,7 +216,7 @@
                     <h2 class="card-title">Card Title Image</h2>
                     <h5 class="card-subtitle">Card Subtitle</h5>
                     <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary mr-2">Card Action</a>
+                    <a href="#" class="btn btn-primary me-2">Card Action</a>
                     <a href="#" class="btn btn-link">Card Link</a>
                   </div>
                 </div>
@@ -238,7 +238,7 @@
     &lt;h2 class="card-title"&gt;Card Title Image&lt;/h2&gt;
     &lt;h5 class="card-subtitle"&gt;Card Subtitle&lt;/h5&gt;
     &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
-    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-primary me-2"&gt;Card Action&lt;/a&gt;
     &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
@@ -277,7 +277,7 @@
                   <div class="card-body">
                     <h2 class="card-title">Card Title Tabs</h2>
                     <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary mr-2">Card Action</a>
+                    <a href="#" class="btn btn-primary me-2">Card Action</a>
                     <a href="#" class="btn btn-link">Card Link</a>
                   </div>
                 </div>
@@ -316,7 +316,7 @@
   &lt;div class="card-body"&gt;
     &lt;h2 class="card-title"&gt;Card Title Tabs&lt;/h2&gt;
     &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
-    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-primary me-2"&gt;Card Action&lt;/a&gt;
     &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
@@ -355,7 +355,7 @@
                   <div class="card-body">
                     <h2 class="card-title">Card Title Pills</h2>
                     <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary mr-2">Card Action</a>
+                    <a href="#" class="btn btn-primary me-2">Card Action</a>
                     <a href="#" class="btn btn-link">Card Link</a>
                   </div>
                 </div>
@@ -394,7 +394,7 @@
   &lt;div class="card-body"&gt;
     &lt;h2 class="card-title"&gt;Card Title Pills&lt;/h2&gt;
     &lt;p&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
-    &lt;a href="#" class="btn btn-primary mr-2"&gt;Card Action&lt;/a&gt;
+    &lt;a href="#" class="btn btn-primary me-2"&gt;Card Action&lt;/a&gt;
     &lt;a href="#" class="btn btn-link"&gt;Card Link&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
